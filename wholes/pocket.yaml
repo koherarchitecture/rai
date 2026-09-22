@@ -1,0 +1,37 @@
+# rai whole — what is in your pocket or bag
+# Right now, without looking first. Skeleton: the inventory — count, oldest, heaviest, the one you would miss.
+# Trivial by design: a thing that hardly matters, described completely, decides nothing. A first draft, open to replacement. Weights are never written here: each question's weight is its share of 1 by position.
+
+notion: what is in your pocket or bag
+kind_rule: simple
+questions:
+  - id: list
+    text: "What is in it? Name everything."
+    stem: "In it are "
+    kind: fact
+    counts_when: "at least two named things"
+  - id: count
+    text: "How many things?"
+    stem: "There are "
+    kind: fact
+    counts_when: "a number"
+  - id: oldest
+    text: "Which has been there longest, and since when?"
+    stem: "The oldest is "
+    kind: fact
+    counts_when: "a named thing and a time"
+  - id: heaviest
+    text: "Which is the heaviest?"
+    stem: "The heaviest is "
+    kind: fact
+    counts_when: "a named thing"
+  - id: miss
+    text: "Which would you miss first if it fell out?"
+    stem: "I would miss "
+    kind: fact
+    counts_when: "a named thing"
+  - id: night
+    text: "Where does it all go at night?"
+    stem: "At night it goes "
+    kind: fact
+    counts_when: "a named place"

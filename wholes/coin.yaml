@@ -1,0 +1,37 @@
+# rai whole — a coin
+# One coin from your pocket. Skeleton: SPECTRUM's identification and condition fields.
+# Trivial by design: a thing that hardly matters, described completely, decides nothing. A first draft, open to replacement. Weights are never written here: each question's weight is its share of 1 by position.
+
+notion: a coin
+kind_rule: simple
+questions:
+  - id: value
+    text: "What is it worth, and what is written on it?"
+    stem: "It is a "
+    kind: fact
+    counts_when: "a value and a word or number on it"
+  - id: year
+    text: "What year is on it?"
+    stem: "The year on it is "
+    kind: fact
+    counts_when: "a year, or 'none visible'"
+  - id: sides
+    text: "What is on each side?"
+    stem: "On one side is "
+    kind: fact
+    counts_when: "a named picture or mark for each side"
+  - id: wear
+    text: "How worn is it — shiny, dull, scratched, bent?"
+    stem: "It is "
+    kind: fact
+    counts_when: "a stated condition"
+  - id: from
+    text: "Where did it come from — change from what, from whom?"
+    stem: "It came from "
+    kind: fact
+    counts_when: "a named shop, person or transaction"
+  - id: now
+    text: "Where is it right now?"
+    stem: "Right now it is "
+    kind: fact
+    counts_when: "a named place"

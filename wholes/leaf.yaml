@@ -1,0 +1,37 @@
+# rai whole — a leaf
+# One leaf, picked up or on the branch. Skeleton: the four causes' material and origin, plus condition.
+# Trivial by design: a thing that hardly matters, described completely, decides nothing. A first draft, open to replacement. Weights are never written here: each question's weight is its share of 1 by position.
+
+notion: a leaf
+kind_rule: simple
+questions:
+  - id: plant
+    text: "What tree or plant is it from?"
+    stem: "It is from "
+    kind: fact
+    counts_when: "a named plant, or 'I don't know which' stated as such — deferred does not count"
+  - id: size
+    text: "How big is it, against your hand?"
+    stem: "It is about "
+    kind: fact
+    counts_when: "a comparison to a named thing"
+  - id: colour
+    text: "What colour is it, and is it the same all over?"
+    stem: "It is "
+    kind: fact
+    counts_when: "a named colour and where it changes, or 'all over'"
+  - id: edge
+    text: "What is the edge like — smooth, toothed, torn?"
+    stem: "The edge is "
+    kind: fact
+    counts_when: "a stated edge"
+  - id: marks
+    text: "Any holes, spots or bites? Where?"
+    stem: "It has "
+    kind: fact
+    counts_when: "a named mark and where, or 'none'"
+  - id: where
+    text: "Where was it, before your hand?"
+    stem: "Before, it was "
+    kind: fact
+    counts_when: "a named place"

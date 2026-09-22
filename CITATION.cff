@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use rai, its reader or its training data, please cite it as below."
+title: "rai: a model that checks if a set is complete"
+type: software
+authors:
+  - name: "Koher"
+    website: "https://koher.app"
+version: "0.3.2"
+date-released: "2026-09-22"
+license: AGPL-3.0-only
+repository-code: "https://github.com/koherarchitecture/rai"
+url: "https://github.com/koherarchitecture/rai"
+keywords:
+  - completeness
+  - extractive question answering
+  - split-domain cognition
+  - synthetic data
+references:
+  - type: software
+    title: "minilm-uncased-squad2"
+    authors:
+      - name: "deepset"
+    url: "https://huggingface.co/deepset/minilm-uncased-squad2"
+    license: CC-BY-4.0
+  - type: software
+    title: "MiniLM-L12-H384-uncased"
+    authors:
+      - name: "Microsoft"
+    url: "https://huggingface.co/microsoft/MiniLM-L12-H384-uncased"
+    license: MIT

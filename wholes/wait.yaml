@@ -1,0 +1,37 @@
+# rai whole — a wait
+# Waiting for a bus, a lift, a page to load, a kettle. Skeleton: the circumstances of a wait — where, what for, how long, how it ended.
+# Trivial by design: a thing that hardly matters, described completely, decides nothing. A first draft, open to replacement. Weights are never written here: each question's weight is its share of 1 by position.
+
+notion: a wait
+kind_rule: simple
+questions:
+  - id: where
+    text: "Where were you waiting?"
+    stem: "I was waiting at "
+    kind: fact
+    counts_when: "a named place"
+  - id: for
+    text: "What were you waiting for?"
+    stem: "I was waiting for "
+    kind: fact
+    counts_when: "a named thing"
+  - id: long
+    text: "How long did you wait?"
+    stem: "I waited "
+    kind: fact
+    counts_when: "a duration"
+  - id: looked
+    text: "What did you look at?"
+    stem: "I looked at "
+    kind: fact
+    counts_when: "a named thing"
+  - id: did
+    text: "What did you do with your hands?"
+    stem: "With my hands I "
+    kind: fact
+    counts_when: "a stated action, or 'nothing'"
+  - id: ended
+    text: "How did the wait end?"
+    stem: "It ended when "
+    kind: fact
+    counts_when: "a stated event"

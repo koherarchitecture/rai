@@ -1,0 +1,26 @@
+# rai notions of completeness — set 01, frozen 2026-09-22. A set is exactly seven, unordered. All apply to one description.
+# The seven are parts, not a sum: a description is complete when it passes all seven, in any order, and at nothing less. The seven have no sequence or hierarchy. The value on each notion is its label from when the set was frozen; values are never added.
+set: 1
+frozen: 2026-09-22
+notions:
+  - id: declared_parts
+    value: 0.1
+    complete_when: every question in the whole is answered
+  - id: answer_kind
+    value: 0.2
+    complete_when: each answer is a checkable particular, or an owned position for a why
+  - id: two_readers
+    value: 0.3
+    complete_when: every part is found by two independent readings; doubt is absence
+  - id: frame_roles
+    value: 0.4
+    complete_when: inside each answer, every role its verb needs is filled
+  - id: conditions_closed
+    value: 0.5
+    complete_when: every "when X" has its "when not X"; every failure named has its response
+  - id: no_dangling_names
+    value: 0.6
+    complete_when: every thing named in an answer is itself described somewhere
+  - id: nothing_left_to_ask
+    value: 0.7
+    complete_when: a second person, given the description, has no question they still need

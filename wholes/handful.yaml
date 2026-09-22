@@ -1,0 +1,37 @@
+# rai whole — a handful of gravel
+# Counting gravel. Skeleton: the count, the extremes, the odd one out — a complete description of a handful.
+# Trivial by design: a thing that hardly matters, described completely, decides nothing. A first draft, open to replacement. Weights are never written here: each question's weight is its share of 1 by position.
+
+notion: a handful of gravel
+kind_rule: simple
+questions:
+  - id: count
+    text: "How many pieces are there?"
+    stem: "There are "
+    kind: fact
+    counts_when: "a number"
+  - id: biggest
+    text: "Which is the biggest, and how big?"
+    stem: "The biggest is "
+    kind: fact
+    counts_when: "a comparison to a named thing"
+  - id: smallest
+    text: "Which is the smallest, and how small?"
+    stem: "The smallest is "
+    kind: fact
+    counts_when: "a comparison to a named thing"
+  - id: colours
+    text: "What colours are there, and how many of each?"
+    stem: "The colours are "
+    kind: fact
+    counts_when: "named colours with counts"
+  - id: odd
+    text: "Which one is different from the rest, and how?"
+    stem: "The odd one is "
+    kind: fact
+    counts_when: "a stated difference, or 'none'"
+  - id: from
+    text: "Where did the handful come from?"
+    stem: "It came from "
+    kind: fact
+    counts_when: "a named place"

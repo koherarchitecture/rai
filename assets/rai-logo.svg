@@ -1,0 +1,23 @@
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="rai">
+  <title>rai</title>
+  <!-- rai: a mustard seed (राई) inside seven equal arcs, the seven notions of completeness. No arc comes first. -->
+  <defs>
+    <radialGradient id="seed" cx="40%" cy="36%" r="70%">
+      <stop offset="0" stop-color="#F0C878"/>
+      <stop offset="0.55" stop-color="#D59A3A"/>
+      <stop offset="1" stop-color="#8E5E1C"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" rx="96" fill="#373E3C"/>
+  <g fill="none" stroke="#E8B86D" stroke-width="22" stroke-linecap="round">
+    <path d="M 273.66 101.00 A 156 156 0 0 1 366.17 145.55"/>
+    <path d="M 388.19 173.17 A 156 156 0 0 1 411.04 273.27"/>
+    <path d="M 403.18 307.71 A 156 156 0 0 1 339.16 387.99"/>
+    <path d="M 307.34 403.31 A 156 156 0 0 1 204.66 403.31"/>
+    <path d="M 172.84 387.99 A 156 156 0 0 1 108.82 307.71"/>
+    <path d="M 100.96 273.27 A 156 156 0 0 1 123.81 173.17"/>
+    <path d="M 145.83 145.55 A 156 156 0 0 1 238.34 101.00"/>
+  </g>
+  <circle cx="256" cy="256" r="52" fill="url(#seed)"/>
+  <ellipse cx="238" cy="236" rx="15" ry="10" fill="#FFF3D6" opacity="0.55" transform="rotate(-30 238 236)"/>
+</svg>

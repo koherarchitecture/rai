@@ -1,0 +1,37 @@
+# rai whole — a cup of tea
+# The tea you last made, as you actually made it. Skeleton: the recipe form — amounts, tools, steps, time, doneness.
+# Trivial by design: a thing that hardly matters, described completely, decides nothing. A first draft, open to replacement. Weights are never written here: each question's weight is its share of 1 by position.
+
+notion: a cup of tea
+kind_rule: simple
+questions:
+  - id: water
+    text: "How much water?"
+    stem: "The water was "
+    kind: fact
+    counts_when: "an amount or a cup measure"
+  - id: tea
+    text: "How much tea, and which?"
+    stem: "The tea was "
+    kind: fact
+    counts_when: "an amount and a named kind"
+  - id: milk
+    text: "Milk and sugar — how much of each, or none?"
+    stem: "Milk and sugar: "
+    kind: fact
+    counts_when: "amounts, or 'none' stated"
+  - id: steps
+    text: "What did you do, in order?"
+    stem: "First I "
+    kind: fact
+    counts_when: "at least two steps in sequence"
+  - id: time
+    text: "How long did it take, start to cup?"
+    stem: "It took "
+    kind: fact
+    counts_when: "a duration"
+  - id: done
+    text: "How did you know it was done?"
+    stem: "It was done when "
+    kind: fact
+    counts_when: "a stated sign — colour, boil, smell"

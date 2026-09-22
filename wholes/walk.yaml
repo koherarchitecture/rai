@@ -1,0 +1,37 @@
+# rai whole — the walk to the shop or the stop
+# A walk you take often. Skeleton: the seven circumstances applied to a short route.
+# Trivial by design: a thing that hardly matters, described completely, decides nothing. A first draft, open to replacement. Weights are never written here: each question's weight is its share of 1 by position.
+
+notion: the walk to the shop or the stop
+kind_rule: simple
+questions:
+  - id: ends
+    text: "From where to where?"
+    stem: "From "
+    kind: fact
+    counts_when: "two named places"
+  - id: time
+    text: "How many minutes?"
+    stem: "It takes "
+    kind: fact
+    counts_when: "a duration"
+  - id: pass
+    text: "What do you pass, in order?"
+    stem: "I pass "
+    kind: fact
+    counts_when: "at least two named things in order"
+  - id: underfoot
+    text: "What is underfoot?"
+    stem: "Underfoot is "
+    kind: fact
+    counts_when: "a named surface"
+  - id: see
+    text: "Who do you usually see?"
+    stem: "I usually see "
+    kind: fact
+    counts_when: "a stated person or kind of person, or 'nobody'"
+  - id: instead
+    text: "What would you do if the way were blocked?"
+    stem: "If it were blocked I would "
+    kind: fact
+    counts_when: "a named alternative"

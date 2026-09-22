@@ -1,0 +1,37 @@
+# rai whole — a queue you stood in
+# Any queue: canteen, counter, bus, form. Skeleton: the seven circumstances applied to a wait in line.
+# Trivial by design: a thing that hardly matters, described completely, decides nothing. A first draft, open to replacement. Weights are never written here: each question's weight is its share of 1 by position.
+
+notion: a queue you stood in
+kind_rule: simple
+questions:
+  - id: where
+    text: "Where was the queue?"
+    stem: "The queue was at "
+    kind: fact
+    counts_when: "a named place"
+  - id: for
+    text: "What was it for?"
+    stem: "It was for "
+    kind: fact
+    counts_when: "a named thing"
+  - id: ahead
+    text: "How many people were ahead of you?"
+    stem: "Ahead of me were "
+    kind: fact
+    counts_when: "a number"
+  - id: long
+    text: "How long did it take?"
+    stem: "It took "
+    kind: fact
+    counts_when: "a duration"
+  - id: front
+    text: "Who was directly in front of you, as far as you could tell?"
+    stem: "In front of me was "
+    kind: fact
+    counts_when: "a stated person, by what you saw"
+  - id: did
+    text: "What did you do while you waited?"
+    stem: "While I waited I "
+    kind: fact
+    counts_when: "a stated activity"

@@ -1,0 +1,37 @@
+# rai whole — a stone
+# One stone or piece of gravel in your hand. Skeleton: SPECTRUM's physical description fields (colour, dimensions, distinguishing features) and the four causes' material and origin.
+# Trivial by design: a thing that hardly matters, described completely, decides nothing. A first draft, open to replacement. Weights are never written here: each question's weight is its share of 1 by position.
+
+notion: a stone
+kind_rule: simple
+questions:
+  - id: colour
+    text: "What colour is it?"
+    stem: "It is "
+    kind: fact
+    counts_when: "a named colour, or two"
+  - id: size
+    text: "How big is it, against a coin or your thumb?"
+    stem: "It is about the size of "
+    kind: fact
+    counts_when: "a comparison to a named thing"
+  - id: shape
+    text: "What shape is it?"
+    stem: "It is shaped like "
+    kind: fact
+    counts_when: "a named shape or a named thing it resembles"
+  - id: feel
+    text: "How does it feel — rough, smooth, cold, gritty?"
+    stem: "It feels "
+    kind: fact
+    counts_when: "a stated texture or temperature"
+  - id: marks
+    text: "Does it have any mark, crack, line or speck? Where?"
+    stem: "It has "
+    kind: fact
+    counts_when: "a named mark and where it is, or 'none'"
+  - id: from
+    text: "Where did you pick it up?"
+    stem: "I picked it up from "
+    kind: fact
+    counts_when: "a named place"

@@ -1,0 +1,37 @@
+# rai whole — a sound you can hear now
+# Stop and listen. Skeleton: the circumstances of a sound — source, direction, pattern, loudness, duration.
+# Trivial by design: a thing that hardly matters, described completely, decides nothing. A first draft, open to replacement. Weights are never written here: each question's weight is its share of 1 by position.
+
+notion: a sound you can hear now
+kind_rule: simple
+questions:
+  - id: what
+    text: "What is making it?"
+    stem: "It is made by "
+    kind: fact
+    counts_when: "a named source"
+  - id: where
+    text: "Where is it coming from?"
+    stem: "It is coming from "
+    kind: fact
+    counts_when: "a direction or named place"
+  - id: pattern
+    text: "Is it steady, repeating, or one-off?"
+    stem: "It is "
+    kind: fact
+    counts_when: "a stated pattern"
+  - id: loud
+    text: "How loud, compared with something?"
+    stem: "It is about as loud as "
+    kind: fact
+    counts_when: "a comparison to a named sound"
+  - id: since
+    text: "Since when have you been hearing it?"
+    stem: "I have heard it since "
+    kind: fact
+    counts_when: "a time or event"
+  - id: stops
+    text: "When will it stop, or what would stop it?"
+    stem: "It will stop when "
+    kind: fact
+    counts_when: "a stated event, or 'I can't tell' — deferred does not count"

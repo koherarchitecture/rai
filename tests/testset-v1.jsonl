@@ -1,0 +1,360 @@
+{"whole": "coin", "qid": "value", "question": "What is it worth, and what is written on it?", "stem": "It is a ", "answer": "Two rupees, it says Bharat and two.", "label": true, "class": "bare"}
+{"whole": "coin", "qid": "value", "question": "What is it worth, and what is written on it?", "stem": "It is a ", "answer": "A ten-rupee coin.", "label": true, "class": "bare"}
+{"whole": "coin", "qid": "value", "question": "What is it worth, and what is written on it?", "stem": "It is a ", "answer": "One rupee, with the lion.", "label": true, "class": "bare"}
+{"whole": "coin", "qid": "value", "question": "What is it worth, and what is written on it?", "stem": "It is a ", "answer": "Not sure.", "label": false, "class": "evasive"}
+{"whole": "coin", "qid": "value", "question": "What is it worth, and what is written on it?", "stem": "It is a ", "answer": "The usual.", "label": false, "class": "evasive"}
+{"whole": "coin", "qid": "value", "question": "What is it worth, and what is written on it?", "stem": "It is a ", "answer": "None visible, it is too worn.", "label": false, "class": "off-question"}
+{"whole": "coin", "qid": "year", "question": "What year is on it?", "stem": "The year on it is ", "answer": "2019.", "label": true, "class": "bare"}
+{"whole": "coin", "qid": "year", "question": "What year is on it?", "stem": "The year on it is ", "answer": "It says 2011.", "label": true, "class": "bare"}
+{"whole": "coin", "qid": "year", "question": "What year is on it?", "stem": "The year on it is ", "answer": "None visible, it is too worn.", "label": true, "class": "bare"}
+{"whole": "coin", "qid": "year", "question": "What year is on it?", "stem": "The year on it is ", "answer": "Whatever is there.", "label": false, "class": "evasive"}
+{"whole": "coin", "qid": "year", "question": "What year is on it?", "stem": "The year on it is ", "answer": "Not sure.", "label": false, "class": "evasive"}
+{"whole": "coin", "qid": "year", "question": "What year is on it?", "stem": "The year on it is ", "answer": "One rupee, with the lion.", "label": false, "class": "off-question"}
+{"whole": "coin", "qid": "sides", "question": "What is on each side?", "stem": "On one side is ", "answer": "The lion capital on one side, the number two on the other.", "label": true, "class": "bare"}
+{"whole": "coin", "qid": "sides", "question": "What is on each side?", "stem": "On one side is ", "answer": "Ashoka pillar on one side, ten with the rays on the other.", "label": true, "class": "bare"}
+{"whole": "coin", "qid": "sides", "question": "What is on each side?", "stem": "On one side is ", "answer": "A thumbs-up hand on one side, the lions on the other.", "label": true, "class": "bare"}
+{"whole": "coin", "qid": "sides", "question": "What is on each side?", "stem": "On one side is ", "answer": "It works well.", "label": false, "class": "evasive"}
+{"whole": "coin", "qid": "sides", "question": "What is on each side?", "stem": "On one side is ", "answer": "Hard to say.", "label": false, "class": "evasive"}
+{"whole": "coin", "qid": "sides", "question": "What is on each side?", "stem": "On one side is ", "answer": "It says 2011.", "label": false, "class": "off-question"}
+{"whole": "coin", "qid": "wear", "question": "How worn is it — shiny, dull, scratched, bent?", "stem": "It is ", "answer": "Dull, with scratches on the number side.", "label": true, "class": "bare"}
+{"whole": "coin", "qid": "wear", "question": "How worn is it — shiny, dull, scratched, bent?", "stem": "It is ", "answer": "Shiny, almost new.", "label": true, "class": "bare"}
+{"whole": "coin", "qid": "wear", "question": "How worn is it — shiny, dull, scratched, bent?", "stem": "It is ", "answer": "Worn smooth at the rim.", "label": true, "class": "bare"}
+{"whole": "coin", "qid": "wear", "question": "How worn is it — shiny, dull, scratched, bent?", "stem": "It is ", "answer": "It is really nice.", "label": false, "class": "evasive"}
+{"whole": "coin", "qid": "wear", "question": "How worn is it — shiny, dull, scratched, bent?", "stem": "It is ", "answer": "It works well.", "label": false, "class": "evasive"}
+{"whole": "coin", "qid": "wear", "question": "How worn is it — shiny, dull, scratched, bent?", "stem": "It is ", "answer": "In my left pocket.", "label": false, "class": "off-question"}
+{"whole": "coin", "qid": "from", "question": "Where did it come from — change from what, from whom?", "stem": "It came from ", "answer": "Change from the tea stall this morning.", "label": true, "class": "bare"}
+{"whole": "coin", "qid": "from", "question": "Where did it come from — change from what, from whom?", "stem": "It came from ", "answer": "The auto driver gave it as change.", "label": true, "class": "bare"}
+{"whole": "coin", "qid": "from", "question": "Where did it come from — change from what, from whom?", "stem": "It came from ", "answer": "My mother's purse.", "label": true, "class": "bare"}
+{"whole": "coin", "qid": "from", "question": "Where did it come from — change from what, from whom?", "stem": "It came from ", "answer": "Something, I guess.", "label": false, "class": "evasive"}
+{"whole": "coin", "qid": "from", "question": "Where did it come from — change from what, from whom?", "stem": "It came from ", "answer": "I don't know yet.", "label": false, "class": "evasive"}
+{"whole": "coin", "qid": "from", "question": "Where did it come from — change from what, from whom?", "stem": "It came from ", "answer": "One rupee, with the lion.", "label": false, "class": "off-question"}
+{"whole": "coin", "qid": "now", "question": "Where is it right now?", "stem": "Right now it is ", "answer": "In my left pocket.", "label": true, "class": "bare"}
+{"whole": "coin", "qid": "now", "question": "Where is it right now?", "stem": "Right now it is ", "answer": "On the desk next to the keyboard.", "label": true, "class": "bare"}
+{"whole": "coin", "qid": "now", "question": "Where is it right now?", "stem": "Right now it is ", "answer": "In the pen stand.", "label": true, "class": "bare"}
+{"whole": "coin", "qid": "now", "question": "Where is it right now?", "stem": "Right now it is ", "answer": "It is really nice.", "label": false, "class": "evasive"}
+{"whole": "coin", "qid": "now", "question": "Where is it right now?", "stem": "Right now it is ", "answer": "A lot of things.", "label": false, "class": "evasive"}
+{"whole": "coin", "qid": "now", "question": "Where is it right now?", "stem": "Right now it is ", "answer": "Ashoka pillar on one side, ten with the rays on the other.", "label": false, "class": "off-question"}
+{"whole": "handful", "qid": "count", "question": "How many pieces are there?", "stem": "There are ", "answer": "Fourteen.", "label": true, "class": "bare"}
+{"whole": "handful", "qid": "count", "question": "How many pieces are there?", "stem": "There are ", "answer": "Twenty-two pieces.", "label": true, "class": "bare"}
+{"whole": "handful", "qid": "count", "question": "How many pieces are there?", "stem": "There are ", "answer": "Nine.", "label": true, "class": "bare"}
+{"whole": "handful", "qid": "count", "question": "How many pieces are there?", "stem": "There are ", "answer": "The usual.", "label": false, "class": "evasive"}
+{"whole": "handful", "qid": "count", "question": "How many pieces are there?", "stem": "There are ", "answer": "Not sure.", "label": false, "class": "evasive"}
+{"whole": "handful", "qid": "count", "question": "How many pieces are there?", "stem": "There are ", "answer": "A flat one, thumbnail size.", "label": false, "class": "off-question"}
+{"whole": "handful", "qid": "biggest", "question": "Which is the biggest, and how big?", "stem": "The biggest is ", "answer": "One about the size of a peanut.", "label": true, "class": "bare"}
+{"whole": "handful", "qid": "biggest", "question": "Which is the biggest, and how big?", "stem": "The biggest is ", "answer": "The biggest is as big as a ten-rupee coin.", "label": true, "class": "bare"}
+{"whole": "handful", "qid": "biggest", "question": "Which is the biggest, and how big?", "stem": "The biggest is ", "answer": "A flat one, thumbnail size.", "label": true, "class": "bare"}
+{"whole": "handful", "qid": "biggest", "question": "Which is the biggest, and how big?", "stem": "The biggest is ", "answer": "Something, I guess.", "label": false, "class": "evasive"}
+{"whole": "handful", "qid": "biggest", "question": "Which is the biggest, and how big?", "stem": "The biggest is ", "answer": "It is really nice.", "label": false, "class": "evasive"}
+{"whole": "handful", "qid": "biggest", "question": "Which is the biggest, and how big?", "stem": "The biggest is ", "answer": "None, they are all alike.", "label": false, "class": "off-question"}
+{"whole": "handful", "qid": "smallest", "question": "Which is the smallest, and how small?", "stem": "The smallest is ", "answer": "Like a mustard seed.", "label": true, "class": "bare"}
+{"whole": "handful", "qid": "smallest", "question": "Which is the smallest, and how small?", "stem": "The smallest is ", "answer": "A grain of rice.", "label": true, "class": "bare"}
+{"whole": "handful", "qid": "smallest", "question": "Which is the smallest, and how small?", "stem": "The smallest is ", "answer": "Smaller than a peppercorn.", "label": true, "class": "bare"}
+{"whole": "handful", "qid": "smallest", "question": "Which is the smallest, and how small?", "stem": "The smallest is ", "answer": "It works well.", "label": false, "class": "evasive"}
+{"whole": "handful", "qid": "smallest", "question": "Which is the smallest, and how small?", "stem": "The smallest is ", "answer": "A lot of things.", "label": false, "class": "evasive"}
+{"whole": "handful", "qid": "smallest", "question": "Which is the smallest, and how small?", "stem": "The smallest is ", "answer": "All grey except two black.", "label": false, "class": "off-question"}
+{"whole": "handful", "qid": "colours", "question": "What colours are there, and how many of each?", "stem": "The colours are ", "answer": "Nine grey, four brown, one white.", "label": true, "class": "bare"}
+{"whole": "handful", "qid": "colours", "question": "What colours are there, and how many of each?", "stem": "The colours are ", "answer": "All grey except two black.", "label": true, "class": "bare"}
+{"whole": "handful", "qid": "colours", "question": "What colours are there, and how many of each?", "stem": "The colours are ", "answer": "Mostly brown, three reddish.", "label": true, "class": "bare"}
+{"whole": "handful", "qid": "colours", "question": "What colours are there, and how many of each?", "stem": "The colours are ", "answer": "A lot of things.", "label": false, "class": "evasive"}
+{"whole": "handful", "qid": "colours", "question": "What colours are there, and how many of each?", "stem": "The colours are ", "answer": "Something, I guess.", "label": false, "class": "evasive"}
+{"whole": "handful", "qid": "colours", "question": "What colours are there, and how many of each?", "stem": "The colours are ", "answer": "The biggest is as big as a ten-rupee coin.", "label": false, "class": "off-question"}
+{"whole": "handful", "qid": "odd", "question": "Which one is different from the rest, and how?", "stem": "The odd one is ", "answer": "One is black and shiny, the rest are dull grey.", "label": true, "class": "bare"}
+{"whole": "handful", "qid": "odd", "question": "Which one is different from the rest, and how?", "stem": "The odd one is ", "answer": "One is round, the others are broken.", "label": true, "class": "bare"}
+{"whole": "handful", "qid": "odd", "question": "Which one is different from the rest, and how?", "stem": "The odd one is ", "answer": "None, they are all alike.", "label": true, "class": "bare"}
+{"whole": "handful", "qid": "odd", "question": "Which one is different from the rest, and how?", "stem": "The odd one is ", "answer": "A lot of things.", "label": false, "class": "evasive"}
+{"whole": "handful", "qid": "odd", "question": "Which one is different from the rest, and how?", "stem": "The odd one is ", "answer": "Not sure.", "label": false, "class": "evasive"}
+{"whole": "handful", "qid": "odd", "question": "Which one is different from the rest, and how?", "stem": "The odd one is ", "answer": "Nine grey, four brown, one white.", "label": false, "class": "off-question"}
+{"whole": "handful", "qid": "from", "question": "Where did the handful come from?", "stem": "It came from ", "answer": "The edge of the cricket ground.", "label": true, "class": "bare"}
+{"whole": "handful", "qid": "from", "question": "Where did the handful come from?", "stem": "It came from ", "answer": "The driveway at home.", "label": true, "class": "bare"}
+{"whole": "handful", "qid": "from", "question": "Where did the handful come from?", "stem": "It came from ", "answer": "A construction pile on the road outside.", "label": true, "class": "bare"}
+{"whole": "handful", "qid": "from", "question": "Where did the handful come from?", "stem": "It came from ", "answer": "It works well.", "label": false, "class": "evasive"}
+{"whole": "handful", "qid": "from", "question": "Where did the handful come from?", "stem": "It came from ", "answer": "Something, I guess.", "label": false, "class": "evasive"}
+{"whole": "handful", "qid": "from", "question": "Where did the handful come from?", "stem": "It came from ", "answer": "Twenty-two pieces.", "label": false, "class": "off-question"}
+{"whole": "leaf", "qid": "plant", "question": "What tree or plant is it from?", "stem": "It is from ", "answer": "A neem tree.", "label": true, "class": "bare"}
+{"whole": "leaf", "qid": "plant", "question": "What tree or plant is it from?", "stem": "It is from ", "answer": "The peepal outside the gate.", "label": true, "class": "bare"}
+{"whole": "leaf", "qid": "plant", "question": "What tree or plant is it from?", "stem": "It is from ", "answer": "Tulsi from the pot on the balcony.", "label": true, "class": "bare"}
+{"whole": "leaf", "qid": "plant", "question": "What tree or plant is it from?", "stem": "It is from ", "answer": "A lot of things.", "label": false, "class": "evasive"}
+{"whole": "leaf", "qid": "plant", "question": "What tree or plant is it from?", "stem": "It is from ", "answer": "Something, I guess.", "label": false, "class": "evasive"}
+{"whole": "leaf", "qid": "plant", "question": "What tree or plant is it from?", "stem": "It is from ", "answer": "Torn on one side.", "label": false, "class": "off-question"}
+{"whole": "leaf", "qid": "size", "question": "How big is it, against your hand?", "stem": "It is about ", "answer": "As long as my little finger.", "label": true, "class": "bare"}
+{"whole": "leaf", "qid": "size", "question": "How big is it, against your hand?", "stem": "It is about ", "answer": "Bigger than my palm.", "label": true, "class": "bare"}
+{"whole": "leaf", "qid": "size", "question": "How big is it, against your hand?", "stem": "It is about ", "answer": "About as wide as two fingers.", "label": true, "class": "bare"}
+{"whole": "leaf", "qid": "size", "question": "How big is it, against your hand?", "stem": "It is about ", "answer": "I don't know yet.", "label": false, "class": "evasive"}
+{"whole": "leaf", "qid": "size", "question": "How big is it, against your hand?", "stem": "It is about ", "answer": "Maybe later.", "label": false, "class": "evasive"}
+{"whole": "leaf", "qid": "size", "question": "How big is it, against your hand?", "stem": "It is about ", "answer": "Dark green all over.", "label": false, "class": "off-question"}
+{"whole": "leaf", "qid": "colour", "question": "What colour is it, and is it the same all over?", "stem": "It is ", "answer": "Green, yellow at the edges.", "label": true, "class": "bare"}
+{"whole": "leaf", "qid": "colour", "question": "What colour is it, and is it the same all over?", "stem": "It is ", "answer": "Dark green all over.", "label": true, "class": "bare"}
+{"whole": "leaf", "qid": "colour", "question": "What colour is it, and is it the same all over?", "stem": "It is ", "answer": "Brown, with green near the stem.", "label": true, "class": "bare"}
+{"whole": "leaf", "qid": "colour", "question": "What colour is it, and is it the same all over?", "stem": "It is ", "answer": "Maybe later.", "label": false, "class": "evasive"}
+{"whole": "leaf", "qid": "colour", "question": "What colour is it, and is it the same all over?", "stem": "It is ", "answer": "It works well.", "label": false, "class": "evasive"}
+{"whole": "leaf", "qid": "colour", "question": "What colour is it, and is it the same all over?", "stem": "It is ", "answer": "None.", "label": false, "class": "off-question"}
+{"whole": "leaf", "qid": "edge", "question": "What is the edge like — smooth, toothed, torn?", "stem": "The edge is ", "answer": "Toothed like a saw.", "label": true, "class": "bare"}
+{"whole": "leaf", "qid": "edge", "question": "What is the edge like — smooth, toothed, torn?", "stem": "The edge is ", "answer": "Smooth.", "label": true, "class": "bare"}
+{"whole": "leaf", "qid": "edge", "question": "What is the edge like — smooth, toothed, torn?", "stem": "The edge is ", "answer": "Torn on one side.", "label": true, "class": "bare"}
+{"whole": "leaf", "qid": "edge", "question": "What is the edge like — smooth, toothed, torn?", "stem": "The edge is ", "answer": "It is really nice.", "label": false, "class": "evasive"}
+{"whole": "leaf", "qid": "edge", "question": "What is the edge like — smooth, toothed, torn?", "stem": "The edge is ", "answer": "A lot of things.", "label": false, "class": "evasive"}
+{"whole": "leaf", "qid": "edge", "question": "What is the edge like — smooth, toothed, torn?", "stem": "The edge is ", "answer": "On the bonnet of the car.", "label": false, "class": "off-question"}
+{"whole": "leaf", "qid": "marks", "question": "Any holes, spots or bites? Where?", "stem": "It has ", "answer": "Two holes near the tip.", "label": true, "class": "bare"}
+{"whole": "leaf", "qid": "marks", "question": "Any holes, spots or bites? Where?", "stem": "It has ", "answer": "Black spots along the vein.", "label": true, "class": "bare"}
+{"whole": "leaf", "qid": "marks", "question": "Any holes, spots or bites? Where?", "stem": "It has ", "answer": "None.", "label": true, "class": "bare"}
+{"whole": "leaf", "qid": "marks", "question": "Any holes, spots or bites? Where?", "stem": "It has ", "answer": "Something, I guess.", "label": false, "class": "evasive"}
+{"whole": "leaf", "qid": "marks", "question": "Any holes, spots or bites? Where?", "stem": "It has ", "answer": "Maybe later.", "label": false, "class": "evasive"}
+{"whole": "leaf", "qid": "marks", "question": "Any holes, spots or bites? Where?", "stem": "It has ", "answer": "Still on the branch, I picked it.", "label": false, "class": "off-question"}
+{"whole": "leaf", "qid": "where", "question": "Where was it, before your hand?", "stem": "Before, it was ", "answer": "On the footpath under the tree.", "label": true, "class": "bare"}
+{"whole": "leaf", "qid": "where", "question": "Where was it, before your hand?", "stem": "Before, it was ", "answer": "Still on the branch, I picked it.", "label": true, "class": "bare"}
+{"whole": "leaf", "qid": "where", "question": "Where was it, before your hand?", "stem": "Before, it was ", "answer": "On the bonnet of the car.", "label": true, "class": "bare"}
+{"whole": "leaf", "qid": "where", "question": "Where was it, before your hand?", "stem": "Before, it was ", "answer": "Something, I guess.", "label": false, "class": "evasive"}
+{"whole": "leaf", "qid": "where", "question": "Where was it, before your hand?", "stem": "Before, it was ", "answer": "I don't know yet.", "label": false, "class": "evasive"}
+{"whole": "leaf", "qid": "where", "question": "Where was it, before your hand?", "stem": "Before, it was ", "answer": "A neem tree.", "label": false, "class": "off-question"}
+{"whole": "pocket", "qid": "list", "question": "What is in it? Name everything.", "stem": "In it are ", "answer": "Keys, a pen, the phone, a folded bus ticket.", "label": true, "class": "bare"}
+{"whole": "pocket", "qid": "list", "question": "What is in it? Name everything.", "stem": "In it are ", "answer": "Phone, wallet, an earphone case.", "label": true, "class": "bare"}
+{"whole": "pocket", "qid": "list", "question": "What is in it? Name everything.", "stem": "In it are ", "answer": "A handkerchief, two coins, the ID card.", "label": true, "class": "bare"}
+{"whole": "pocket", "qid": "list", "question": "What is in it? Name everything.", "stem": "In it are ", "answer": "Whatever is there.", "label": false, "class": "evasive"}
+{"whole": "pocket", "qid": "list", "question": "What is in it? Name everything.", "stem": "In it are ", "answer": "It works well.", "label": false, "class": "evasive"}
+{"whole": "pocket", "qid": "list", "question": "What is in it? Name everything.", "stem": "In it are ", "answer": "Three.", "label": false, "class": "off-question"}
+{"whole": "pocket", "qid": "count", "question": "How many things?", "stem": "There are ", "answer": "Four things.", "label": true, "class": "bare"}
+{"whole": "pocket", "qid": "count", "question": "How many things?", "stem": "There are ", "answer": "Three.", "label": true, "class": "bare"}
+{"whole": "pocket", "qid": "count", "question": "How many things?", "stem": "There are ", "answer": "Five.", "label": true, "class": "bare"}
+{"whole": "pocket", "qid": "count", "question": "How many things?", "stem": "There are ", "answer": "I don't know yet.", "label": false, "class": "evasive"}
+{"whole": "pocket", "qid": "count", "question": "How many things?", "stem": "There are ", "answer": "It is really nice.", "label": false, "class": "evasive"}
+{"whole": "pocket", "qid": "count", "question": "How many things?", "stem": "There are ", "answer": "The ID card, since first year.", "label": false, "class": "off-question"}
+{"whole": "pocket", "qid": "oldest", "question": "Which has been there longest, and since when?", "stem": "The oldest is ", "answer": "The keys, since I moved in, 2023.", "label": true, "class": "bare"}
+{"whole": "pocket", "qid": "oldest", "question": "Which has been there longest, and since when?", "stem": "The oldest is ", "answer": "The wallet, three years.", "label": true, "class": "bare"}
+{"whole": "pocket", "qid": "oldest", "question": "Which has been there longest, and since when?", "stem": "The oldest is ", "answer": "The ID card, since first year.", "label": true, "class": "bare"}
+{"whole": "pocket", "qid": "oldest", "question": "Which has been there longest, and since when?", "stem": "The oldest is ", "answer": "The usual.", "label": false, "class": "evasive"}
+{"whole": "pocket", "qid": "oldest", "question": "Which has been there longest, and since when?", "stem": "The oldest is ", "answer": "I don't know yet.", "label": false, "class": "evasive"}
+{"whole": "pocket", "qid": "oldest", "question": "Which has been there longest, and since when?", "stem": "The oldest is ", "answer": "Keys, a pen, the phone, a folded bus ticket.", "label": false, "class": "off-question"}
+{"whole": "pocket", "qid": "heaviest", "question": "Which is the heaviest?", "stem": "The heaviest is ", "answer": "The phone.", "label": true, "class": "bare"}
+{"whole": "pocket", "qid": "heaviest", "question": "Which is the heaviest?", "stem": "The heaviest is ", "answer": "The keys.", "label": true, "class": "bare"}
+{"whole": "pocket", "qid": "heaviest", "question": "Which is the heaviest?", "stem": "The heaviest is ", "answer": "The wallet.", "label": true, "class": "bare"}
+{"whole": "pocket", "qid": "heaviest", "question": "Which is the heaviest?", "stem": "The heaviest is ", "answer": "Whatever is there.", "label": false, "class": "evasive"}
+{"whole": "pocket", "qid": "heaviest", "question": "Which is the heaviest?", "stem": "The heaviest is ", "answer": "The usual.", "label": false, "class": "evasive"}
+{"whole": "pocket", "qid": "heaviest", "question": "Which is the heaviest?", "stem": "The heaviest is ", "answer": "Four things.", "label": false, "class": "off-question"}
+{"whole": "pocket", "qid": "miss", "question": "Which would you miss first if it fell out?", "stem": "I would miss ", "answer": "The keys.", "label": true, "class": "bare"}
+{"whole": "pocket", "qid": "miss", "question": "Which would you miss first if it fell out?", "stem": "I would miss ", "answer": "The phone.", "label": true, "class": "bare"}
+{"whole": "pocket", "qid": "miss", "question": "Which would you miss first if it fell out?", "stem": "I would miss ", "answer": "The ID card.", "label": true, "class": "bare"}
+{"whole": "pocket", "qid": "miss", "question": "Which would you miss first if it fell out?", "stem": "I would miss ", "answer": "Something, I guess.", "label": false, "class": "evasive"}
+{"whole": "pocket", "qid": "miss", "question": "Which would you miss first if it fell out?", "stem": "I would miss ", "answer": "I don't know yet.", "label": false, "class": "evasive"}
+{"whole": "pocket", "qid": "miss", "question": "Which would you miss first if it fell out?", "stem": "I would miss ", "answer": "The keys, since I moved in, 2023.", "label": false, "class": "off-question"}
+{"whole": "pocket", "qid": "night", "question": "Where does it all go at night?", "stem": "At night it goes ", "answer": "On the shelf by the door.", "label": true, "class": "bare"}
+{"whole": "pocket", "qid": "night", "question": "Where does it all go at night?", "stem": "At night it goes ", "answer": "In the drawer.", "label": true, "class": "bare"}
+{"whole": "pocket", "qid": "night", "question": "Where does it all go at night?", "stem": "At night it goes ", "answer": "On the table next to the bed.", "label": true, "class": "bare"}
+{"whole": "pocket", "qid": "night", "question": "Where does it all go at night?", "stem": "At night it goes ", "answer": "It works well.", "label": false, "class": "evasive"}
+{"whole": "pocket", "qid": "night", "question": "Where does it all go at night?", "stem": "At night it goes ", "answer": "Maybe later.", "label": false, "class": "evasive"}
+{"whole": "pocket", "qid": "night", "question": "Where does it all go at night?", "stem": "At night it goes ", "answer": "Three.", "label": false, "class": "off-question"}
+{"whole": "queue", "qid": "where", "question": "Where was the queue?", "stem": "The queue was at ", "answer": "The canteen counter.", "label": true, "class": "bare"}
+{"whole": "queue", "qid": "where", "question": "Where was the queue?", "stem": "The queue was at ", "answer": "The bank on CG Road.", "label": true, "class": "bare"}
+{"whole": "queue", "qid": "where", "question": "Where was the queue?", "stem": "The queue was at ", "answer": "The bus stop at Paldi.", "label": true, "class": "bare"}
+{"whole": "queue", "qid": "where", "question": "Where was the queue?", "stem": "The queue was at ", "answer": "It is really nice.", "label": false, "class": "evasive"}
+{"whole": "queue", "qid": "where", "question": "Where was the queue?", "stem": "The queue was at ", "answer": "Hard to say.", "label": false, "class": "evasive"}
+{"whole": "queue", "qid": "where", "question": "Where was the queue?", "stem": "The queue was at ", "answer": "Looked at my phone.", "label": false, "class": "off-question"}
+{"whole": "queue", "qid": "for", "question": "What was it for?", "stem": "It was for ", "answer": "Tea and a vada pav.", "label": true, "class": "bare"}
+{"whole": "queue", "qid": "for", "question": "What was it for?", "stem": "It was for ", "answer": "To deposit a cheque.", "label": true, "class": "bare"}
+{"whole": "queue", "qid": "for", "question": "What was it for?", "stem": "It was for ", "answer": "The 52 bus.", "label": true, "class": "bare"}
+{"whole": "queue", "qid": "for", "question": "What was it for?", "stem": "It was for ", "answer": "The usual.", "label": false, "class": "evasive"}
+{"whole": "queue", "qid": "for", "question": "What was it for?", "stem": "It was for ", "answer": "Hard to say.", "label": false, "class": "evasive"}
+{"whole": "queue", "qid": "for", "question": "What was it for?", "stem": "It was for ", "answer": "The canteen counter.", "label": false, "class": "off-question"}
+{"whole": "queue", "qid": "ahead", "question": "How many people were ahead of you?", "stem": "Ahead of me were ", "answer": "Six people.", "label": true, "class": "bare"}
+{"whole": "queue", "qid": "ahead", "question": "How many people were ahead of you?", "stem": "Ahead of me were ", "answer": "About fifteen.", "label": true, "class": "bare"}
+{"whole": "queue", "qid": "ahead", "question": "How many people were ahead of you?", "stem": "Ahead of me were ", "answer": "Two.", "label": true, "class": "bare"}
+{"whole": "queue", "qid": "ahead", "question": "How many people were ahead of you?", "stem": "Ahead of me were ", "answer": "I don't know yet.", "label": false, "class": "evasive"}
+{"whole": "queue", "qid": "ahead", "question": "How many people were ahead of you?", "stem": "Ahead of me were ", "answer": "Hard to say.", "label": false, "class": "evasive"}
+{"whole": "queue", "qid": "ahead", "question": "How many people were ahead of you?", "stem": "Ahead of me were ", "answer": "The 52 bus.", "label": false, "class": "off-question"}
+{"whole": "queue", "qid": "long", "question": "How long did it take?", "stem": "It took ", "answer": "Ten minutes.", "label": true, "class": "bare"}
+{"whole": "queue", "qid": "long", "question": "How long did it take?", "stem": "It took ", "answer": "Half an hour.", "label": true, "class": "bare"}
+{"whole": "queue", "qid": "long", "question": "How long did it take?", "stem": "It took ", "answer": "Three or four minutes.", "label": true, "class": "bare"}
+{"whole": "queue", "qid": "long", "question": "How long did it take?", "stem": "It took ", "answer": "Whatever is there.", "label": false, "class": "evasive"}
+{"whole": "queue", "qid": "long", "question": "How long did it take?", "stem": "It took ", "answer": "It is really nice.", "label": false, "class": "evasive"}
+{"whole": "queue", "qid": "long", "question": "How long did it take?", "stem": "It took ", "answer": "The bank on CG Road.", "label": false, "class": "off-question"}
+{"whole": "queue", "qid": "front", "question": "Who was directly in front of you, as far as you could tell?", "stem": "In front of me was ", "answer": "A woman with a red bag.", "label": true, "class": "bare"}
+{"whole": "queue", "qid": "front", "question": "Who was directly in front of you, as far as you could tell?", "stem": "In front of me was ", "answer": "Two students from my class.", "label": true, "class": "bare"}
+{"whole": "queue", "qid": "front", "question": "Who was directly in front of you, as far as you could tell?", "stem": "In front of me was ", "answer": "An old man with a walking stick.", "label": true, "class": "bare"}
+{"whole": "queue", "qid": "front", "question": "Who was directly in front of you, as far as you could tell?", "stem": "In front of me was ", "answer": "Something, I guess.", "label": false, "class": "evasive"}
+{"whole": "queue", "qid": "front", "question": "Who was directly in front of you, as far as you could tell?", "stem": "In front of me was ", "answer": "Not sure.", "label": false, "class": "evasive"}
+{"whole": "queue", "qid": "front", "question": "Who was directly in front of you, as far as you could tell?", "stem": "In front of me was ", "answer": "Counted the tiles on the floor.", "label": false, "class": "off-question"}
+{"whole": "queue", "qid": "did", "question": "What did you do while you waited?", "stem": "While I waited I ", "answer": "Looked at my phone.", "label": true, "class": "bare"}
+{"whole": "queue", "qid": "did", "question": "What did you do while you waited?", "stem": "While I waited I ", "answer": "Counted the tiles on the floor.", "label": true, "class": "bare"}
+{"whole": "queue", "qid": "did", "question": "What did you do while you waited?", "stem": "While I waited I ", "answer": "Talked to the person behind me.", "label": true, "class": "bare"}
+{"whole": "queue", "qid": "did", "question": "What did you do while you waited?", "stem": "While I waited I ", "answer": "Whatever is there.", "label": false, "class": "evasive"}
+{"whole": "queue", "qid": "did", "question": "What did you do while you waited?", "stem": "While I waited I ", "answer": "Maybe later.", "label": false, "class": "evasive"}
+{"whole": "queue", "qid": "did", "question": "What did you do while you waited?", "stem": "While I waited I ", "answer": "The bus stop at Paldi.", "label": false, "class": "off-question"}
+{"whole": "sound", "qid": "what", "question": "What is making it?", "stem": "It is made by ", "answer": "The ceiling fan.", "label": true, "class": "bare"}
+{"whole": "sound", "qid": "what", "question": "What is making it?", "stem": "It is made by ", "answer": "A drill from the next building.", "label": true, "class": "bare"}
+{"whole": "sound", "qid": "what", "question": "What is making it?", "stem": "It is made by ", "answer": "Crows outside.", "label": true, "class": "bare"}
+{"whole": "sound", "qid": "what", "question": "What is making it?", "stem": "It is made by ", "answer": "It works well.", "label": false, "class": "evasive"}
+{"whole": "sound", "qid": "what", "question": "What is making it?", "stem": "It is made by ", "answer": "Hard to say.", "label": false, "class": "evasive"}
+{"whole": "sound", "qid": "what", "question": "What is making it?", "stem": "It is made by ", "answer": "When they finish the wall.", "label": false, "class": "off-question"}
+{"whole": "sound", "qid": "where", "question": "Where is it coming from?", "stem": "It is coming from ", "answer": "Above me.", "label": true, "class": "bare"}
+{"whole": "sound", "qid": "where", "question": "Where is it coming from?", "stem": "It is coming from ", "answer": "From the left, across the road.", "label": true, "class": "bare"}
+{"whole": "sound", "qid": "where", "question": "Where is it coming from?", "stem": "It is coming from ", "answer": "The window behind me.", "label": true, "class": "bare"}
+{"whole": "sound", "qid": "where", "question": "Where is it coming from?", "stem": "It is coming from ", "answer": "Hard to say.", "label": false, "class": "evasive"}
+{"whole": "sound", "qid": "where", "question": "Where is it coming from?", "stem": "It is coming from ", "answer": "It is really nice.", "label": false, "class": "evasive"}
+{"whole": "sound", "qid": "where", "question": "Where is it coming from?", "stem": "It is coming from ", "answer": "One-off, every few minutes.", "label": false, "class": "off-question"}
+{"whole": "sound", "qid": "pattern", "question": "Is it steady, repeating, or one-off?", "stem": "It is ", "answer": "Steady.", "label": true, "class": "bare"}
+{"whole": "sound", "qid": "pattern", "question": "Is it steady, repeating, or one-off?", "stem": "It is ", "answer": "It stops and starts.", "label": true, "class": "bare"}
+{"whole": "sound", "qid": "pattern", "question": "Is it steady, repeating, or one-off?", "stem": "It is ", "answer": "One-off, every few minutes.", "label": true, "class": "bare"}
+{"whole": "sound", "qid": "pattern", "question": "Is it steady, repeating, or one-off?", "stem": "It is ", "answer": "It works well.", "label": false, "class": "evasive"}
+{"whole": "sound", "qid": "pattern", "question": "Is it steady, repeating, or one-off?", "stem": "It is ", "answer": "Hard to say.", "label": false, "class": "evasive"}
+{"whole": "sound", "qid": "pattern", "question": "Is it steady, repeating, or one-off?", "stem": "It is ", "answer": "About as loud as a fridge.", "label": false, "class": "off-question"}
+{"whole": "sound", "qid": "loud", "question": "How loud, compared with something?", "stem": "It is about as loud as ", "answer": "About as loud as a fridge.", "label": true, "class": "bare"}
+{"whole": "sound", "qid": "loud", "question": "How loud, compared with something?", "stem": "It is about as loud as ", "answer": "Louder than the traffic.", "label": true, "class": "bare"}
+{"whole": "sound", "qid": "loud", "question": "How loud, compared with something?", "stem": "It is about as loud as ", "answer": "Quieter than my own typing.", "label": true, "class": "bare"}
+{"whole": "sound", "qid": "loud", "question": "How loud, compared with something?", "stem": "It is about as loud as ", "answer": "Not sure.", "label": false, "class": "evasive"}
+{"whole": "sound", "qid": "loud", "question": "How loud, compared with something?", "stem": "It is about as loud as ", "answer": "I don't know yet.", "label": false, "class": "evasive"}
+{"whole": "sound", "qid": "loud", "question": "How loud, compared with something?", "stem": "It is about as loud as ", "answer": "Steady.", "label": false, "class": "off-question"}
+{"whole": "sound", "qid": "since", "question": "Since when have you been hearing it?", "stem": "I have heard it since ", "answer": "Since I came in this morning.", "label": true, "class": "bare"}
+{"whole": "sound", "qid": "since", "question": "Since when have you been hearing it?", "stem": "I have heard it since ", "answer": "About ten minutes.", "label": true, "class": "bare"}
+{"whole": "sound", "qid": "since", "question": "Since when have you been hearing it?", "stem": "I have heard it since ", "answer": "Since the power came back.", "label": true, "class": "bare"}
+{"whole": "sound", "qid": "since", "question": "Since when have you been hearing it?", "stem": "I have heard it since ", "answer": "It is really nice.", "label": false, "class": "evasive"}
+{"whole": "sound", "qid": "since", "question": "Since when have you been hearing it?", "stem": "I have heard it since ", "answer": "Hard to say.", "label": false, "class": "evasive"}
+{"whole": "sound", "qid": "since", "question": "Since when have you been hearing it?", "stem": "I have heard it since ", "answer": "From the left, across the road.", "label": false, "class": "off-question"}
+{"whole": "sound", "qid": "stops", "question": "When will it stop, or what would stop it?", "stem": "It will stop when ", "answer": "When I switch it off.", "label": true, "class": "bare"}
+{"whole": "sound", "qid": "stops", "question": "When will it stop, or what would stop it?", "stem": "It will stop when ", "answer": "When they finish the wall.", "label": true, "class": "bare"}
+{"whole": "sound", "qid": "stops", "question": "When will it stop, or what would stop it?", "stem": "It will stop when ", "answer": "When the sun goes down.", "label": true, "class": "bare"}
+{"whole": "sound", "qid": "stops", "question": "When will it stop, or what would stop it?", "stem": "It will stop when ", "answer": "Hard to say.", "label": false, "class": "evasive"}
+{"whole": "sound", "qid": "stops", "question": "When will it stop, or what would stop it?", "stem": "It will stop when ", "answer": "The usual.", "label": false, "class": "evasive"}
+{"whole": "sound", "qid": "stops", "question": "When will it stop, or what would stop it?", "stem": "It will stop when ", "answer": "About ten minutes.", "label": false, "class": "off-question"}
+{"whole": "stone", "qid": "colour", "question": "What colour is it?", "stem": "It is ", "answer": "Grey with a white band.", "label": true, "class": "bare"}
+{"whole": "stone", "qid": "colour", "question": "What colour is it?", "stem": "It is ", "answer": "Dark brown.", "label": true, "class": "bare"}
+{"whole": "stone", "qid": "colour", "question": "What colour is it?", "stem": "It is ", "answer": "Reddish, darker at one end.", "label": true, "class": "bare"}
+{"whole": "stone", "qid": "colour", "question": "What colour is it?", "stem": "It is ", "answer": "Whatever is there.", "label": false, "class": "evasive"}
+{"whole": "stone", "qid": "colour", "question": "What colour is it?", "stem": "It is ", "answer": "Hard to say.", "label": false, "class": "evasive"}
+{"whole": "stone", "qid": "colour", "question": "What colour is it?", "stem": "It is ", "answer": "Like an egg, flattened.", "label": false, "class": "off-question"}
+{"whole": "stone", "qid": "size", "question": "How big is it, against a coin or your thumb?", "stem": "It is about the size of ", "answer": "About the size of a two-rupee coin.", "label": true, "class": "bare"}
+{"whole": "stone", "qid": "size", "question": "How big is it, against a coin or your thumb?", "stem": "It is about the size of ", "answer": "A bit bigger than my thumbnail.", "label": true, "class": "bare"}
+{"whole": "stone", "qid": "size", "question": "How big is it, against a coin or your thumb?", "stem": "It is about the size of ", "answer": "Half my palm.", "label": true, "class": "bare"}
+{"whole": "stone", "qid": "size", "question": "How big is it, against a coin or your thumb?", "stem": "It is about the size of ", "answer": "A lot of things.", "label": false, "class": "evasive"}
+{"whole": "stone", "qid": "size", "question": "How big is it, against a coin or your thumb?", "stem": "It is about the size of ", "answer": "Hard to say.", "label": false, "class": "evasive"}
+{"whole": "stone", "qid": "size", "question": "How big is it, against a coin or your thumb?", "stem": "It is about the size of ", "answer": "Sabarmati riverfront, near the steps.", "label": false, "class": "off-question"}
+{"whole": "stone", "qid": "shape", "question": "What shape is it?", "stem": "It is shaped like ", "answer": "Like an egg, flattened.", "label": true, "class": "bare"}
+{"whole": "stone", "qid": "shape", "question": "What shape is it?", "stem": "It is shaped like ", "answer": "A rough triangle.", "label": true, "class": "bare"}
+{"whole": "stone", "qid": "shape", "question": "What shape is it?", "stem": "It is shaped like ", "answer": "Round, like a laddoo.", "label": true, "class": "bare"}
+{"whole": "stone", "qid": "shape", "question": "What shape is it?", "stem": "It is shaped like ", "answer": "Maybe later.", "label": false, "class": "evasive"}
+{"whole": "stone", "qid": "shape", "question": "What shape is it?", "stem": "It is shaped like ", "answer": "The usual.", "label": false, "class": "evasive"}
+{"whole": "stone", "qid": "shape", "question": "What shape is it?", "stem": "It is shaped like ", "answer": "A small chip on one corner.", "label": false, "class": "off-question"}
+{"whole": "stone", "qid": "feel", "question": "How does it feel — rough, smooth, cold, gritty?", "stem": "It feels ", "answer": "Smooth on one side, gritty on the other.", "label": true, "class": "bare"}
+{"whole": "stone", "qid": "feel", "question": "How does it feel — rough, smooth, cold, gritty?", "stem": "It feels ", "answer": "Cold and rough.", "label": true, "class": "bare"}
+{"whole": "stone", "qid": "feel", "question": "How does it feel — rough, smooth, cold, gritty?", "stem": "It feels ", "answer": "Smooth all over.", "label": true, "class": "bare"}
+{"whole": "stone", "qid": "feel", "question": "How does it feel — rough, smooth, cold, gritty?", "stem": "It feels ", "answer": "Hard to say.", "label": false, "class": "evasive"}
+{"whole": "stone", "qid": "feel", "question": "How does it feel — rough, smooth, cold, gritty?", "stem": "It feels ", "answer": "Something, I guess.", "label": false, "class": "evasive"}
+{"whole": "stone", "qid": "feel", "question": "How does it feel — rough, smooth, cold, gritty?", "stem": "It feels ", "answer": "About the size of a two-rupee coin.", "label": false, "class": "off-question"}
+{"whole": "stone", "qid": "marks", "question": "Does it have any mark, crack, line or speck? Where?", "stem": "It has ", "answer": "A white line across the middle.", "label": true, "class": "bare"}
+{"whole": "stone", "qid": "marks", "question": "Does it have any mark, crack, line or speck? Where?", "stem": "It has ", "answer": "A small chip on one corner.", "label": true, "class": "bare"}
+{"whole": "stone", "qid": "marks", "question": "Does it have any mark, crack, line or speck? Where?", "stem": "It has ", "answer": "None.", "label": true, "class": "bare"}
+{"whole": "stone", "qid": "marks", "question": "Does it have any mark, crack, line or speck? Where?", "stem": "It has ", "answer": "The usual.", "label": false, "class": "evasive"}
+{"whole": "stone", "qid": "marks", "question": "Does it have any mark, crack, line or speck? Where?", "stem": "It has ", "answer": "I don't know yet.", "label": false, "class": "evasive"}
+{"whole": "stone", "qid": "marks", "question": "Does it have any mark, crack, line or speck? Where?", "stem": "It has ", "answer": "The path outside the library.", "label": false, "class": "off-question"}
+{"whole": "stone", "qid": "from", "question": "Where did you pick it up?", "stem": "I picked it up from ", "answer": "The path outside the library.", "label": true, "class": "bare"}
+{"whole": "stone", "qid": "from", "question": "Where did you pick it up?", "stem": "I picked it up from ", "answer": "Sabarmati riverfront, near the steps.", "label": true, "class": "bare"}
+{"whole": "stone", "qid": "from", "question": "Where did you pick it up?", "stem": "I picked it up from ", "answer": "The parking lot at college.", "label": true, "class": "bare"}
+{"whole": "stone", "qid": "from", "question": "Where did you pick it up?", "stem": "I picked it up from ", "answer": "The usual.", "label": false, "class": "evasive"}
+{"whole": "stone", "qid": "from", "question": "Where did you pick it up?", "stem": "I picked it up from ", "answer": "Maybe later.", "label": false, "class": "evasive"}
+{"whole": "stone", "qid": "from", "question": "Where did you pick it up?", "stem": "I picked it up from ", "answer": "Smooth all over.", "label": false, "class": "off-question"}
+{"whole": "tea", "qid": "water", "question": "How much water?", "stem": "The water was ", "answer": "One cup.", "label": true, "class": "bare"}
+{"whole": "tea", "qid": "water", "question": "How much water?", "stem": "The water was ", "answer": "Two cups of water.", "label": true, "class": "bare"}
+{"whole": "tea", "qid": "water", "question": "How much water?", "stem": "The water was ", "answer": "Half a litre.", "label": true, "class": "bare"}
+{"whole": "tea", "qid": "water", "question": "How much water?", "stem": "The water was ", "answer": "I don't know yet.", "label": false, "class": "evasive"}
+{"whole": "tea", "qid": "water", "question": "How much water?", "stem": "The water was ", "answer": "It is really nice.", "label": false, "class": "evasive"}
+{"whole": "tea", "qid": "water", "question": "How much water?", "stem": "The water was ", "answer": "When it boiled over the second time.", "label": false, "class": "off-question"}
+{"whole": "tea", "qid": "tea", "question": "How much tea, and which?", "stem": "The tea was ", "answer": "Two spoons of Wagh Bakri.", "label": true, "class": "bare"}
+{"whole": "tea", "qid": "tea", "question": "How much tea, and which?", "stem": "The tea was ", "answer": "One teabag, Red Label.", "label": true, "class": "bare"}
+{"whole": "tea", "qid": "tea", "question": "How much tea, and which?", "stem": "The tea was ", "answer": "One and a half spoons of loose tea.", "label": true, "class": "bare"}
+{"whole": "tea", "qid": "tea", "question": "How much tea, and which?", "stem": "The tea was ", "answer": "I don't know yet.", "label": false, "class": "evasive"}
+{"whole": "tea", "qid": "tea", "question": "How much tea, and which?", "stem": "The tea was ", "answer": "Whatever is there.", "label": false, "class": "evasive"}
+{"whole": "tea", "qid": "tea", "question": "How much tea, and which?", "stem": "The tea was ", "answer": "Seven minutes.", "label": false, "class": "off-question"}
+{"whole": "tea", "qid": "milk", "question": "Milk and sugar — how much of each, or none?", "stem": "Milk and sugar: ", "answer": "Half a cup of milk, one spoon of sugar.", "label": true, "class": "bare"}
+{"whole": "tea", "qid": "milk", "question": "Milk and sugar — how much of each, or none?", "stem": "Milk and sugar: ", "answer": "No milk, two sugars.", "label": true, "class": "bare"}
+{"whole": "tea", "qid": "milk", "question": "Milk and sugar — how much of each, or none?", "stem": "Milk and sugar: ", "answer": "A splash of milk, no sugar.", "label": true, "class": "bare"}
+{"whole": "tea", "qid": "milk", "question": "Milk and sugar — how much of each, or none?", "stem": "Milk and sugar: ", "answer": "The usual.", "label": false, "class": "evasive"}
+{"whole": "tea", "qid": "milk", "question": "Milk and sugar — how much of each, or none?", "stem": "Milk and sugar: ", "answer": "Hard to say.", "label": false, "class": "evasive"}
+{"whole": "tea", "qid": "milk", "question": "Milk and sugar — how much of each, or none?", "stem": "Milk and sugar: ", "answer": "Seven minutes.", "label": false, "class": "off-question"}
+{"whole": "tea", "qid": "steps", "question": "What did you do, in order?", "stem": "First I ", "answer": "Boiled the water, added tea, then milk, then sugar, strained it.", "label": true, "class": "bare"}
+{"whole": "tea", "qid": "steps", "question": "What did you do, in order?", "stem": "First I ", "answer": "Water and tea together, boiled twice, milk at the end.", "label": true, "class": "bare"}
+{"whole": "tea", "qid": "steps", "question": "What did you do, in order?", "stem": "First I ", "answer": "Teabag in the cup, poured the water, left it three minutes, added milk.", "label": true, "class": "bare"}
+{"whole": "tea", "qid": "steps", "question": "What did you do, in order?", "stem": "First I ", "answer": "Maybe later.", "label": false, "class": "evasive"}
+{"whole": "tea", "qid": "steps", "question": "What did you do, in order?", "stem": "First I ", "answer": "Not sure.", "label": false, "class": "evasive"}
+{"whole": "tea", "qid": "steps", "question": "What did you do, in order?", "stem": "First I ", "answer": "One and a half spoons of loose tea.", "label": false, "class": "off-question"}
+{"whole": "tea", "qid": "time", "question": "How long did it take, start to cup?", "stem": "It took ", "answer": "Seven minutes.", "label": true, "class": "bare"}
+{"whole": "tea", "qid": "time", "question": "How long did it take, start to cup?", "stem": "It took ", "answer": "About five minutes.", "label": true, "class": "bare"}
+{"whole": "tea", "qid": "time", "question": "How long did it take, start to cup?", "stem": "It took ", "answer": "Ten minutes, the milk took time.", "label": true, "class": "bare"}
+{"whole": "tea", "qid": "time", "question": "How long did it take, start to cup?", "stem": "It took ", "answer": "It works well.", "label": false, "class": "evasive"}
+{"whole": "tea", "qid": "time", "question": "How long did it take, start to cup?", "stem": "It took ", "answer": "It is really nice.", "label": false, "class": "evasive"}
+{"whole": "tea", "qid": "time", "question": "How long did it take, start to cup?", "stem": "It took ", "answer": "Two cups of water.", "label": false, "class": "off-question"}
+{"whole": "tea", "qid": "done", "question": "How did you know it was done?", "stem": "It was done when ", "answer": "When it turned dark brown and rose up once.", "label": true, "class": "bare"}
+{"whole": "tea", "qid": "done", "question": "How did you know it was done?", "stem": "It was done when ", "answer": "When the colour was right, like the tea stall's.", "label": true, "class": "bare"}
+{"whole": "tea", "qid": "done", "question": "How did you know it was done?", "stem": "It was done when ", "answer": "When it boiled over the second time.", "label": true, "class": "bare"}
+{"whole": "tea", "qid": "done", "question": "How did you know it was done?", "stem": "It was done when ", "answer": "Not sure.", "label": false, "class": "evasive"}
+{"whole": "tea", "qid": "done", "question": "How did you know it was done?", "stem": "It was done when ", "answer": "A lot of things.", "label": false, "class": "evasive"}
+{"whole": "tea", "qid": "done", "question": "How did you know it was done?", "stem": "It was done when ", "answer": "Two cups of water.", "label": false, "class": "off-question"}
+{"whole": "wait", "qid": "where", "question": "Where were you waiting?", "stem": "I was waiting at ", "answer": "At the lift on the third floor.", "label": true, "class": "bare"}
+{"whole": "wait", "qid": "where", "question": "Where were you waiting?", "stem": "I was waiting at ", "answer": "The bus stop outside the campus.", "label": true, "class": "bare"}
+{"whole": "wait", "qid": "where", "question": "Where were you waiting?", "stem": "I was waiting at ", "answer": "In the car at the railway crossing.", "label": true, "class": "bare"}
+{"whole": "wait", "qid": "where", "question": "Where were you waiting?", "stem": "I was waiting at ", "answer": "It is really nice.", "label": false, "class": "evasive"}
+{"whole": "wait", "qid": "where", "question": "Where were you waiting?", "stem": "I was waiting at ", "answer": "A lot of things.", "label": false, "class": "evasive"}
+{"whole": "wait", "qid": "where", "question": "Where were you waiting?", "stem": "I was waiting at ", "answer": "The lift.", "label": false, "class": "off-question"}
+{"whole": "wait", "qid": "for", "question": "What were you waiting for?", "stem": "I was waiting for ", "answer": "The lift.", "label": true, "class": "bare"}
+{"whole": "wait", "qid": "for", "question": "What were you waiting for?", "stem": "I was waiting for ", "answer": "The 41 bus.", "label": true, "class": "bare"}
+{"whole": "wait", "qid": "for", "question": "What were you waiting for?", "stem": "I was waiting for ", "answer": "The train to pass.", "label": true, "class": "bare"}
+{"whole": "wait", "qid": "for", "question": "What were you waiting for?", "stem": "I was waiting for ", "answer": "Whatever is there.", "label": false, "class": "evasive"}
+{"whole": "wait", "qid": "for", "question": "What were you waiting for?", "stem": "I was waiting for ", "answer": "The usual.", "label": false, "class": "evasive"}
+{"whole": "wait", "qid": "for", "question": "What were you waiting for?", "stem": "I was waiting for ", "answer": "The train passed and the gate opened.", "label": false, "class": "off-question"}
+{"whole": "wait", "qid": "long", "question": "How long did you wait?", "stem": "I waited ", "answer": "Four minutes.", "label": true, "class": "bare"}
+{"whole": "wait", "qid": "long", "question": "How long did you wait?", "stem": "I waited ", "answer": "About twenty minutes.", "label": true, "class": "bare"}
+{"whole": "wait", "qid": "long", "question": "How long did you wait?", "stem": "I waited ", "answer": "Nearly an hour.", "label": true, "class": "bare"}
+{"whole": "wait", "qid": "long", "question": "How long did you wait?", "stem": "I waited ", "answer": "I don't know yet.", "label": false, "class": "evasive"}
+{"whole": "wait", "qid": "long", "question": "How long did you wait?", "stem": "I waited ", "answer": "Not sure.", "label": false, "class": "evasive"}
+{"whole": "wait", "qid": "long", "question": "How long did you wait?", "stem": "I waited ", "answer": "A hoarding for a jewellery shop.", "label": false, "class": "off-question"}
+{"whole": "wait", "qid": "looked", "question": "What did you look at?", "stem": "I looked at ", "answer": "The floor numbers going up and down.", "label": true, "class": "bare"}
+{"whole": "wait", "qid": "looked", "question": "What did you look at?", "stem": "I looked at ", "answer": "A hoarding for a jewellery shop.", "label": true, "class": "bare"}
+{"whole": "wait", "qid": "looked", "question": "What did you look at?", "stem": "I looked at ", "answer": "The gate man's chair.", "label": true, "class": "bare"}
+{"whole": "wait", "qid": "looked", "question": "What did you look at?", "stem": "I looked at ", "answer": "A lot of things.", "label": false, "class": "evasive"}
+{"whole": "wait", "qid": "looked", "question": "What did you look at?", "stem": "I looked at ", "answer": "It is really nice.", "label": false, "class": "evasive"}
+{"whole": "wait", "qid": "looked", "question": "What did you look at?", "stem": "I looked at ", "answer": "The train passed and the gate opened.", "label": false, "class": "off-question"}
+{"whole": "wait", "qid": "did", "question": "What did you do with your hands?", "stem": "With my hands I ", "answer": "Held my bag strap.", "label": true, "class": "bare"}
+{"whole": "wait", "qid": "did", "question": "What did you do with your hands?", "stem": "With my hands I ", "answer": "Nothing, they were in my pockets.", "label": true, "class": "bare"}
+{"whole": "wait", "qid": "did", "question": "What did you do with your hands?", "stem": "With my hands I ", "answer": "Scrolled on the phone.", "label": true, "class": "bare"}
+{"whole": "wait", "qid": "did", "question": "What did you do with your hands?", "stem": "With my hands I ", "answer": "Hard to say.", "label": false, "class": "evasive"}
+{"whole": "wait", "qid": "did", "question": "What did you do with your hands?", "stem": "With my hands I ", "answer": "Not sure.", "label": false, "class": "evasive"}
+{"whole": "wait", "qid": "did", "question": "What did you do with your hands?", "stem": "With my hands I ", "answer": "About twenty minutes.", "label": false, "class": "off-question"}
+{"whole": "wait", "qid": "ended", "question": "How did the wait end?", "stem": "It ended when ", "answer": "The lift came.", "label": true, "class": "bare"}
+{"whole": "wait", "qid": "ended", "question": "How did the wait end?", "stem": "It ended when ", "answer": "The bus arrived and I got on.", "label": true, "class": "bare"}
+{"whole": "wait", "qid": "ended", "question": "How did the wait end?", "stem": "It ended when ", "answer": "The train passed and the gate opened.", "label": true, "class": "bare"}
+{"whole": "wait", "qid": "ended", "question": "How did the wait end?", "stem": "It ended when ", "answer": "Something, I guess.", "label": false, "class": "evasive"}
+{"whole": "wait", "qid": "ended", "question": "How did the wait end?", "stem": "It ended when ", "answer": "A lot of things.", "label": false, "class": "evasive"}
+{"whole": "wait", "qid": "ended", "question": "How did the wait end?", "stem": "It ended when ", "answer": "The 41 bus.", "label": false, "class": "off-question"}
+{"whole": "walk", "qid": "ends", "question": "From where to where?", "stem": "From ", "answer": "From my flat to the Reliance Fresh on the corner.", "label": true, "class": "bare"}
+{"whole": "walk", "qid": "ends", "question": "From where to where?", "stem": "From ", "answer": "From the hostel gate to the bus stop.", "label": true, "class": "bare"}
+{"whole": "walk", "qid": "ends", "question": "From where to where?", "stem": "From ", "answer": "From the office to the chai stall.", "label": true, "class": "bare"}
+{"whole": "walk", "qid": "ends", "question": "From where to where?", "stem": "From ", "answer": "A lot of things.", "label": false, "class": "evasive"}
+{"whole": "walk", "qid": "ends", "question": "From where to where?", "stem": "From ", "answer": "Something, I guess.", "label": false, "class": "evasive"}
+{"whole": "walk", "qid": "ends", "question": "From where to where?", "stem": "From ", "answer": "A paan shop, then the park.", "label": false, "class": "off-question"}
+{"whole": "walk", "qid": "time", "question": "How many minutes?", "stem": "It takes ", "answer": "Six minutes.", "label": true, "class": "bare"}
+{"whole": "walk", "qid": "time", "question": "How many minutes?", "stem": "It takes ", "answer": "About ten minutes.", "label": true, "class": "bare"}
+{"whole": "walk", "qid": "time", "question": "How many minutes?", "stem": "It takes ", "answer": "Three minutes.", "label": true, "class": "bare"}
+{"whole": "walk", "qid": "time", "question": "How many minutes?", "stem": "It takes ", "answer": "Something, I guess.", "label": false, "class": "evasive"}
+{"whole": "walk", "qid": "time", "question": "How many minutes?", "stem": "It takes ", "answer": "Whatever is there.", "label": false, "class": "evasive"}
+{"whole": "walk", "qid": "time", "question": "How many minutes?", "stem": "It takes ", "answer": "The watchman and the milk boy.", "label": false, "class": "off-question"}
+{"whole": "walk", "qid": "pass", "question": "What do you pass, in order?", "stem": "I pass ", "answer": "The temple, the tyre shop, then the school gate.", "label": true, "class": "bare"}
+{"whole": "walk", "qid": "pass", "question": "What do you pass, in order?", "stem": "I pass ", "answer": "A paan shop, then the park.", "label": true, "class": "bare"}
+{"whole": "walk", "qid": "pass", "question": "What do you pass, in order?", "stem": "I pass ", "answer": "The society gate, the garbage bin, the milk booth.", "label": true, "class": "bare"}
+{"whole": "walk", "qid": "pass", "question": "What do you pass, in order?", "stem": "I pass ", "answer": "Something, I guess.", "label": false, "class": "evasive"}
+{"whole": "walk", "qid": "pass", "question": "What do you pass, in order?", "stem": "I pass ", "answer": "The usual.", "label": false, "class": "evasive"}
+{"whole": "walk", "qid": "pass", "question": "What do you pass, in order?", "stem": "I pass ", "answer": "Nobody, usually.", "label": false, "class": "off-question"}
+{"whole": "walk", "qid": "underfoot", "question": "What is underfoot?", "stem": "Underfoot is ", "answer": "Paver blocks, broken in places.", "label": true, "class": "bare"}
+{"whole": "walk", "qid": "underfoot", "question": "What is underfoot?", "stem": "Underfoot is ", "answer": "Tar road.", "label": true, "class": "bare"}
+{"whole": "walk", "qid": "underfoot", "question": "What is underfoot?", "stem": "Underfoot is ", "answer": "Mud and gravel.", "label": true, "class": "bare"}
+{"whole": "walk", "qid": "underfoot", "question": "What is underfoot?", "stem": "Underfoot is ", "answer": "It works well.", "label": false, "class": "evasive"}
+{"whole": "walk", "qid": "underfoot", "question": "What is underfoot?", "stem": "Underfoot is ", "answer": "Hard to say.", "label": false, "class": "evasive"}
+{"whole": "walk", "qid": "underfoot", "question": "What is underfoot?", "stem": "Underfoot is ", "answer": "Wait till it clears.", "label": false, "class": "off-question"}
+{"whole": "walk", "qid": "see", "question": "Who do you usually see?", "stem": "I usually see ", "answer": "The watchman and the milk boy.", "label": true, "class": "bare"}
+{"whole": "walk", "qid": "see", "question": "Who do you usually see?", "stem": "I usually see ", "answer": "Nobody, usually.", "label": true, "class": "bare"}
+{"whole": "walk", "qid": "see", "question": "Who do you usually see?", "stem": "I usually see ", "answer": "The same two dogs.", "label": true, "class": "bare"}
+{"whole": "walk", "qid": "see", "question": "Who do you usually see?", "stem": "I usually see ", "answer": "Something, I guess.", "label": false, "class": "evasive"}
+{"whole": "walk", "qid": "see", "question": "Who do you usually see?", "stem": "I usually see ", "answer": "The usual.", "label": false, "class": "evasive"}
+{"whole": "walk", "qid": "see", "question": "Who do you usually see?", "stem": "I usually see ", "answer": "Six minutes.", "label": false, "class": "off-question"}
+{"whole": "walk", "qid": "instead", "question": "What would you do if the way were blocked?", "stem": "If it were blocked I would ", "answer": "Go round by the main road.", "label": true, "class": "bare"}
+{"whole": "walk", "qid": "instead", "question": "What would you do if the way were blocked?", "stem": "If it were blocked I would ", "answer": "Take the auto.", "label": true, "class": "bare"}
+{"whole": "walk", "qid": "instead", "question": "What would you do if the way were blocked?", "stem": "If it were blocked I would ", "answer": "Wait till it clears.", "label": true, "class": "bare"}
+{"whole": "walk", "qid": "instead", "question": "What would you do if the way were blocked?", "stem": "If it were blocked I would ", "answer": "It is really nice.", "label": false, "class": "evasive"}
+{"whole": "walk", "qid": "instead", "question": "What would you do if the way were blocked?", "stem": "If it were blocked I would ", "answer": "I don't know yet.", "label": false, "class": "evasive"}
+{"whole": "walk", "qid": "instead", "question": "What would you do if the way were blocked?", "stem": "If it were blocked I would ", "answer": "The temple, the tyre shop, then the school gate.", "label": false, "class": "off-question"}

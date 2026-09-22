@@ -1,0 +1,8 @@
+test set v1 (repaired 22 Sep 2026: off-question rows cross kinds), 360 rows, threshold at zero false presents
+0.2.0  deepset/minilm-uncased-squad2 + stem   threshold 10.60   false presents 0/180   honest counted  16/180
+0.3.0  runs/rai-0.3 (3,230 synthetic rows, ~7 min CPU)   threshold  7.13   false presents 0/180   honest counted  98/180
+by class, 0.3.0: bare found 162/180 (margins median 7.7); evasive found 0/120; off-question found 16/60, max margin 7.1
+0.3.1  WITHDRAWN, trained on data sharing 153 of 180 honest test answers; figures below are not held out. runs/rai-0.3.1-overlapping (12,000 synthetic rows, per-question fillers, 2 epochs, NVIDIA DGX Spark CPU, 18 threads, 457 s)   threshold 12.94   false presents 0/180   honest counted 154/180
+by class, 0.3.1 at threshold 12.94: bare 154/180 right; evasive 120/120 right; off-question 60/60 right; false absents 26/180
+0.3.2  runs/rai-0.3-full (12,000 synthetic rows, test set held out, 2 epochs, batch 32, NVIDIA DGX Spark CPU, 18 threads, 460 s)   threshold 14.56   false presents 0/180   honest counted 116/180
+by class, 0.3.2 at threshold 14.56: bare 116/180 right; evasive 120/120 right; off-question 60/60 right; false absents 64/180
