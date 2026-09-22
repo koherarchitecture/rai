@@ -80,6 +80,7 @@ Tested with Python 3.12, torch 2.9 and 2.14, transformers 5.17, on macOS (Apple 
 - **A form** describes one thing or one event. The shapes are old ones: the catalogue fields of an object (colour, size, marks, where it came from), the circumstances of an event (what, where, when, how long, who), a recipe (what, how much, in what order, how long), an inventory (what, how many, where).
 - **A particular** is something another person could check: a name, a number, a place, a time or a length of time, a colour, a comparison with a named thing, a mark and where it is.
 - **An answer** is a phrase or a short sentence, typed as a person would say it: *Dark grey with a rusty patch.* *About ten minutes.* *The shared drive, in the Q3 folder.*
+- **A form has as many questions as its subject needs**; each is an equal share. The *seven* in rai are the seven notions of completeness, the ways a description is judged, not a number of questions.
 - **rai's question** about each answer is only: does it answer this question, and where? Never whether the answer is right, good or enough.
 
 An example of a form in scope, one of the ten the reader was trained on:
