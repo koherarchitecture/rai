@@ -1,6 +1,6 @@
 # rai whole — what is in your pocket or bag
 # Right now, without looking first. Skeleton: the inventory — count, oldest, heaviest, the one you would miss.
-# Trivial by design: a thing that hardly matters, described completely, decides nothing. A first draft, open to replacement. Weights are never written here: each question's weight is its share of 1 by position.
+# One of the ten forms the reader was trained on: an everyday object or moment. Weights are never written here: each question's weight is its share of 1 by position.
 
 notion: what is in your pocket or bag
 kind_rule: simple
