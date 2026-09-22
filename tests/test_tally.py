@@ -43,6 +43,20 @@ def test_the_seven_are_set_01():
     assert {n["id"] for n in load_notions(NOTIONS)} == SEVEN
 
 
+def test_markdown_whole_loads_like_yaml():
+    from rai.whole import parse_md
+    y = load_whole(STONE)
+    md = "# " + y["notion"] + "\n\nA note line.\n\n" + "".join(f"{i}. {q['text']}\n   - stem: {q['stem'].strip()}\n" for i, q in enumerate(y["questions"], 1))
+    m = parse_md(md)
+    assert m["notion"] == y["notion"]
+    assert [(q["text"], q["stem"]) for q in m["questions"]] == [(q["text"], q["stem"]) for q in y["questions"]]
+
+
+def test_shipped_markdown_example_loads():
+    w = load_whole(os.path.join(HERE, "wholes", "key.md"))
+    assert w["notion"] == "a key" and len(w["questions"]) == 6 and w["questions"][0]["weight"] == Fraction(1, 6)
+
+
 if __name__ == "__main__":
     for name, fn in list(globals().items()):
         if name.startswith("test_"):

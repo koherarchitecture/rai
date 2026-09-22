@@ -52,7 +52,7 @@ An answer with a number in it is never called general.
 
 - **Notion 1, declared parts**, passes when every question has been answered: every question found by the reader, above the threshold, and of a kind that counts. Inside a whole, each question is an equal share of 1, kept as an exact fraction so that a whole with nested questions still comes to exactly nothing left over when every question is answered.
 - **Notion 2, answer kind**, passes when every answer is a particular. The notion also admits an owned position for a *why*; the simple rule in this release does not yet recognise one.
-- **Notions 3 to 7** are, in this release, asked of the two people as yes-or-no questions.
+- **Notions 3 to 7** are, in this release, marked by a person as yes or no, until the versions that put them in code arrive.
 
 **Complete means all seven pass.** The seven are parts, not a sum: nothing is added up, and there is no value between *not complete* and *complete*. The function `word()` returns *complete* only when the set of notions passed is exactly the seven, and nothing else leaves the tally.
 

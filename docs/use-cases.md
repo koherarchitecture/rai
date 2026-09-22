@@ -2,45 +2,33 @@
 
 rai answers one narrow question: given a set of questions written in advance and a set of typed answers, is every part there? The uses below are the ones that fit inside that. Each works with this release.
 
-## 1. Checking your own description before you share it
+## 1. Checking a description against its form
 
-Write a whole for the kind of thing you describe often: what a description of it has to contain, as questions that can each be answered with a particular. Then answer your own questions and let rai tally.
+Write the form once: the questions a complete description of one kind of thing or event has to answer. Then answer them and let rai tally. The form stays within [rai's scope](../README.md#scope-the-kind-of-set-rai-is-for): every question answered by a short particular.
 
-*Example.* Someone who writes the same kind of handover note every week writes `wholes/handover.yaml` with six questions: what was finished, what is half-done and where it stands, what is blocked and on whom, where the files are, what happens next and by when, who to ask. Before sending the note, they type their answers and run it. *Not complete* sends them back to their own note, with no hint about which part.
+*Example.* Someone returning a camera kit to a studio store writes `wholes/equipment-return.md`: what is being returned, what condition it is in and where any damage is, whether anything is missing, when it was taken out and when it is being returned, where it is now. Before handing the kit back, they type their answers and run it. *Not complete* sends them back to their own answers, with no hint about which part.
 
-This is for your own use, on your own machine. rai's output is meant for the person who wrote the answers, and for nobody else.
+This is for your own use, on your own machine. rai's output is meant for the person who wrote the answers, and for nobody else. On a set it was not trained on, rai misses more real answers than on the ten shipped sets, so *not complete* there is more often rai's miss than a missing part.
 
-## 2. A pastime for two, built on top of it
-
-rai was made for small, harmless descriptions: a stone, the last cup of tea, a queue. Two people at one keyboard, one asking and typing, the other answering; one word at the end; *not complete* means they talk and answer again. The ten wholes in `wholes/` are written for this use.
-
-rai itself is only the model and the tally. A pastime like this is a separate program that calls it:
-
-```python
-found = read_answers(whole, answers, reader)
-```
-
-and keeps its own interface. Koher is building one such pastime separately.
-
-## 3. The reader on its own: does this text answer this question, and where?
+## 2. The reader on its own: does this text answer this question, and where?
 
 The reader can be used without the tally. Given a question and a short piece of text, it returns the exact phrase that answers the question, or nothing, and a margin. It cannot invent a phrase: the answer must appear word for word in the text.
 
 *Example.* A person keeps short daily notes and wants to know, for their own notes, which ones say *where* something happened. They ask the reader "Where did it happen?" of each note and keep the ones where it points at a phrase above the threshold.
 
-The threshold of 14.56 was set on short, plain answers about ordinary things. On longer or different text it is a starting point and needs checking.
+The threshold of 14.56 was set on short, plain answers to the ten shipped sets. On other questions or longer text the reader misses more, and the threshold is a starting point that needs checking. This use is outside the measured scope.
 
-## 4. Writing your own wholes
+## 3. Writing your own wholes
 
-A whole is a YAML file, so a whole for anything you describe can be written in a few minutes. The rules that keep a whole checkable are in [`wholes.md`](wholes.md): one thing per question, every question answerable with a particular, no leading questions, plain words. Comparisons make vague things checkable (*how big, against a coin?*).
+A set is a short Markdown file (or YAML, like the ten shipped), so a set for one ordinary thing can be written in a few minutes; the format is in the README's [How to use](../README.md#how-to-use). The rules that keep a whole checkable are in [`wholes.md`](wholes.md): one thing per question, every question answerable with a particular, no leading questions, plain words. Comparisons make vague things checkable (*how big, against a coin?*).
 
-Nothing in rai limits wholes to ten. `rai/whole.py` loads any file in the format.
+Nothing in rai limits sets to ten. `rai/whole.py` loads any `.md` or `.yaml` file in the format. What limits them is the reader's training: it knows the ten sets well, sets like them partly, and other kinds of description poorly.
 
-## 5. A small benchmark for extractive readers
+## 4. A small benchmark for extractive readers
 
 `tests/testset-v1.jsonl` (360 rows) and `data/train-synth.jsonl` (12,000 rows) are a public, labelled set of short typed answers. The test set has honest, evasive and off-question answers; the training data also has deferred, general, restating and empty ones. Any extractive question-answering model can be scored on them with `scripts/eval_reader.py`, which reports false presents, false absents and honest answers counted at the threshold that lets no non-answer through. The test set shares no phrase with the training data.
 
-## 6. A worked example of keeping a model out of a decision
+## 5. A worked example of keeping a model out of a decision
 
 rai's code, with its scripts, is about 530 lines. It shows one way of using a language model where the model is asked only a small, checkable question (where is the answer in this sentence?), and everything that decides is written in plain code and a YAML file anyone can read and change. It can be read, forked and adapted as a reference for that arrangement, which [Split-Domain Cognition](https://splitdomaincognition.org) describes in general.
 

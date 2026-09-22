@@ -1,6 +1,6 @@
 # The wholes, and how to write one
 
-A whole is the set of questions that make up a complete description of one thing. rai ships ten, each about something that hardly matters, so that describing it completely decides nothing.
+A whole, or form, is the set of questions that make up a complete description of one thing or event. rai ships ten. They are the reader's training domain: descriptions of everyday objects and moments, each built on an older descriptive form.
 
 | file | the thing |
 |---|---|
@@ -17,7 +17,26 @@ A whole is the set of questions that make up a complete description of one thing
 
 Each descends from an older way of making a description complete: the circumstances of an event (who, what, where, when, how long), a recipe, an inventory, or a museum's catalogue fields for an object (colour, size, marks, where it was found).
 
-## The format
+## Writing a set in Markdown
+
+The simplest way to add a set: a `.md` file in `wholes/`.
+
+```markdown
+# a key
+
+A note line, ignored by rai.
+
+1. What is it made of, and what colour is it?
+   - stem: It is made of
+2. How long is it, against your finger?
+   - stem: It is about as long as
+```
+
+`# ` names the thing. Numbered lines (`1.` or `1)`) are the questions. An indented `- stem:` under a question is optional. Every other line is ignored. `wholes/key.md` is a full example. rai's reader was trained on the ten shipped sets only, so a new set works best when it is close to them: one thing or event, every question answered by a short particular.
+
+## The YAML format
+
+The ten shipped sets are YAML, and carry two fields the Markdown format leaves out for the person writing the set.
 
 ```yaml
 notion: a coin
@@ -46,7 +65,7 @@ Weights are never written. A question's weight is its share of 1 by position.
 
 1. **One thing per question.** *Where and when* is two questions, unless an answer to either half alone would count.
 2. **It can be answered with a particular**: a name, a number, a place, a colour, a named thing, a length of time. A question that can only be answered with a quality, such as *is it good?*, is not allowed. The reader cannot check a quality and rai never judges one.
-3. **Specific, not general.** *How big is it, against a coin?* rather than *How big is it?* A comparison gives a trivial thing a checkable answer.
+3. **Specific, not general.** *How big is it, against a coin?* rather than *How big is it?* A comparison gives a vague property a checkable answer.
 4. **Say what the question is about**, in the question: *Who uses it?*, not *Who?*
 5. **Never leading.** A question must not carry an assumption the person cannot reject. The stem is content-free for the same reason: *It is made of* is a stem; *It is made of plastic or* is a suggestion.
 6. **Plain words.** No technical terms, which people read differently from the writer.

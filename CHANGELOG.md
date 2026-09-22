@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.3.3 — 22 September 2026
+
+- **Forms in Markdown.** A `.md` file in `wholes/` is now a form rai can run: `# name`, a numbered list of questions, an optional `- stem:` under each. `wholes/key.md` is an example. The ten shipped forms stay YAML, and the training and test scripts read only YAML, so an added form never reaches training.
+- **The scope is stated.** The README opens with what kind of form rai is for, what is out of scope, and how far the trained reader reaches on forms it has not seen.
+- **A detailed How to use**, with install steps for macOS, Linux and Windows, a checksum for the reader, and troubleshooting.
+- The trained reader is unchanged; it is still `rai-reader-0.3.2.tar.gz` from release v0.3.2.
+
 ## 0.3.2 — 22 September 2026
 
 The first public release.

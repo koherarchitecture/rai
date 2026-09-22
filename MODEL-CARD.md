@@ -23,6 +23,8 @@ tags:
 
 **Measured** on test set v1 (`tests/testset-v1.jsonl`, 360 rows: 180 honest answers, 120 evasive, 60 off-question). No phrase in the test set appears in the training data; `scripts/synth.py` refuses to write training data that repeats one. At the threshold that lets no non-answer through, **14.56**, it counts **116 of 180** honest answers. The untrained deepset model, given the same stems, counts 16. By class: bare 116 of 180 counted; all 120 evasive and all 60 off-question answers refused.
 
+**Scope.** The reader is for forms: a short list of questions written in advance, each asking for a concrete particular (a name, a number, a place, a time, a colour, a comparison with a named thing), answered in short typed phrases. It is not a general completeness checker and does not judge whether an answer is right or enough. It was trained and tested on the 60 questions of ten forms about everyday objects and moments. On forms it has not seen it refuses evasive answers as before but misses more real ones: in single tries on 22 September 2026, 4 of 6 on an unseen object form and 1 of 3 on a handover-note form (three questions, not shipped). See the README's *Scope* section.
+
 **Limits.**
 - The threshold is chosen on the same test set it is reported on.
 - The test set and the training data are built from the same kind of template: short, plain, particular answers about the same ten ordinary things. They share no phrase, but they share a style. Performance on answers people type in their own words is not measured.
