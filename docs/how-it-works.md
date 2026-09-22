@@ -1,6 +1,6 @@
 # How rai works
 
-rai turns a set of typed answers into one word. Four parts do the work, and only the first uses a model.
+rai turns a set of typed answers into one of two answers, *complete* or *not complete*. Four parts do the work, and only the first uses a model.
 
 ## 1. The whole
 
@@ -64,4 +64,4 @@ This is the split [Split-Domain Cognition](https://splitdomaincognition.org) des
 
 ## What is never shown
 
-The margin, the fraction, the notions passed and the phrase the reader found are all internal. The person sees one word. rai gives no reason for *not complete*, because a reason would point to the fix.
+The margin, the fraction, the notions passed and the phrase the reader found are all internal. The person sees only *complete* or *not complete*. rai gives no reason for *not complete*, because a reason would point to the fix.

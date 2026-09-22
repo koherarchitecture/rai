@@ -1,4 +1,4 @@
-"""0.2.0: asks a whole's questions, reads each typed answer, decides notions 1 and 2 in code. One word out, never why."""
+"""0.2.0: asks a whole's questions, reads each typed answer, decides notions 1 and 2 in code. Complete or not complete, never why."""
 from .whole import load_whole
 from .kind import counts
 from .reader import Reader

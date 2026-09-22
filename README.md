@@ -18,14 +18,14 @@
   <img src="https://img.shields.io/badge/runs_on-CPU-E8B86D" alt="runs on CPU">
   <img src="https://img.shields.io/badge/training_data-100%25_synthetic-E8B86D" alt="training data 100% synthetic">
   <img src="https://img.shields.io/badge/complete-all_seven_notions-E8B86D" alt="complete means all seven notions">
-  <img src="https://img.shields.io/badge/output-one_word-E8B86D" alt="output is one word">
+  <img src="https://img.shields.io/badge/output-complete_%2F_not_complete-E8B86D" alt="output is complete or not complete">
   <img src="https://img.shields.io/badge/logging-none-2E7D5B" alt="no logging">
   <a href="https://splitdomaincognition.org"><img src="https://img.shields.io/badge/follows-Split--Domain_Cognition-2E7D5B" alt="follows Split-Domain Cognition"></a>
 </p>
 
 ---
 
-rai checks whether a description answers every question of a form written in advance. It reads each typed answer with a small model and decides in plain code. It says one word: **complete** or **not complete**. It does not say what is missing, suggest wording or show a number.
+rai checks whether a description answers every question of a form written in advance. It reads each typed answer with a small model and decides in plain code. It answers **complete** or **not complete**. It does not say what is missing, suggest wording or show a number.
 
 The model in rai only points. Given a question and an answer, it returns the phrase in the answer that answers the question, or nothing. It cannot write a word of its own. Every decision after that is made by code short enough to read in a few minutes.
 
@@ -207,7 +207,7 @@ The second should end with `ok 0.3.0: does more than 0.2.0 by 100 honest answers
 .venv/bin/python -m rai ask wholes/stone.yaml        # or wholes/artwork.yaml, wholes/key.md
 ```
 
-rai prints each question in turn; type an answer and press Enter. After the last answer it prints one word. For example:
+rai prints each question in turn; type an answer and press Enter. After the last answer it prints its verdict, either *complete* or *not complete*. For example:
 
 ```
 — a stone —
@@ -289,7 +289,7 @@ The same code works for a Markdown set: `load_whole("wholes/key.md")`.
 
 A description can sound finished and still leave out a part. People are bad at noticing the part that is not there, because a person fills a familiar gap without noticing it. A form, written down before anyone answers, turns that absence into something that can be checked: each question is either answered or not.
 
-rai does that check with the model kept out of the verdict. The model is asked only where in an answer the reply to a question sits. What counts as an answer, and what complete means, is decided in code and in a YAML file anyone can read and change. The person who wrote the answers gets one word back and decides what to do with it.
+rai does that check with the model kept out of the verdict. The model is asked only where in an answer the reply to a question sits. What counts as an answer, and what complete means, is decided in code and in a YAML file anyone can read and change. The person who wrote the answers gets *complete* or *not complete* back, and decides what to do with it.
 
 ## Use cases
 

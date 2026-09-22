@@ -1,4 +1,4 @@
-"""The tally. One word out, never why. Complete means all seven notions pass: seven parts, not a sum."""
+"""The tally. Complete or not complete, never why. Complete means all seven notions pass: seven parts, not a sum."""
 from fractions import Fraction
 from .whole import SEVEN
 
