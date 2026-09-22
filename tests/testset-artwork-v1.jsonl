@@ -1,0 +1,48 @@
+{"whole": "artwork", "qid": "medium", "question": "What is it made of?", "stem": "It is made of ", "answer": "Oil paint on a jute sack.", "label": true, "class": "bare"}
+{"whole": "artwork", "qid": "medium", "question": "What is it made of?", "stem": "It is made of ", "answer": "Pencil and wash on card.", "label": true, "class": "bare"}
+{"whole": "artwork", "qid": "medium", "question": "What is it made of?", "stem": "It is made of ", "answer": "Welded scrap iron.", "label": true, "class": "bare"}
+{"whole": "artwork", "qid": "medium", "question": "What is it made of?", "stem": "It is made of ", "answer": "A lot of things.", "label": false, "class": "evasive"}
+{"whole": "artwork", "qid": "medium", "question": "What is it made of?", "stem": "It is made of ", "answer": "Hard to say.", "label": false, "class": "evasive"}
+{"whole": "artwork", "qid": "medium", "question": "What is it made of?", "stem": "It is made of ", "answer": "Taller than me.", "label": false, "class": "off-question"}
+{"whole": "artwork", "qid": "size", "question": "How big is it?", "stem": "It is ", "answer": "Roughly a metre by a metre and a half.", "label": true, "class": "bare"}
+{"whole": "artwork", "qid": "size", "question": "How big is it?", "stem": "It is ", "answer": "About as big as a dinner plate.", "label": true, "class": "bare"}
+{"whole": "artwork", "qid": "size", "question": "How big is it?", "stem": "It is ", "answer": "Taller than me.", "label": true, "class": "bare"}
+{"whole": "artwork", "qid": "size", "question": "How big is it?", "stem": "It is ", "answer": "A lot of things.", "label": false, "class": "evasive"}
+{"whole": "artwork", "qid": "size", "question": "How big is it?", "stem": "It is ", "answer": "I don't know yet.", "label": false, "class": "evasive"}
+{"whole": "artwork", "qid": "size", "question": "How big is it?", "stem": "It is ", "answer": "The Well.", "label": false, "class": "off-question"}
+{"whole": "artwork", "qid": "maker", "question": "Who made it?", "stem": "It was made by ", "answer": "A carpenter from our village.", "label": true, "class": "bare"}
+{"whole": "artwork", "qid": "maker", "question": "Who made it?", "stem": "It was made by ", "answer": "Nobody knows.", "label": true, "class": "bare"}
+{"whole": "artwork", "qid": "maker", "question": "Who made it?", "stem": "It was made by ", "answer": "My art teacher, in her last year of teaching.", "label": true, "class": "bare"}
+{"whole": "artwork", "qid": "maker", "question": "Who made it?", "stem": "It was made by ", "answer": "It works well.", "label": false, "class": "evasive"}
+{"whole": "artwork", "qid": "maker", "question": "Who made it?", "stem": "It was made by ", "answer": "Not sure.", "label": false, "class": "evasive"}
+{"whole": "artwork", "qid": "maker", "question": "Who made it?", "stem": "It was made by ", "answer": "Hanging in the dining room.", "label": false, "class": "off-question"}
+{"whole": "artwork", "qid": "date", "question": "When was it made?", "stem": "It was made in ", "answer": "1987.", "label": true, "class": "bare"}
+{"whole": "artwork", "qid": "date", "question": "When was it made?", "stem": "It was made in ", "answer": "Just after the war.", "label": true, "class": "bare"}
+{"whole": "artwork", "qid": "date", "question": "When was it made?", "stem": "It was made in ", "answer": "Some time in the 2000s.", "label": true, "class": "bare"}
+{"whole": "artwork", "qid": "date", "question": "When was it made?", "stem": "It was made in ", "answer": "A lot of things.", "label": false, "class": "evasive"}
+{"whole": "artwork", "qid": "date", "question": "When was it made?", "stem": "It was made in ", "answer": "Whatever is there.", "label": false, "class": "evasive"}
+{"whole": "artwork", "qid": "date", "question": "When was it made?", "stem": "It was made in ", "answer": "Oil paint on a jute sack.", "label": false, "class": "off-question"}
+{"whole": "artwork", "qid": "title", "question": "What is it called?", "stem": "It is called ", "answer": "Rooftops.", "label": true, "class": "bare"}
+{"whole": "artwork", "qid": "title", "question": "What is it called?", "stem": "It is called ", "answer": "It has no title.", "label": true, "class": "bare"}
+{"whole": "artwork", "qid": "title", "question": "What is it called?", "stem": "It is called ", "answer": "The Well.", "label": true, "class": "bare"}
+{"whole": "artwork", "qid": "title", "question": "What is it called?", "stem": "It is called ", "answer": "Maybe later.", "label": false, "class": "evasive"}
+{"whole": "artwork", "qid": "title", "question": "What is it called?", "stem": "It is called ", "answer": "Whatever is there.", "label": false, "class": "evasive"}
+{"whole": "artwork", "qid": "title", "question": "What is it called?", "stem": "It is called ", "answer": "Roughly a metre by a metre and a half.", "label": false, "class": "off-question"}
+{"whole": "artwork", "qid": "marks", "question": "Is there a signature, inscription or label on it? Where?", "stem": "There is ", "answer": "A signature in pencil on the back.", "label": true, "class": "bare"}
+{"whole": "artwork", "qid": "marks", "question": "Is there a signature, inscription or label on it? Where?", "stem": "There is ", "answer": "A museum number painted on the base.", "label": true, "class": "bare"}
+{"whole": "artwork", "qid": "marks", "question": "Is there a signature, inscription or label on it? Where?", "stem": "There is ", "answer": "Nothing at all.", "label": true, "class": "bare"}
+{"whole": "artwork", "qid": "marks", "question": "Is there a signature, inscription or label on it? Where?", "stem": "There is ", "answer": "Hard to say.", "label": false, "class": "evasive"}
+{"whole": "artwork", "qid": "marks", "question": "Is there a signature, inscription or label on it? Where?", "stem": "There is ", "answer": "Whatever is there.", "label": false, "class": "evasive"}
+{"whole": "artwork", "qid": "marks", "question": "Is there a signature, inscription or label on it? Where?", "stem": "There is ", "answer": "1987.", "label": false, "class": "off-question"}
+{"whole": "artwork", "qid": "where", "question": "Where is it now?", "stem": "It is ", "answer": "Hanging in the dining room.", "label": true, "class": "bare"}
+{"whole": "artwork", "qid": "where", "question": "Where is it now?", "stem": "It is ", "answer": "In the basement store at the museum.", "label": true, "class": "bare"}
+{"whole": "artwork", "qid": "where", "question": "Where is it now?", "stem": "It is ", "answer": "In a cupboard in the studio.", "label": true, "class": "bare"}
+{"whole": "artwork", "qid": "where", "question": "Where is it now?", "stem": "It is ", "answer": "Something, I guess.", "label": false, "class": "evasive"}
+{"whole": "artwork", "qid": "where", "question": "Where is it now?", "stem": "It is ", "answer": "I don't know yet.", "label": false, "class": "evasive"}
+{"whole": "artwork", "qid": "where", "question": "Where is it now?", "stem": "It is ", "answer": "A carpenter from our village.", "label": false, "class": "off-question"}
+{"whole": "artwork", "qid": "history", "question": "Where was it before?", "stem": "Before this it was ", "answer": "At my aunt's house in Surat.", "label": true, "class": "bare"}
+{"whole": "artwork", "qid": "history", "question": "Where was it before?", "stem": "Before this it was ", "answer": "In a gallery window for years.", "label": true, "class": "bare"}
+{"whole": "artwork", "qid": "history", "question": "Where was it before?", "stem": "Before this it was ", "answer": "It has always been here.", "label": true, "class": "bare"}
+{"whole": "artwork", "qid": "history", "question": "Where was it before?", "stem": "Before this it was ", "answer": "The usual.", "label": false, "class": "evasive"}
+{"whole": "artwork", "qid": "history", "question": "Where was it before?", "stem": "Before this it was ", "answer": "It is really nice.", "label": false, "class": "evasive"}
+{"whole": "artwork", "qid": "history", "question": "Where was it before?", "stem": "Before this it was ", "answer": "It has no title.", "label": false, "class": "off-question"}

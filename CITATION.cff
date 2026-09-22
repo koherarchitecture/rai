@@ -5,7 +5,7 @@ type: software
 authors:
   - name: "Koher"
     website: "https://koher.app"
-version: "0.3.3"
+version: "0.3.4"
 date-released: "2026-09-22"
 license: AGPL-3.0-only
 repository-code: "https://github.com/koherarchitecture/rai"

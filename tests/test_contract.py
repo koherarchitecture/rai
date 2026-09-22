@@ -10,7 +10,8 @@ from rai.kind import counts
 from rai.tally import word
 
 HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-READER = os.path.join(HERE, "runs", "rai-0.3-full")
+# whichever 0.3 reader is present, with the threshold it was measured at
+READERS = [(os.path.join(HERE, "runs", "rai-0.3-full"), 14.56), (os.path.join(HERE, "runs", "rai-0.3.4"), 14.89)]
 
 
 def test_load_whole_yaml_and_md():
@@ -41,17 +42,19 @@ def test_word_is_all_seven():
     assert word(set()) == "not complete"
 
 
-def test_the_03_reader_loads_and_reads():
-    if not os.path.exists(os.path.join(READER, "config.json")):
-        print("  (skipped: no reader in runs/rai-0.3-full)"); return
-    r = Reader(READER)
+def test_the_03_readers_load_and_read():
+    present = [(p, t) for p, t in READERS if os.path.exists(os.path.join(p, "config.json"))]
+    if not present:
+        print("  (skipped: no reader in runs/ — see the README)"); return
     w = load_whole(os.path.join(HERE, "wholes", "stone.yaml"))
     real = {q["id"]: a for q, a in zip(w["questions"], ["Dark grey with a rusty patch.", "About the size of my thumbnail.", "A wedge.", "Rough and cold.", "A white speck near one end.", "The path behind the post office."])}
     evasive = {q["id"]: "Not sure yet." for q in w["questions"]}
-    found = read_answers(w, real, r, 14.56)
-    assert set(found) == {q["id"] for q in w["questions"]} and all(isinstance(v, bool) for v in found.values())
-    assert all(found.values()), found
-    assert not any(read_answers(w, evasive, r, 14.56).values())
+    for path, threshold in present:
+        r = Reader(path)
+        found = read_answers(w, real, r, threshold)
+        assert set(found) == {q["id"] for q in w["questions"]} and all(isinstance(v, bool) for v in found.values()), path
+        assert all(found.values()), (path, found)
+        assert not any(read_answers(w, evasive, r, threshold).values()), path
 
 
 if __name__ == "__main__":

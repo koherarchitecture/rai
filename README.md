@@ -7,7 +7,7 @@
 <p align="center"><strong>A model that checks if a set is complete.</strong></p>
 
 <p align="center">
-  <a href="https://github.com/koherarchitecture/rai/releases/tag/v0.3.3"><img src="https://img.shields.io/badge/release-v0.3.3-D59A3A" alt="release v0.3.3"></a>
+  <a href="https://github.com/koherarchitecture/rai/releases/tag/v0.3.4"><img src="https://img.shields.io/badge/release-v0.3.4-D59A3A" alt="release v0.3.4"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/code-AGPL--3.0-373E3C" alt="code licence AGPL-3.0"></a>
   <a href="LICENSE-WEIGHTS-AND-DATA.md"><img src="https://img.shields.io/badge/weights_%26_data-CC--BY--4.0-373E3C" alt="weights and data licence CC-BY-4.0"></a>
   <img src="https://img.shields.io/badge/python-3.10%2B-3776AB" alt="Python 3.10+">
@@ -55,9 +55,9 @@ cd rai
 python3 -m venv .venv
 .venv/bin/pip install -r requirements.txt
 
-# the trained reader, 127 MB, from this release
-curl -L -o rai-reader-0.3.2.tar.gz https://github.com/koherarchitecture/rai/releases/download/v0.3.2/rai-reader-0.3.2.tar.gz
-mkdir -p runs && tar -xzf rai-reader-0.3.2.tar.gz -C runs/    # creates runs/rai-0.3-full/
+# the trained reader, 122 MB, from this release
+curl -L -o rai-reader-0.3.4.tar.gz https://github.com/koherarchitecture/rai/releases/download/v0.3.4/rai-reader-0.3.4.tar.gz
+mkdir -p runs && tar -xzf rai-reader-0.3.4.tar.gz -C runs/    # creates runs/rai-0.3.4/
 
 .venv/bin/python -m rai ask wholes/stone.yaml
 ```
@@ -95,6 +95,18 @@ An example of a form in scope, one of the ten the reader was trained on:
 
 **Out of scope:** judging quality, truth or sufficiency; questions whose answer is a reason, an opinion or an argument; long answers of more than a few sentences; free documents with no form behind them, such as proposals, essays or code; and any use where rai's word decides something for somebody other than the person who wrote the answers.
 
+The artwork form, which the reader **is** trained on, is the same shape applied to something people actually keep records of:
+
+> **an artwork**
+> 1. What is it made of?
+> 2. How big is it?
+> 3. Who made it?
+> 4. When was it made?
+> 5. What is it called?
+> 6. Is there a signature, inscription or label on it? Where?
+> 7. Where is it now?
+> 8. Where was it before?
+
 A form in scope that the reader was **not** trained on, and on which it does less well:
 
 > **an equipment return**
@@ -104,7 +116,7 @@ A form in scope that the reader was **not** trained on, and on which it does les
 > 4. When was it taken out, and when is it being returned?
 > 5. Where is it now?
 
-**The trained domain is narrower than the scope.** The shipped reader was trained on ten forms. They cover all four shapes above (the stone and the coin are catalogue fields, the queue and the walk are circumstances, the tea is a recipe, the pocket is an inventory), but every one is about an everyday object or moment. The form can describe anything that fits the rules above; the reader has seen only these ten.
+**The trained domain is narrower than the scope.** The shipped reader was trained on eleven forms. Ten are about everyday objects and moments and cover all four shapes above (the stone and the coin are catalogue fields, the queue and the walk are circumstances, the tea is a recipe, the pocket is an inventory). The eleventh is **the record of an artwork** (`wholes/artwork.yaml`): what it is made of, how big it is, who made it and when, what it is called, what marks are on it, where it is now and where it was before. The form can describe anything that fits the rules above; the reader has seen only these eleven.
 
 ### How far the scope reaches, measured
 
@@ -152,21 +164,21 @@ On Windows, use `.venv\Scripts\python` wherever this README says `.venv/bin/pyth
 **Get the trained reader.** Download it from the release and extract it into `runs/`. On macOS and Linux:
 
 ```bash
-curl -L -o rai-reader-0.3.2.tar.gz https://github.com/koherarchitecture/rai/releases/download/v0.3.2/rai-reader-0.3.2.tar.gz
-shasum -a 256 rai-reader-0.3.2.tar.gz    # Linux: sha256sum
-mkdir -p runs && tar -xzf rai-reader-0.3.2.tar.gz -C runs/
+curl -L -o rai-reader-0.3.4.tar.gz https://github.com/koherarchitecture/rai/releases/download/v0.3.4/rai-reader-0.3.4.tar.gz
+shasum -a 256 rai-reader-0.3.4.tar.gz    # Linux: sha256sum
+mkdir -p runs && tar -xzf rai-reader-0.3.4.tar.gz -C runs/
 ```
 
-The checksum should read `9032c7580744ea938e76cbfba421933d6909c99460d00ddc71fd4aa7ca19c690`. You should end up with `runs/rai-0.3-full/model.safetensors`. On Windows (PowerShell), where `curl` alone means something else, use `curl.exe`:
+The checksum should read `4560537ba3af151f461c41d432479ff5a7ead713044bac28ca6c442239ad6461`. You should end up with `runs/rai-0.3.4/model.safetensors`. On Windows (PowerShell), where `curl` alone means something else, use `curl.exe`:
 
 ```powershell
-curl.exe -L -o rai-reader-0.3.2.tar.gz https://github.com/koherarchitecture/rai/releases/download/v0.3.2/rai-reader-0.3.2.tar.gz
-Get-FileHash rai-reader-0.3.2.tar.gz -Algorithm SHA256    # prints the same hash in capitals
+curl.exe -L -o rai-reader-0.3.4.tar.gz https://github.com/koherarchitecture/rai/releases/download/v0.3.4/rai-reader-0.3.4.tar.gz
+Get-FileHash rai-reader-0.3.4.tar.gz -Algorithm SHA256    # prints the same hash in capitals
 mkdir runs
-tar -xzf rai-reader-0.3.2.tar.gz -C runs
+tar -xzf rai-reader-0.3.4.tar.gz -C runs
 ```
 
-The file can also be downloaded from the [release page](https://github.com/koherarchitecture/rai/releases/tag/v0.3.2) in a browser.
+The file can also be downloaded from the [release page](https://github.com/koherarchitecture/rai/releases/tag/v0.3.4) in a browser.
 
 **Or load it from Hugging Face** instead of downloading by hand: pass `prayasabhinav/rai` wherever a model folder is asked for. It needs a connection the first time, then runs from the Hugging Face cache.
 
@@ -183,7 +195,7 @@ The second should end with `ok 0.3.0: does more than 0.2.0 by 100 honest answers
 
 | message | cause | fix |
 |---|---|---|
-| `no file named model.safetensors ... in directory runs/rai-0.3-full` | the reader is not extracted, or is in the wrong folder | extract the archive into `runs/` so that `runs/rai-0.3-full/model.safetensors` exists |
+| `no file named model.safetensors ... in directory runs/rai-0.3-full` | the reader is not extracted, or is in the wrong folder | extract the archive into `runs/` so that `runs/rai-0.3.4/model.safetensors` exists |
 | `ModuleNotFoundError: No module named 'rai'` | Python was started outside the repository folder | run commands from inside `rai/`, or add the folder to `PYTHONPATH` |
 | `ModuleNotFoundError: No module named 'torch'` | the virtual environment's Python was not used | use `.venv/bin/python`, not the system `python3` |
 | `ensurepip is not available` when making the virtual environment | on Debian and Ubuntu, venv support is a separate package | `sudo apt install python3-venv`, then make the environment again |
@@ -192,7 +204,7 @@ The second should end with `ok 0.3.0: does more than 0.2.0 by 100 honest answers
 ### 2. Run a shipped set
 
 ```bash
-.venv/bin/python -m rai ask wholes/stone.yaml
+.venv/bin/python -m rai ask wholes/stone.yaml        # or wholes/artwork.yaml, wholes/key.md
 ```
 
 rai prints each question in turn; type an answer and press Enter. After the last answer it prints one word. For example:
@@ -286,6 +298,7 @@ rai does that check with the model kept out of the verdict. The model is asked o
 | Check a description against its form | write the form's questions once, answer them, tally; see the [scope](#scope-the-kind-of-set-rai-is-for) |
 | Build on it | a program of your own that calls `read_answers()`, keeps its own interface, and still gives the person only *complete* or *not complete* |
 | Your own sets | a Markdown file in `wholes/`, within the scope; see [How to use](#how-to-use) |
+| Check a record of an artwork | the eleventh trained form: medium, size, maker, date, title, marks, where it is, where it was |
 | A small benchmark | 360 labelled test answers and 12,000 training pairs for extractive readers |
 | A worked example | a model limited to a small, checkable question, with every decision in readable code |
 
@@ -354,24 +367,26 @@ Every question can be answered with a particular: a colour, a count, a compariso
 
 ## How well the reader reads
 
-Measured on test set v1: 360 answers to the wholes' questions, 180 that answer honestly and 180 that do not (120 evasive, 60 answering a different question). No phrase in the test set appears anywhere in the training data, and `scripts/synth.py` stops if any training row repeats one.
+Measured on two test sets it never saw, at **one threshold, 14.89**, chosen as the smallest margin that lets no non-answer through in either:
 
-| reader | threshold | non-answers counted as answers | honest answers counted |
+| test set | rows | honest answers counted | non-answers counted |
 |---|---|---|---|
-| deepset/minilm-uncased-squad2, not trained further, with stems (0.2.0) | 10.60 | 0 of 180 | 16 of 180 |
-| **rai reader 0.3.2** | **14.56** | **0 of 180** | **116 of 180** |
+| **test set v1** — the ten everyday forms | 360 (180 honest, 120 evasive, 60 off-question) | **146 of 180** | **0 of 180** |
+| **artwork records** — held out | 48 (24 honest, 16 evasive, 8 off-question) | **20 of 24** | **0 of 24** |
 
-By class, at 14.56: 116 of the 180 honest answers counted; all 120 evasive and all 60 off-question answers refused.
+The untrained deepset reader, given the same stems, counts 16 of 180 on test set v1.
+
+No phrase in either test set appears anywhere in the training data, and `scripts/synth.py` stops if any training row repeats one. The evasive and off-question answers are refused in both sets, which is the error that matters: counting a non-answer can turn *not complete* into *complete*, while a missed real answer only sends the writer back to look again.
 
 What these numbers do and do not say:
 
-- **The threshold is chosen on the same test set it is reported on.** It is the smallest margin that lets no non-answer through. A threshold chosen on one set and tested on another is planned for a later version, and until then the zero in the middle column is a property of this set.
-- **The test set and the training data come from the same kind of template.** They share no phrase, but they share a style: short, plain, particular answers about the same ten things. How the reader does on answers people actually type, in their own words, is not yet measured.
-- **These figures cover the ten shipped sets only.** On sets it has not seen, rai misses more real answers; see [How far the scope reaches](#how-far-the-scope-reaches-measured).
+- **The threshold is chosen on the same sets it is reported on.** A threshold chosen on one set and tested on another is for a later version.
+- **Test and training answers come from the same kind of template**, written in the same plain style, though they share no phrase. How the reader does on answers people type in their own words is still not measured.
 - **One training run, one seed.**
-- **A false present is the error that matters most.** Counting a non-answer as an answer can turn *not complete* into *complete*. A false absent only sends the person who wrote the answers back to look again.
+- **The artwork set is small**: 24 real answers. It says the reader can read an artwork record; it does not say how well, to any precision.
+- **On forms it was not trained on at all**, the reader refuses non-answers as before but misses more real answers. See [How far the scope reaches](#how-far-the-scope-reaches-measured).
 
-Reproduce: `python scripts/eval_reader.py tests/testset-v1.jsonl runs/rai-0.3-full`.
+Reproduce: `python scripts/eval_reader.py tests/testset-v1.jsonl tests/testset-artwork-v1.jsonl runs/rai-0.3.4`, or run every check with `bash scripts/check.sh`.
 
 ## What rai will never do
 
@@ -393,9 +408,9 @@ Reproduce: `python scripts/eval_reader.py tests/testset-v1.jsonl runs/rai-0.3-fu
 ```
 rai/            the package: reader, kind rule, tally, the two commands, training
 notions/        set-01.yaml, the seven notions of completeness
-wholes/         ten question sets, one YAML file each
-scripts/        synth.py (training data), build_testset.py, eval_reader.py, train-full.sh
-tests/          tally tests, reader tests, test set v1, recorded results
+wholes/         eleven question sets (ten everyday things and an artwork record), plus key.md as a Markdown example
+scripts/        synth.py (training data), build_testset.py, eval_reader.py, train-full.sh, check.sh
+tests/          the contract test, tally tests, reader tests, test set v1, the artwork test set, recorded results
 data/           train-synth.jsonl, the 12,000 training pairs
 docs/           how it works, use cases, the notions, the wholes
 assets/         the rai mark and the Koher logo
@@ -404,9 +419,8 @@ assets/         the rai mark and the Koher logo
 Run the tests:
 
 ```bash
-.venv/bin/python tests/test_tally.py
+bash scripts/check.sh                              # every check: the contract, the tally, the reader, the leak guard
 .venv/bin/python tests/test_reader_v02.py          # the untrained reader; downloads it once
-.venv/bin/python tests/test_reader_v03.py          # the trained reader in runs/rai-0.3-full
 ```
 
 ## Licences and credit

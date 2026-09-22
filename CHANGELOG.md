@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.3.4 — 22 September 2026
+
+- **rai can check the record of an artwork.** An eleventh trained form, `wholes/artwork.yaml`: what it is made of, how big it is, who made it, when, what it is called, what marks are on it, where it is now and where it was before. The reader was retrained on 13,600 rows over the eleven forms.
+- **Measured on two held-out test sets at one threshold, 14.89:** 146 of 180 honest answers on test set v1 (was 116), 20 of 24 on the new artwork set, and no non-answer counted in either.
+- **The verbatim guard ignores spacing around punctuation.** The tokeniser writes "aunt's" as "aunt ' s", so correct answers containing an apostrophe were being refused. Nothing else is normalised, so the model still cannot add a word. On the 0.3.2 weights alone this lifted test set v1 from 116 to 122.
+- **`scripts/check.sh`** runs every check that must pass before a change lands: the contract other programs rely on (`tests/test_contract.py`), the tally, the reader, and the guard that no training row repeats a test set.
+- **`scripts/eval_reader.py` takes several test sets** and chooses one threshold over all of them.
+- **`scripts/build_testset.py` runs again.** It imported a function that an earlier rewrite had removed. Repaired and checked: it reproduces test set v1 byte for byte.
+- The reader now lives in `runs/rai-0.3.4`, so retraining no longer overwrites an older reader.
+
 ## 0.3.3 — 22 September 2026
 
 - **Forms in Markdown.** A `.md` file in `wholes/` is now a form rai can run: `# name`, a numbered list of questions, an optional `- stem:` under each. `wholes/key.md` is an example. The ten shipped forms stay YAML, and the training and test scripts read only YAML, so an added form never reaches training.

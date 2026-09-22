@@ -1,6 +1,6 @@
 # Licence for the weights and the training data
 
-The trained reader (the files in the release archive `rai-reader-0.3.2.tar.gz` and on Hugging Face at `prayasabhinav/rai`) and the training data (`data/train-synth.jsonl`) are licensed under the **Creative Commons Attribution 4.0 International licence (CC-BY-4.0)**: https://creativecommons.org/licenses/by/4.0/legalcode
+The trained reader (the files in the release archive `rai-reader-0.3.4.tar.gz` and on Hugging Face at `prayasabhinav/rai`) and the training data (`data/train-synth.jsonl`) are licensed under the **Creative Commons Attribution 4.0 International licence (CC-BY-4.0)**: https://creativecommons.org/licenses/by/4.0/legalcode
 
 You may share and adapt them for any purpose, provided you give appropriate credit, link to the licence, and indicate if changes were made.
 

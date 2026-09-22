@@ -3,7 +3,22 @@ Writes tests/testset-v1.jsonl. Seeded; things named are plain and real."""
 import json, os, random, sys, glob
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__)))); sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from rai.whole import load_whole
-from synth import fill_for   # off-question rows must cross kinds, or the 'wrong' answer answers both questions
+
+# off-question rows must cross kinds, or the 'wrong' answer answers both questions. Restored 22 September 2026: this lived in
+# synth.py until the per-question rewrite removed it, which left this script unable to run.
+KEY_TO_FILL = [("colour","colour"),("comparison","comparison"),("count","number"),("number","number"),("duration","duration"),("frequency","duration"),
+ ("place","place"),("surface","place"),("shape","shape"),("texture","texture"),("temperature","texture"),("mark","mark"),("steps","steps"),("amount","amount"),
+ ("pattern","pattern"),("plant","plant"),("value","value"),("picture","sides"),("condition","condition"),("edge","edge"),("direction","direction"),
+ ("people","people"),("person","people"),("event","event"),("action","event"),("alternative","event"),("consequence","event"),("sign","event"),
+ ("time","time"),("day","time"),("year","time"),("occasion","time"),("sound","comparison"),("thing","thing"),("kind","thing"),("source","thing")]
+
+
+def fill_for(counts_when):
+    c = counts_when.lower()
+    for key, f in KEY_TO_FILL:
+        if key in c:
+            return f
+    return "thing"
 
 HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 random.seed(22)
@@ -70,31 +85,45 @@ REAL = {
  "sound/loud": ["About as loud as a fridge.", "Louder than the traffic.", "Quieter than my own typing."],
  "sound/since": ["Since I came in this morning.", "About ten minutes.", "Since the power came back."],
  "sound/stops": ["When I switch it off.", "When they finish the wall.", "When the sun goes down."],
+ "artwork/medium": ["Oil paint on a jute sack.", "Pencil and wash on card.", "Welded scrap iron."],
+ "artwork/size": ["Roughly a metre by a metre and a half.", "About as big as a dinner plate.", "Taller than me."],
+ "artwork/maker": ["A carpenter from our village.", "Nobody knows.", "My art teacher, in her last year of teaching."],
+ "artwork/date": ["1987.", "Just after the war.", "Some time in the 2000s."],
+ "artwork/title": ["Rooftops.", "It has no title.", "The Well."],
+ "artwork/marks": ["A signature in pencil on the back.", "A museum number painted on the base.", "Nothing at all."],
+ "artwork/where": ["Hanging in the dining room.", "In the basement store at the museum.", "In a cupboard in the studio."],
+ "artwork/history": ["At my aunt's house in Surat.", "In a gallery window for years.", "It has always been here."],
 }
 
 EVASIVE = ["It is really nice.", "Hard to say.", "Not sure.", "The usual.", "A lot of things.", "It works well.",
            "I don't know yet.", "Whatever is there.", "Something, I guess.", "Maybe later."]
 
-rows = []
-for path in sorted(glob.glob(os.path.join(HERE, "wholes", "*.yaml"))):
-    w = load_whole(path)
-    name = os.path.basename(path)[:-5]
-    for q in w["questions"]:
-        key = f"{name}/{q['id']}"
-        reals = REAL.get(key, [])
-        for a in reals:
-            rows.append({"whole": name, "qid": q["id"], "question": q["text"], "stem": q.get("stem", ""), "answer": a, "label": True, "class": "bare"})
-        for a in random.sample(EVASIVE, 2):
-            rows.append({"whole": name, "qid": q["id"], "question": q["text"], "stem": q.get("stem", ""), "answer": a, "label": False, "class": "evasive"})
-        # off-question: a real answer to another question of the same whole
-        qkind = {f"{name}/{o['id']}": fill_for(o['counts_when']) for o in w['questions']}
-        others = [k for k in REAL if k.startswith(name + "/") and k != key and qkind.get(k) != qkind[key]]
-        if others and reals:
-            k = random.choice(others)
-            rows.append({"whole": name, "qid": q["id"], "question": q["text"], "stem": q.get("stem", ""), "answer": random.choice(REAL[k]), "label": False, "class": "off-question"})
+def build(names, out):
+    rows = []
+    for path in [os.path.join(HERE, "wholes", n + ".yaml") for n in names]:
+        w = load_whole(path)
+        name = os.path.basename(path)[:-5]
+        for q in w["questions"]:
+            key = f"{name}/{q['id']}"
+            reals = REAL.get(key, [])
+            for a in reals:
+                rows.append({"whole": name, "qid": q["id"], "question": q["text"], "stem": q.get("stem", ""), "answer": a, "label": True, "class": "bare"})
+            for a in random.sample(EVASIVE, 2):
+                rows.append({"whole": name, "qid": q["id"], "question": q["text"], "stem": q.get("stem", ""), "answer": a, "label": False, "class": "evasive"})
+            # off-question: a real answer to another question of the same whole
+            qkind = {f"{name}/{o['id']}": fill_for(o['counts_when']) for o in w['questions']}
+            others = [k for k in REAL if k.startswith(name + "/") and k != key and qkind.get(k) != qkind[key]]
+            if others and reals:
+                k = random.choice(others)
+                rows.append({"whole": name, "qid": q["id"], "question": q["text"], "stem": q.get("stem", ""), "answer": random.choice(REAL[k]), "label": False, "class": "off-question"})
+    
+    with open(out, "w") as f:
+        for r in rows:
+            f.write(json.dumps(r, ensure_ascii=False) + "\n")
+    print(out, len(rows), "rows;", sum(r["label"] for r in rows), "count,", sum(not r["label"] for r in rows), "do not")
 
-out = os.path.join(HERE, "tests", "testset-v1.jsonl")
-with open(out, "w") as f:
-    for r in rows:
-        f.write(json.dumps(r, ensure_ascii=False) + "\n")
-print(len(rows), "rows;", sum(r["label"] for r in rows), "count,", sum(not r["label"] for r in rows), "do not")
+V1 = ["coin", "handful", "leaf", "pocket", "queue", "sound", "stone", "tea", "wait", "walk"]   # test set v1: the ten original forms, frozen
+build(V1, os.path.join(HERE, "tests", "testset-v1.jsonl"))
+random.seed(23)
+build(["artwork"], os.path.join(HERE, "tests", "testset-artwork-v1.jsonl"))
+

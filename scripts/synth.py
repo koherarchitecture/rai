@@ -74,9 +74,17 @@ FILL = {
  "sound/loud": ["as loud as a fridge", "louder than the traffic", "quieter than my own typing", "as loud as somebody talking in the next room", "about as loud as the fan"],
  "sound/since": ["I came in this morning", "about ten minutes", "the power came back", "I sat down", "eight o'clock"],
  "sound/stops": ["I switch it off", "they finish the wall", "the sun goes down", "the tank fills", "the bus leaves"],
+ "artwork/medium": ["oil on canvas", "watercolour on handmade paper", "acrylic on board", "charcoal on newsprint", "cast bronze", "fired terracotta", "woodcut print on rice paper", "ink and gouache on silk", "carved teak", "embroidered cotton", "oil on jute", "photographic print on fibre paper", "pencil and wash on card", "chalk and charcoal on grey paper", "enamel on tin", "thread on canvas"],
+ "artwork/size": ["about 60 by 90 centimetres", "as tall as a door", "small enough to hold in one hand", "120 centimetres across", "about the size of a school notebook", "two metres high and a metre wide", "30 by 40 centimetres", "as long as my arm", "about knee height", "a little bigger than an A4 sheet", "45 centimetres tall on its base", "three panels, each a metre square"],
+ "artwork/maker": ["my grandmother", "an unknown painter from Kutch", "a potter in Khurja", "the artist whose name is on the back", "a student at the art school", "a workshop of weavers in Varanasi", "my uncle, who painted signboards", "a printmaker who ran a studio in Baroda", "unknown", "two sisters who worked together", "a temple carver", "a photographer from the local studio", "nobody knows", "not known", "unsigned, so nobody knows", "no record of who made it"],
+ "artwork/date": ["1974", "the early 1990s", "2008", "sometime between 1950 and 1960", "1932", "the 1980s", "2016", "around 1900", "1965", "the late 1970s", "2021", "about 1945", "some time in the 2000s", "the middle of the last century", "around the turn of the century", "some time after 1970"],
+ "artwork/title": ["Evening at the Ghat", "untitled", "Two Women with a Basket", "Monsoon Study No. 3", "The Blue Door", "Self-portrait with Lamp", "Harvest", "Market, Morning", "Mother and Child", "Study of Hands", "Kite Festival", "Still Life with Brass Pot", "it has no title", "untitled, as far as anyone knows", "no title was ever given", "known only as a study"],
+ "artwork/marks": ["a signature in the bottom right corner", "a gallery label on the back of the frame", "an inscription in Devanagari along the lower edge", "none", "a stamp from an exhibition on the stretcher", "initials and a date scratched into the base", "a handwritten number on the back", "a torn price tag on the reverse", "the artist's seal in red ink, top left", "a dedication written across the back", "a customs sticker under the base", "pencil notes along the margin", "nothing at all", "no marks anywhere", "nothing on it", "no signature and no label"],
+ "artwork/where": ["in the front room at home", "in storage at the college", "on the wall of the staff room", "in a crate in my garage", "at the district museum, first floor", "in the reading room of the library", "with a framer on Relief Road", "in my sister's flat", "in the office corridor", "in a bank locker", "on loan to a gallery in Mumbai", "in the temple office"],
+ "artwork/history": ["in my grandparents' house in Rajkot", "with the dealer who sold it", "nowhere else", "in a private collection in Pune", "in the college auditorium", "with the family of the artist", "in a hotel lobby", "at an exhibition in Delhi", "in my father's shop", "in a school hall", "with a collector in London", "in the old bungalow before it was sold", "it has always been here", "nowhere, it has not moved", "it was made here and stayed", "no earlier place"],
 }
 # questions of one whole whose answers can legitimately swap: never used as off-question pairs for each other
-EXCHANGEABLE = [{"pocket/oldest", "pocket/heaviest", "pocket/miss"}, {"handful/biggest", "handful/smallest"}, {"queue/long", "wait/long", "walk/time", "tea/time"}]
+EXCHANGEABLE = [{"pocket/oldest", "pocket/heaviest", "pocket/miss"}, {"handful/biggest", "handful/smallest"}, {"queue/long", "wait/long", "walk/time", "tea/time"}, {"artwork/where", "artwork/history"}]
 
 EVASIVE = ["It is really nice.", "Hard to say.", "Not sure.", "The usual.", "A lot of things.", "It works well.", "I don't know yet.", "Whatever is there.",
            "Something, I guess.", "Maybe later.", "It is fine.", "Nothing special.", "Depends.", "Can't tell right now.", "All sorts.", "Many.", "It is good.", "You know."]
@@ -87,7 +95,7 @@ EMPTY = ["", "-", "?", "yes", "ok", "hm"]
 # Held out: no phrase in the test set may appear in training, in any class. Until 22 September 2026 153 of the test set's
 # 180 honest answers were also training fillers, so the reader was scored partly on recall. Refused here, and checked at the end.
 norm = lambda t: t.strip().lower().rstrip(".")
-HELD = {norm(json.loads(l)["answer"]) for l in open(os.path.join(HERE, "tests", "testset-v1.jsonl"))}
+HELD = {norm(json.loads(l)["answer"]) for t in ("testset-v1.jsonl", "testset-artwork-v1.jsonl") for l in open(os.path.join(HERE, "tests", t))}
 EVASIVE, DEFERRED, GENERAL = ([a for a in L if norm(a) not in HELD] for L in (EVASIVE, DEFERRED, GENERAL))
 
 qs = {}

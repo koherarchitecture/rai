@@ -1,5 +1,5 @@
 """0.3.0 does one thing more than 0.2.0: the trained reader finds honest bare answers that the untrained one refused,
-still at zero false presents on test set v1, which it never saw. Run: python tests/test_reader_v03.py runs/rai-0.3-full"""
+still at zero false presents on test set v1, which it never saw. Run: python tests/test_reader_v03.py runs/rai-0.3.4"""
 import os, sys
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 import math
@@ -10,7 +10,7 @@ from rai.kind import counts
 FLOOR_0_2 = 16   # honest answers counted by 0.2.0 on test set v1
 
 if __name__ == "__main__":
-    run = sys.argv[1] if len(sys.argv) > 1 else os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "runs", "rai-0.3-full")
+    run = sys.argv[1] if len(sys.argv) > 1 else os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "runs", "rai-0.3.4")
     if not os.path.exists(os.path.join(run, "config.json")):
         print(f"no trained reader at {run}; run the training first"); sys.exit(0)
     th, fp, honest, npos, nneg = numbers(run)

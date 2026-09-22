@@ -3,7 +3,7 @@ from .whole import load_whole
 from .kind import counts
 from .reader import Reader
 
-THRESHOLD = 14.56   # margin the reader must clear; set on test set v1 at zero false presents for runs/rai-0.3-full (scripts/eval_reader.py)
+THRESHOLD = 14.89   # margin the reader must clear; set at zero false presents over test set v1 and the artwork set, for runs/rai-0.3.4 (scripts/eval_reader.py)
 
 
 def read_answers(whole, answers, reader, threshold=THRESHOLD):

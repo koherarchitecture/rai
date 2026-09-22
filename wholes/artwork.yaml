@@ -1,0 +1,47 @@
+# rai whole — an artwork
+# The record of one artwork: what someone writes down so that the work can be found, recognised and told apart from others. Skeleton: the minimum catalogue fields a collection records for an object (what it is made of, its size, who made it and when, its title, marks on it, where it is, where it has been), asked as questions a particular answers.
+# Added 22 September 2026 as the eleventh trained form. Weights are never written here: each question's weight is its share of 1 by position.
+
+notion: an artwork
+kind_rule: simple
+questions:
+  - id: medium
+    text: "What is it made of?"
+    stem: "It is made of "
+    kind: fact
+    counts_when: "a named material or technique"
+  - id: size
+    text: "How big is it?"
+    stem: "It is "
+    kind: fact
+    counts_when: "measurements, or a comparison with a named thing"
+  - id: maker
+    text: "Who made it?"
+    stem: "It was made by "
+    kind: fact
+    counts_when: "a named person, group or workshop, or 'unknown'"
+  - id: date
+    text: "When was it made?"
+    stem: "It was made in "
+    kind: fact
+    counts_when: "a year, a decade or a stated range"
+  - id: title
+    text: "What is it called?"
+    stem: "It is called "
+    kind: fact
+    counts_when: "a title, or 'untitled'"
+  - id: marks
+    text: "Is there a signature, inscription or label on it? Where?"
+    stem: "There is "
+    kind: fact
+    counts_when: "a named mark and where it is, or 'none'"
+  - id: where
+    text: "Where is it now?"
+    stem: "It is "
+    kind: fact
+    counts_when: "a named place"
+  - id: history
+    text: "Where was it before?"
+    stem: "Before this it was "
+    kind: fact
+    counts_when: "a named earlier place or owner, or 'nowhere else'"

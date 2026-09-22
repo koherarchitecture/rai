@@ -1,5 +1,6 @@
 """The reader only points: given a question and a typed answer, the phrase in the answer that answers it, or nothing.
 Extractive (deepset/minilm-uncased-squad2 by default); it has no vocabulary to write with."""
+import re
 import torch
 from transformers import AutoTokenizer, AutoModelForQuestionAnswering
 from transformers.utils import logging
@@ -34,6 +35,9 @@ class Reader:
                 best, best_ids = score, enc["input_ids"][w][i:j + 1]
         span = self.tok.decode(best_ids).strip()
         margin = best - null
-        if margin <= 0 or span.lower() not in answer.lower():   # the verbatim guard: the phrase must be in what was typed
+        # the verbatim guard: the phrase must be in what was typed. Spacing around punctuation is ignored, because the
+        # tokeniser decodes "aunt's" as "aunt ' s"; nothing else is normalised, so the model still cannot add a word.
+        flat = lambda t: re.sub(r"\s+", " ", re.sub(r"\s*([^\w\s])\s*", r"\1", t.lower())).strip()
+        if margin <= 0 or flat(span) not in flat(answer):
             return None, margin
         return span, margin
