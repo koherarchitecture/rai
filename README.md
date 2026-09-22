@@ -284,7 +284,6 @@ rai does that check with the model kept out of the verdict. The model is asked o
 |---|---|
 | Check a description against its form | write the form's questions once, answer them, tally; see the [scope](#scope-the-kind-of-set-rai-is-for) |
 | Build on it | a program of your own that calls `read_answers()` and keeps its own interface |
-| The reader on its own | *does this text answer this question, and where?*, with no word invented |
 | Your own sets | a Markdown file in `wholes/`, within the scope; see [How to use](#how-to-use) |
 | A small benchmark | 360 labelled test answers and 12,000 training pairs for extractive readers |
 | A worked example | a model limited to a small, checkable question, with every decision in readable code |

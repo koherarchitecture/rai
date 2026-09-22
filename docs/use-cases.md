@@ -10,25 +10,17 @@ Write the form once: the questions a complete description of one kind of thing o
 
 This is for your own use, on your own machine. rai's output is meant for the person who wrote the answers, and for nobody else. On a set it was not trained on, rai misses more real answers than on the ten shipped sets, so *not complete* there is more often rai's miss than a missing part.
 
-## 2. The reader on its own: does this text answer this question, and where?
-
-The reader can be used without the tally. Given a question and a short piece of text, it returns the exact phrase that answers the question, or nothing, and a margin. It cannot invent a phrase: the answer must appear word for word in the text.
-
-*Example.* A person keeps short daily notes and wants to know, for their own notes, which ones say *where* something happened. They ask the reader "Where did it happen?" of each note and keep the ones where it points at a phrase above the threshold.
-
-The threshold of 14.56 was set on short, plain answers to the ten shipped sets. On other questions or longer text the reader misses more, and the threshold is a starting point that needs checking. This use is outside the measured scope.
-
-## 3. Writing your own wholes
+## 2. Writing your own wholes
 
 A set is a short Markdown file (or YAML, like the ten shipped), so a set for one ordinary thing can be written in a few minutes; the format is in the README's [How to use](../README.md#how-to-use). The rules that keep a whole checkable are in [`wholes.md`](wholes.md): one thing per question, every question answerable with a particular, no leading questions, plain words. Comparisons make vague things checkable (*how big, against a coin?*).
 
 Nothing in rai limits sets to ten. `rai/whole.py` loads any `.md` or `.yaml` file in the format. What limits them is the reader's training: it knows the ten sets well, sets like them partly, and other kinds of description poorly.
 
-## 4. A small benchmark for extractive readers
+## 3. A small benchmark for extractive readers
 
 `tests/testset-v1.jsonl` (360 rows) and `data/train-synth.jsonl` (12,000 rows) are a public, labelled set of short typed answers. The test set has honest, evasive and off-question answers; the training data also has deferred, general, restating and empty ones. Any extractive question-answering model can be scored on them with `scripts/eval_reader.py`, which reports false presents, false absents and honest answers counted at the threshold that lets no non-answer through. The test set shares no phrase with the training data.
 
-## 5. A worked example of keeping a model out of a decision
+## 4. A worked example of keeping a model out of a decision
 
 rai's code, with its scripts, is about 530 lines. It shows one way of using a language model where the model is asked only a small, checkable question (where is the answer in this sentence?), and everything that decides is written in plain code and a YAML file anyone can read and change. It can be read, forked and adapted as a reference for that arrangement, which [Split-Domain Cognition](https://splitdomaincognition.org) describes in general.
 
