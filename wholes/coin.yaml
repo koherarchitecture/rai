@@ -1,6 +1,6 @@
 # rai whole — a coin
 # One coin from your pocket. Skeleton: SPECTRUM's identification and condition fields.
-# One of the ten forms the reader was trained on: an everyday object or moment. Weights are never written here: each question's weight is its share of 1 by position.
+# One of the first ten forms the reader was trained on: an everyday object or moment. Weights are never written here: each question's weight is its share of 1 by position.
 
 notion: a coin
 kind_rule: simple

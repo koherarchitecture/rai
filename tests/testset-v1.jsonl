@@ -219,14 +219,14 @@
 {"whole": "stone", "qid": "colour", "question": "What colour is it?", "stem": "It is ", "answer": "Reddish, darker at one end.", "label": true, "class": "bare"}
 {"whole": "stone", "qid": "colour", "question": "What colour is it?", "stem": "It is ", "answer": "Whatever is there.", "label": false, "class": "evasive"}
 {"whole": "stone", "qid": "colour", "question": "What colour is it?", "stem": "It is ", "answer": "Hard to say.", "label": false, "class": "evasive"}
-{"whole": "stone", "qid": "colour", "question": "What colour is it?", "stem": "It is ", "answer": "Like an egg, flattened.", "label": false, "class": "off-question"}
+{"whole": "stone", "qid": "colour", "question": "What colour is it?", "stem": "It is ", "answer": "A flat oval.", "label": false, "class": "off-question"}
 {"whole": "stone", "qid": "size", "question": "How big is it, against a coin or your thumb?", "stem": "It is about the size of ", "answer": "About the size of a two-rupee coin.", "label": true, "class": "bare"}
 {"whole": "stone", "qid": "size", "question": "How big is it, against a coin or your thumb?", "stem": "It is about the size of ", "answer": "A bit bigger than my thumbnail.", "label": true, "class": "bare"}
 {"whole": "stone", "qid": "size", "question": "How big is it, against a coin or your thumb?", "stem": "It is about the size of ", "answer": "Half my palm.", "label": true, "class": "bare"}
 {"whole": "stone", "qid": "size", "question": "How big is it, against a coin or your thumb?", "stem": "It is about the size of ", "answer": "A lot of things.", "label": false, "class": "evasive"}
 {"whole": "stone", "qid": "size", "question": "How big is it, against a coin or your thumb?", "stem": "It is about the size of ", "answer": "Hard to say.", "label": false, "class": "evasive"}
 {"whole": "stone", "qid": "size", "question": "How big is it, against a coin or your thumb?", "stem": "It is about the size of ", "answer": "Sabarmati riverfront, near the steps.", "label": false, "class": "off-question"}
-{"whole": "stone", "qid": "shape", "question": "What shape is it?", "stem": "It is shaped like ", "answer": "Like an egg, flattened.", "label": true, "class": "bare"}
+{"whole": "stone", "qid": "shape", "question": "What shape is it?", "stem": "It is shaped like ", "answer": "A flat oval.", "label": true, "class": "bare"}
 {"whole": "stone", "qid": "shape", "question": "What shape is it?", "stem": "It is shaped like ", "answer": "A rough triangle.", "label": true, "class": "bare"}
 {"whole": "stone", "qid": "shape", "question": "What shape is it?", "stem": "It is shaped like ", "answer": "Round, like a laddoo.", "label": true, "class": "bare"}
 {"whole": "stone", "qid": "shape", "question": "What shape is it?", "stem": "It is shaped like ", "answer": "Maybe later.", "label": false, "class": "evasive"}
@@ -262,21 +262,21 @@
 {"whole": "tea", "qid": "tea", "question": "How much tea, and which?", "stem": "The tea was ", "answer": "I don't know yet.", "label": false, "class": "evasive"}
 {"whole": "tea", "qid": "tea", "question": "How much tea, and which?", "stem": "The tea was ", "answer": "Whatever is there.", "label": false, "class": "evasive"}
 {"whole": "tea", "qid": "tea", "question": "How much tea, and which?", "stem": "The tea was ", "answer": "Seven minutes.", "label": false, "class": "off-question"}
-{"whole": "tea", "qid": "milk", "question": "Milk and sugar — how much of each, or none?", "stem": "Milk and sugar: ", "answer": "Half a cup of milk, one spoon of sugar.", "label": true, "class": "bare"}
-{"whole": "tea", "qid": "milk", "question": "Milk and sugar — how much of each, or none?", "stem": "Milk and sugar: ", "answer": "No milk, two sugars.", "label": true, "class": "bare"}
-{"whole": "tea", "qid": "milk", "question": "Milk and sugar — how much of each, or none?", "stem": "Milk and sugar: ", "answer": "A splash of milk, no sugar.", "label": true, "class": "bare"}
-{"whole": "tea", "qid": "milk", "question": "Milk and sugar — how much of each, or none?", "stem": "Milk and sugar: ", "answer": "The usual.", "label": false, "class": "evasive"}
-{"whole": "tea", "qid": "milk", "question": "Milk and sugar — how much of each, or none?", "stem": "Milk and sugar: ", "answer": "Hard to say.", "label": false, "class": "evasive"}
-{"whole": "tea", "qid": "milk", "question": "Milk and sugar — how much of each, or none?", "stem": "Milk and sugar: ", "answer": "Seven minutes.", "label": false, "class": "off-question"}
-{"whole": "tea", "qid": "steps", "question": "What did you do, in order?", "stem": "First I ", "answer": "Boiled the water, added tea, then milk, then sugar, strained it.", "label": true, "class": "bare"}
-{"whole": "tea", "qid": "steps", "question": "What did you do, in order?", "stem": "First I ", "answer": "Water and tea together, boiled twice, milk at the end.", "label": true, "class": "bare"}
-{"whole": "tea", "qid": "steps", "question": "What did you do, in order?", "stem": "First I ", "answer": "Teabag in the cup, poured the water, left it three minutes, added milk.", "label": true, "class": "bare"}
+{"whole": "tea", "qid": "soymilk", "question": "Soy milk and sugar — how much of each, or none?", "stem": "Soy milk and sugar: ", "answer": "Half a cup of soy milk, one spoon of sugar.", "label": true, "class": "bare"}
+{"whole": "tea", "qid": "soymilk", "question": "Soy milk and sugar — how much of each, or none?", "stem": "Soy milk and sugar: ", "answer": "None, two sugars.", "label": true, "class": "bare"}
+{"whole": "tea", "qid": "soymilk", "question": "Soy milk and sugar — how much of each, or none?", "stem": "Soy milk and sugar: ", "answer": "A splash of soy milk, no sugar.", "label": true, "class": "bare"}
+{"whole": "tea", "qid": "soymilk", "question": "Soy milk and sugar — how much of each, or none?", "stem": "Soy milk and sugar: ", "answer": "The usual.", "label": false, "class": "evasive"}
+{"whole": "tea", "qid": "soymilk", "question": "Soy milk and sugar — how much of each, or none?", "stem": "Soy milk and sugar: ", "answer": "Hard to say.", "label": false, "class": "evasive"}
+{"whole": "tea", "qid": "soymilk", "question": "Soy milk and sugar — how much of each, or none?", "stem": "Soy milk and sugar: ", "answer": "Seven minutes.", "label": false, "class": "off-question"}
+{"whole": "tea", "qid": "steps", "question": "What did you do, in order?", "stem": "First I ", "answer": "Boiled the water, added tea, then soy milk, then sugar, strained it.", "label": true, "class": "bare"}
+{"whole": "tea", "qid": "steps", "question": "What did you do, in order?", "stem": "First I ", "answer": "Water and tea together, boiled twice, soy milk at the end.", "label": true, "class": "bare"}
+{"whole": "tea", "qid": "steps", "question": "What did you do, in order?", "stem": "First I ", "answer": "Teabag in the cup, poured the water, left it three minutes, added soy milk.", "label": true, "class": "bare"}
 {"whole": "tea", "qid": "steps", "question": "What did you do, in order?", "stem": "First I ", "answer": "Maybe later.", "label": false, "class": "evasive"}
 {"whole": "tea", "qid": "steps", "question": "What did you do, in order?", "stem": "First I ", "answer": "Not sure.", "label": false, "class": "evasive"}
 {"whole": "tea", "qid": "steps", "question": "What did you do, in order?", "stem": "First I ", "answer": "One and a half spoons of loose tea.", "label": false, "class": "off-question"}
 {"whole": "tea", "qid": "time", "question": "How long did it take, start to cup?", "stem": "It took ", "answer": "Seven minutes.", "label": true, "class": "bare"}
 {"whole": "tea", "qid": "time", "question": "How long did it take, start to cup?", "stem": "It took ", "answer": "About five minutes.", "label": true, "class": "bare"}
-{"whole": "tea", "qid": "time", "question": "How long did it take, start to cup?", "stem": "It took ", "answer": "Ten minutes, the milk took time.", "label": true, "class": "bare"}
+{"whole": "tea", "qid": "time", "question": "How long did it take, start to cup?", "stem": "It took ", "answer": "Ten minutes, the water took time to boil.", "label": true, "class": "bare"}
 {"whole": "tea", "qid": "time", "question": "How long did it take, start to cup?", "stem": "It took ", "answer": "It works well.", "label": false, "class": "evasive"}
 {"whole": "tea", "qid": "time", "question": "How long did it take, start to cup?", "stem": "It took ", "answer": "It is really nice.", "label": false, "class": "evasive"}
 {"whole": "tea", "qid": "time", "question": "How long did it take, start to cup?", "stem": "It took ", "answer": "Two cups of water.", "label": false, "class": "off-question"}
@@ -333,10 +333,10 @@
 {"whole": "walk", "qid": "time", "question": "How many minutes?", "stem": "It takes ", "answer": "Three minutes.", "label": true, "class": "bare"}
 {"whole": "walk", "qid": "time", "question": "How many minutes?", "stem": "It takes ", "answer": "Something, I guess.", "label": false, "class": "evasive"}
 {"whole": "walk", "qid": "time", "question": "How many minutes?", "stem": "It takes ", "answer": "Whatever is there.", "label": false, "class": "evasive"}
-{"whole": "walk", "qid": "time", "question": "How many minutes?", "stem": "It takes ", "answer": "The watchman and the milk boy.", "label": false, "class": "off-question"}
+{"whole": "walk", "qid": "time", "question": "How many minutes?", "stem": "It takes ", "answer": "The watchman and the newspaper boy.", "label": false, "class": "off-question"}
 {"whole": "walk", "qid": "pass", "question": "What do you pass, in order?", "stem": "I pass ", "answer": "The temple, the tyre shop, then the school gate.", "label": true, "class": "bare"}
 {"whole": "walk", "qid": "pass", "question": "What do you pass, in order?", "stem": "I pass ", "answer": "A paan shop, then the park.", "label": true, "class": "bare"}
-{"whole": "walk", "qid": "pass", "question": "What do you pass, in order?", "stem": "I pass ", "answer": "The society gate, the garbage bin, the milk booth.", "label": true, "class": "bare"}
+{"whole": "walk", "qid": "pass", "question": "What do you pass, in order?", "stem": "I pass ", "answer": "The society gate, the garbage bin, the vegetable cart.", "label": true, "class": "bare"}
 {"whole": "walk", "qid": "pass", "question": "What do you pass, in order?", "stem": "I pass ", "answer": "Something, I guess.", "label": false, "class": "evasive"}
 {"whole": "walk", "qid": "pass", "question": "What do you pass, in order?", "stem": "I pass ", "answer": "The usual.", "label": false, "class": "evasive"}
 {"whole": "walk", "qid": "pass", "question": "What do you pass, in order?", "stem": "I pass ", "answer": "Nobody, usually.", "label": false, "class": "off-question"}
@@ -346,7 +346,7 @@
 {"whole": "walk", "qid": "underfoot", "question": "What is underfoot?", "stem": "Underfoot is ", "answer": "It works well.", "label": false, "class": "evasive"}
 {"whole": "walk", "qid": "underfoot", "question": "What is underfoot?", "stem": "Underfoot is ", "answer": "Hard to say.", "label": false, "class": "evasive"}
 {"whole": "walk", "qid": "underfoot", "question": "What is underfoot?", "stem": "Underfoot is ", "answer": "Wait till it clears.", "label": false, "class": "off-question"}
-{"whole": "walk", "qid": "see", "question": "Who do you usually see?", "stem": "I usually see ", "answer": "The watchman and the milk boy.", "label": true, "class": "bare"}
+{"whole": "walk", "qid": "see", "question": "Who do you usually see?", "stem": "I usually see ", "answer": "The watchman and the newspaper boy.", "label": true, "class": "bare"}
 {"whole": "walk", "qid": "see", "question": "Who do you usually see?", "stem": "I usually see ", "answer": "Nobody, usually.", "label": true, "class": "bare"}
 {"whole": "walk", "qid": "see", "question": "Who do you usually see?", "stem": "I usually see ", "answer": "The same two dogs.", "label": true, "class": "bare"}
 {"whole": "walk", "qid": "see", "question": "Who do you usually see?", "stem": "I usually see ", "answer": "Something, I guess.", "label": false, "class": "evasive"}

@@ -1,0 +1,30 @@
+# rai whole — a water bottle
+# Held out: the reader is NEVER trained on this form. It lives here, not in wholes/, so that a reader is measured on questions it has not seen; scripts/synth.py refuses a training question that repeats one of these. Written 23 September 2026 for 0.3.5. The water bottle you carry.
+
+notion: a water bottle
+kind_rule: simple
+questions:
+  - id: material
+    text: "What is your bottle made of?"
+    stem: "It is made of "
+    kind: fact
+  - id: holds
+    text: "How much water does it hold?"
+    stem: "It holds "
+    kind: fact
+  - id: fill
+    text: "Where do you usually fill it?"
+    stem: "I usually fill it "
+    kind: fact
+  - id: side
+    text: "What does it say on the side?"
+    stem: "On the side it says "
+    kind: fact
+  - id: cap
+    text: "What kind of cap does it have?"
+    stem: "It has "
+    kind: fact
+  - id: age
+    text: "How long have you had it?"
+    stem: "I have had it for "
+    kind: fact

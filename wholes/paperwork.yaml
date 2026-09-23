@@ -1,0 +1,36 @@
+# rai whole — a form you filled in
+# One of the forms added in 0.3.5 so the reader meets more kinds of question: the last form you filled in. Weights are never written here: each question's weight is its share of 1 by position.
+
+notion: a form you filled in
+kind_rule: simple
+questions:
+  - id: which
+    text: "Which form was it?"
+    stem: "It was "
+    kind: fact
+    counts_when: "a named form"
+  - id: where
+    text: "Where did you fill it in?"
+    stem: "I filled it in "
+    kind: fact
+    counts_when: "a named place"
+  - id: box
+    text: "Which box took you longest?"
+    stem: "The box that took longest was "
+    kind: fact
+    counts_when: "a named box"
+  - id: attached
+    text: "What did you attach to it?"
+    stem: "I attached "
+    kind: fact
+    counts_when: "a named document, or 'nothing'"
+  - id: long
+    text: "How long did filling it take?"
+    stem: "Filling it took "
+    kind: fact
+    counts_when: "a duration"
+  - id: after
+    text: "What happened after you handed it in?"
+    stem: "After I handed it in, "
+    kind: fact
+    counts_when: "a stated event"

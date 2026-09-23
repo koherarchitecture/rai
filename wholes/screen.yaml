@@ -1,0 +1,36 @@
+# rai whole — a phone's home screen
+# One of the forms added in 0.3.5 so the reader meets more kinds of question: the first screen of your phone. Weights are never written here: each question's weight is its share of 1 by position.
+
+notion: a phone's home screen
+kind_rule: simple
+questions:
+  - id: count
+    text: "How many icons are on the first screen?"
+    stem: "There are "
+    kind: fact
+    counts_when: "a number"
+  - id: corner
+    text: "Which app is in the top left corner?"
+    stem: "In the top left corner is "
+    kind: fact
+    counts_when: "a named app"
+  - id: wallpaper
+    text: "What is the wallpaper?"
+    stem: "The wallpaper is "
+    kind: fact
+    counts_when: "a named picture"
+  - id: most
+    text: "Which app do you open most?"
+    stem: "The one I open most is "
+    kind: fact
+    counts_when: "a named app"
+  - id: never
+    text: "Which app on it have you never opened?"
+    stem: "I have never opened "
+    kind: fact
+    counts_when: "a named app"
+  - id: dock
+    text: "Which apps sit in the bar at the bottom?"
+    stem: "In the bottom bar there are "
+    kind: fact
+    counts_when: "named apps"

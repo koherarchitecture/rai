@@ -1,6 +1,6 @@
 # rai whole — a cup of tea
 # The tea you last made, as you actually made it. Skeleton: the recipe form — amounts, tools, steps, time, doneness.
-# One of the ten forms the reader was trained on: an everyday object or moment. Weights are never written here: each question's weight is its share of 1 by position.
+# One of the first ten forms the reader was trained on: an everyday object or moment. Weights are never written here: each question's weight is its share of 1 by position.
 
 notion: a cup of tea
 kind_rule: simple
@@ -15,9 +15,9 @@ questions:
     stem: "The tea was "
     kind: fact
     counts_when: "an amount and a named kind"
-  - id: milk
-    text: "Milk and sugar — how much of each, or none?"
-    stem: "Milk and sugar: "
+  - id: soymilk
+    text: "Soy milk and sugar — how much of each, or none?"
+    stem: "Soy milk and sugar: "
     kind: fact
     counts_when: "amounts, or 'none' stated"
   - id: steps

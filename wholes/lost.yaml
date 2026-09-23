@@ -1,0 +1,36 @@
+# rai whole — something lost and found
+# One of the forms added in 0.3.5 so the reader meets more kinds of question: something you lost and found again. Weights are never written here: each question's weight is its share of 1 by position.
+
+notion: something lost and found
+kind_rule: simple
+questions:
+  - id: what
+    text: "What did you lose?"
+    stem: "I lost "
+    kind: fact
+    counts_when: "a named thing"
+  - id: last
+    text: "Where did you last have it?"
+    stem: "I last had it "
+    kind: fact
+    counts_when: "a named place"
+  - id: checked
+    text: "Which place did you check first?"
+    stem: "I checked "
+    kind: fact
+    counts_when: "a named place"
+  - id: found
+    text: "Where was it in the end?"
+    stem: "It was "
+    kind: fact
+    counts_when: "a named place"
+  - id: time
+    text: "How long did you search?"
+    stem: "I searched for "
+    kind: fact
+    counts_when: "a duration"
+  - id: who
+    text: "Who found it?"
+    stem: "It was found by "
+    kind: fact
+    counts_when: "a named person"

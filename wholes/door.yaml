@@ -1,0 +1,36 @@
+# rai whole — a door
+# One of the forms added in 0.3.5 so the reader meets more kinds of question: the door of your room. Weights are never written here: each question's weight is its share of 1 by position.
+
+notion: a door
+kind_rule: simple
+questions:
+  - id: material
+    text: "What is the door made of?"
+    stem: "It is made of "
+    kind: fact
+    counts_when: "a named material"
+  - id: colour
+    text: "What colour is it on your side?"
+    stem: "On my side it is "
+    kind: fact
+    counts_when: "a named colour"
+  - id: lock
+    text: "How does it lock?"
+    stem: "It locks with "
+    kind: fact
+    counts_when: "a named lock, or 'nothing'"
+  - id: stuck
+    text: "What is stuck or hung on it?"
+    stem: "On it there is "
+    kind: fact
+    counts_when: "a named thing, or 'nothing'"
+  - id: sound
+    text: "What sound does it make when it opens?"
+    stem: "It makes "
+    kind: fact
+    counts_when: "a named sound"
+  - id: behind
+    text: "What is behind it when it is open?"
+    stem: "Behind it there is "
+    kind: fact
+    counts_when: "a named thing"

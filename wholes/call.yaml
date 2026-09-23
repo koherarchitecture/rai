@@ -1,0 +1,36 @@
+# rai whole — a phone call
+# One of the forms added in 0.3.5 so the reader meets more kinds of question: a phone call you made. Weights are never written here: each question's weight is its share of 1 by position.
+
+notion: a phone call
+kind_rule: simple
+questions:
+  - id: who
+    text: "Who did you call?"
+    stem: "I called "
+    kind: fact
+    counts_when: "a named person or place"
+  - id: about
+    text: "What was the call about?"
+    stem: "It was about "
+    kind: fact
+    counts_when: "a named matter"
+  - id: rang
+    text: "How many times did it ring before someone picked up?"
+    stem: "It rang "
+    kind: fact
+    counts_when: "a number"
+  - id: first
+    text: "What did they say first?"
+    stem: "They said "
+    kind: fact
+    counts_when: "the words said"
+  - id: long
+    text: "How long did you talk?"
+    stem: "We talked for "
+    kind: fact
+    counts_when: "a duration"
+  - id: ended
+    text: "How did the call end?"
+    stem: "It ended when "
+    kind: fact
+    counts_when: "a stated event"

@@ -1,0 +1,30 @@
+# rai whole — a phone that ran out of charge
+# Held out: the reader is NEVER trained on this form. It lives here, not in wholes/, so that a reader is measured on questions it has not seen; scripts/synth.py refuses a training question that repeats one of these. Written 23 September 2026 for 0.3.5. The last time your phone ran out of charge.
+
+notion: a phone that ran out of charge
+kind_rule: simple
+questions:
+  - id: where
+    text: "Where were you when your phone died?"
+    stem: "I was "
+    kind: fact
+  - id: doing
+    text: "What were you in the middle of?"
+    stem: "I was in the middle of "
+    kind: fact
+  - id: charged
+    text: "How did you charge it?"
+    stem: "I charged it "
+    kind: fact
+  - id: whose
+    text: "Whose charger did you use?"
+    stem: "I used "
+    kind: fact
+  - id: long
+    text: "How long before you could use it again?"
+    stem: "It took "
+    kind: fact
+  - id: missed
+    text: "What did you miss while it was off?"
+    stem: "While it was off I missed "
+    kind: fact

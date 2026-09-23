@@ -5,13 +5,11 @@ from fractions import Fraction
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from rai.whole import load_whole, load_notions, SEVEN
 from rai.reader import Reader
-from rai.ask import read_answers
+from rai.ask import read_answers, READER, THRESHOLD
 from rai.kind import counts
 from rai.tally import word
 
 HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-# whichever 0.3 reader is present, with the threshold it was measured at
-READERS = [(os.path.join(HERE, "runs", "rai-0.3-full"), 14.56), (os.path.join(HERE, "runs", "rai-0.3.4"), 14.89)]
 
 
 def test_load_whole_yaml_and_md():
@@ -42,10 +40,16 @@ def test_word_is_all_seven():
     assert word(set()) == "not complete"
 
 
-def test_the_03_readers_load_and_read():
-    present = [(p, t) for p, t in READERS if os.path.exists(os.path.join(p, "config.json"))]
+def test_current_reader_names_a_measured_pair():
+    assert os.path.basename(READER).startswith("rai-") and THRESHOLD > 0
+    assert inspect.signature(read_answers).parameters["threshold"].default == THRESHOLD
+
+
+def test_the_current_reader_loads_and_reads():
+    """The reader rai names as current, at the threshold rai names for it: a program built on rai uses exactly this pair."""
+    present = [(READER, THRESHOLD)] if os.path.exists(os.path.join(READER, "config.json")) else []
     if not present:
-        print("  (skipped: no reader in runs/ — see the README)"); return
+        print("  (skipped: the current reader is not in runs/ — see the README)"); return
     w = load_whole(os.path.join(HERE, "wholes", "stone.yaml"))
     real = {q["id"]: a for q, a in zip(w["questions"], ["Dark grey with a rusty patch.", "About the size of my thumbnail.", "A wedge.", "Rough and cold.", "A white speck near one end.", "The path behind the post office."])}
     evasive = {q["id"]: "Not sure yet." for q in w["questions"]}

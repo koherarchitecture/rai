@@ -31,7 +31,7 @@ It reads the question's stem and the answer together (*It is* + *dark grey*), be
 It returns the phrase and a **margin**: the score of its best phrase minus the score of *no answer*. Two guards follow:
 
 - **The verbatim guard.** The phrase must appear, word for word, in what the person typed. A phrase found only in the stem does not count. The model has no way to add a word.
-- **The threshold.** The margin must be above a fixed number, set in `rai/ask.py`. The number is chosen as the smallest margin that lets no non-answer in the test set through, rounded up, never down. `tests/test_reader_v03.py` fails if the number in `rai/ask.py` would let one through.
+- **The threshold.** The margin must be above a fixed number, set in `rai/ask.py`. The number is chosen as the smallest margin that lets no non-answer through in any of the three test sets, rounded up, never down. The reader and its threshold are named together in `rai/ask.py` as `READER` and `THRESHOLD`, and move together at every release. `tests/test_reader_v03.py` fails if the number in `rai/ask.py` would let one through.
 
 ## 3. The kind rule
 

@@ -6,5 +6,5 @@ set -e
 cd "$(dirname "$0")/.."
 P=${PYTHON:-python3}
 $P scripts/synth.py 200
-$P -m rai.train --data data/train-synth.jsonl --out runs/rai-0.3.4 --epochs 2 --batch 32
-$P tests/test_reader_v03.py runs/rai-0.3.4
+$P -m rai.train --data data/train-synth.jsonl --out runs/rai-0.3.5 --epochs 2 --batch 32
+$P tests/test_reader_v03.py runs/rai-0.3.5

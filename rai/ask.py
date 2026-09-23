@@ -2,8 +2,12 @@
 from .whole import load_whole
 from .kind import counts
 from .reader import Reader
+import os
 
-THRESHOLD = 14.89   # margin the reader must clear; set at zero false presents over test set v1 and the artwork set, for runs/rai-0.3.4 (scripts/eval_reader.py)
+# The current reader and the threshold measured for it. They move together, at every release, and nowhere else:
+# a program built on rai uses these two and gets the latest reader that passed the contract (tests/test_contract.py).
+READER = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "runs", "rai-0.3.5")
+THRESHOLD = 12.67   # margin the reader must clear; set at zero false presents over test set v1, the artwork set and the unseen set together, for runs/rai-0.3.5 (scripts/eval_reader.py)
 
 
 def read_answers(whole, answers, reader, threshold=THRESHOLD):

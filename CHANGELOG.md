@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.3.5 — 23 September 2026
+
+- **rai counts more real answers on forms it was not trained on**: 59 of 96, where 0.3.4 counted 39. A probe on 23 September found 0.3.4 counting two of six real answers on a form it had never seen. 0.3.5 is trained on eight more forms, `call`, `repair`, `lost`, `ride`, `message`, `paperwork`, `door` and `screen`, and three training rows in ten reach the reader without their stem, honest answers and non-answers alike. The reader was retrained on 23,200 rows over nineteen forms.
+- **A third test set, of forms the reader never trains on.** Four forms in `tests/unseen-forms/` and 168 rows in `tests/testset-unseen-v1.jsonl`, built by `scripts/build_unseen_testset.py`. `scripts/synth.py` stops if a training question repeats one of their questions, as it already stopped if a training row repeated a test phrase.
+- **Measured on all three test sets at one threshold, 12.67:** 155 of 180 honest answers on test set v1, 21 of 24 on the artwork set, and 59 of 96 on the unseen forms, with no non-answer counted in any. 0.3.4, at the 16.24 that holds it at zero on all three, counted 138, 20 and 39. At its shipped 14.89, 0.3.4 counted two off-question answers on the unseen forms, which is why the comparison uses 16.24. A threshold belongs to the reader it was measured for, so 12.67 and 16.24 are not comparable as numbers.
+- **No animal products.** The tea form asks *Soy milk and sugar — how much of each, or none?*, and every tea answer names soy milk. In other answers the walk form's milk booth and milk boy became a vegetable cart and a newspaper boy, a stone shaped like an egg became a flat oval, ink and gouache on silk became ink on paper, and a cream door became off-white. Test set v1 and the training data were regenerated from the same seeds; on the regenerated v1, 0.3.4 counts 138 of 180 at 16.24 where it counted 139 before.
+- **`READER` beside `THRESHOLD`.** `rai/ask.py` names the current reader, `runs/rai-0.3.5`, next to the threshold measured for it. The contract test loads and reads with exactly that pair, and `tests/test_reader_v03.py` reads it by default. Programs built on rai can import both instead of copying a path and a number.
+- The trained reader is `rai-reader-0.3.5.tar.gz` on the release, and on Hugging Face as `prayasabhinav/rai`.
+
 ## 0.3.4 — 22 September 2026
 
 - **rai can check the record of an artwork.** An eleventh trained form, `wholes/artwork.yaml`: what it is made of, how big it is, who made it, when, what it is called, what marks are on it, where it is now and where it was before. The reader was retrained on 13,600 rows over the eleven forms.

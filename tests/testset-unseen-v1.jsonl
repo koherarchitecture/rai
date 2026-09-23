@@ -1,0 +1,168 @@
+{"whole": "bottle", "qid": "material", "question": "What is your bottle made of?", "stem": "It is made of ", "answer": "Steel.", "label": true, "class": "bare"}
+{"whole": "bottle", "qid": "material", "question": "What is your bottle made of?", "stem": "", "answer": "Steel.", "label": true, "class": "bare-nostem"}
+{"whole": "bottle", "qid": "material", "question": "What is your bottle made of?", "stem": "It is made of ", "answer": "Blue plastic, a bit scratched.", "label": true, "class": "bare"}
+{"whole": "bottle", "qid": "material", "question": "What is your bottle made of?", "stem": "", "answer": "Blue plastic, a bit scratched.", "label": true, "class": "bare-nostem"}
+{"whole": "bottle", "qid": "material", "question": "What is your bottle made of?", "stem": "It is made of ", "answer": "No idea, honestly.", "label": false, "class": "evasive"}
+{"whole": "bottle", "qid": "material", "question": "What is your bottle made of?", "stem": "", "answer": "Some stuff.", "label": false, "class": "evasive-nostem"}
+{"whole": "bottle", "qid": "material", "question": "What is your bottle made of?", "stem": "It is made of ", "answer": "One litre.", "label": false, "class": "off-question"}
+{"whole": "bottle", "qid": "holds", "question": "How much water does it hold?", "stem": "It holds ", "answer": "One litre.", "label": true, "class": "bare"}
+{"whole": "bottle", "qid": "holds", "question": "How much water does it hold?", "stem": "", "answer": "One litre.", "label": true, "class": "bare-nostem"}
+{"whole": "bottle", "qid": "holds", "question": "How much water does it hold?", "stem": "It holds ", "answer": "About half a litre.", "label": true, "class": "bare"}
+{"whole": "bottle", "qid": "holds", "question": "How much water does it hold?", "stem": "", "answer": "About half a litre.", "label": true, "class": "bare-nostem"}
+{"whole": "bottle", "qid": "holds", "question": "How much water does it hold?", "stem": "It holds ", "answer": "Couldn't say.", "label": false, "class": "evasive"}
+{"whole": "bottle", "qid": "holds", "question": "How much water does it hold?", "stem": "", "answer": "Kind of everywhere.", "label": false, "class": "evasive-nostem"}
+{"whole": "bottle", "qid": "holds", "question": "How much water does it hold?", "stem": "It holds ", "answer": "At the water cooler outside the library.", "label": false, "class": "off-question"}
+{"whole": "bottle", "qid": "fill", "question": "Where do you usually fill it?", "stem": "I usually fill it ", "answer": "At the water cooler outside the library.", "label": true, "class": "bare"}
+{"whole": "bottle", "qid": "fill", "question": "Where do you usually fill it?", "stem": "", "answer": "At the water cooler outside the library.", "label": true, "class": "bare-nostem"}
+{"whole": "bottle", "qid": "fill", "question": "Where do you usually fill it?", "stem": "I usually fill it ", "answer": "From the filter at home.", "label": true, "class": "bare"}
+{"whole": "bottle", "qid": "fill", "question": "Where do you usually fill it?", "stem": "", "answer": "From the filter at home.", "label": true, "class": "bare-nostem"}
+{"whole": "bottle", "qid": "fill", "question": "Where do you usually fill it?", "stem": "I usually fill it ", "answer": "Whatever it was.", "label": false, "class": "evasive"}
+{"whole": "bottle", "qid": "fill", "question": "Where do you usually fill it?", "stem": "", "answer": "Hmm, not really sure.", "label": false, "class": "evasive-nostem"}
+{"whole": "bottle", "qid": "fill", "question": "Where do you usually fill it?", "stem": "I usually fill it ", "answer": "My name, in marker pen.", "label": false, "class": "off-question"}
+{"whole": "bottle", "qid": "side", "question": "What does it say on the side?", "stem": "On the side it says ", "answer": "My name, in marker pen.", "label": true, "class": "bare"}
+{"whole": "bottle", "qid": "side", "question": "What does it say on the side?", "stem": "", "answer": "My name, in marker pen.", "label": true, "class": "bare-nostem"}
+{"whole": "bottle", "qid": "side", "question": "What does it say on the side?", "stem": "On the side it says ", "answer": "The name of a bike shop.", "label": true, "class": "bare"}
+{"whole": "bottle", "qid": "side", "question": "What does it say on the side?", "stem": "", "answer": "The name of a bike shop.", "label": true, "class": "bare-nostem"}
+{"whole": "bottle", "qid": "side", "question": "What does it say on the side?", "stem": "On the side it says ", "answer": "Can't remember now.", "label": false, "class": "evasive"}
+{"whole": "bottle", "qid": "side", "question": "What does it say on the side?", "stem": "", "answer": "Don't remember.", "label": false, "class": "evasive-nostem"}
+{"whole": "bottle", "qid": "side", "question": "What does it say on the side?", "stem": "On the side it says ", "answer": "A flip-top with a straw.", "label": false, "class": "off-question"}
+{"whole": "bottle", "qid": "cap", "question": "What kind of cap does it have?", "stem": "It has ", "answer": "A flip-top with a straw.", "label": true, "class": "bare"}
+{"whole": "bottle", "qid": "cap", "question": "What kind of cap does it have?", "stem": "", "answer": "A flip-top with a straw.", "label": true, "class": "bare-nostem"}
+{"whole": "bottle", "qid": "cap", "question": "What kind of cap does it have?", "stem": "It has ", "answer": "A screw cap on a little chain.", "label": true, "class": "bare"}
+{"whole": "bottle", "qid": "cap", "question": "What kind of cap does it have?", "stem": "", "answer": "A screw cap on a little chain.", "label": true, "class": "bare-nostem"}
+{"whole": "bottle", "qid": "cap", "question": "What kind of cap does it have?", "stem": "It has ", "answer": "Just the usual thing.", "label": false, "class": "evasive"}
+{"whole": "bottle", "qid": "cap", "question": "What kind of cap does it have?", "stem": "", "answer": "All kinds of things.", "label": false, "class": "evasive-nostem"}
+{"whole": "bottle", "qid": "cap", "question": "What kind of cap does it have?", "stem": "It has ", "answer": "Two years.", "label": false, "class": "off-question"}
+{"whole": "bottle", "qid": "age", "question": "How long have you had it?", "stem": "I have had it for ", "answer": "Two years.", "label": true, "class": "bare"}
+{"whole": "bottle", "qid": "age", "question": "How long have you had it?", "stem": "", "answer": "Two years.", "label": true, "class": "bare-nostem"}
+{"whole": "bottle", "qid": "age", "question": "How long have you had it?", "stem": "I have had it for ", "answer": "Since the start of this term.", "label": true, "class": "bare"}
+{"whole": "bottle", "qid": "age", "question": "How long have you had it?", "stem": "", "answer": "Since the start of this term.", "label": true, "class": "bare-nostem"}
+{"whole": "bottle", "qid": "age", "question": "How long have you had it?", "stem": "I have had it for ", "answer": "Some stuff.", "label": false, "class": "evasive"}
+{"whole": "bottle", "qid": "age", "question": "How long have you had it?", "stem": "", "answer": "It's hard to explain.", "label": false, "class": "evasive-nostem"}
+{"whole": "bottle", "qid": "age", "question": "How long have you had it?", "stem": "I have had it for ", "answer": "Steel.", "label": false, "class": "off-question"}
+{"whole": "charger", "qid": "where", "question": "Where were you when your phone died?", "stem": "I was ", "answer": "At the hospital, waiting for a report.", "label": true, "class": "bare"}
+{"whole": "charger", "qid": "where", "question": "Where were you when your phone died?", "stem": "", "answer": "At the hospital, waiting for a report.", "label": true, "class": "bare-nostem"}
+{"whole": "charger", "qid": "where", "question": "Where were you when your phone died?", "stem": "I was ", "answer": "In the metro, two stops from home.", "label": true, "class": "bare"}
+{"whole": "charger", "qid": "where", "question": "Where were you when your phone died?", "stem": "", "answer": "In the metro, two stops from home.", "label": true, "class": "bare-nostem"}
+{"whole": "charger", "qid": "where", "question": "Where were you when your phone died?", "stem": "I was ", "answer": "Kind of everywhere.", "label": false, "class": "evasive"}
+{"whole": "charger", "qid": "where", "question": "Where were you when your phone died?", "stem": "", "answer": "Nothing much.", "label": false, "class": "evasive-nostem"}
+{"whole": "charger", "qid": "where", "question": "Where were you when your phone died?", "stem": "I was ", "answer": "Paying for groceries with UPI.", "label": false, "class": "off-question"}
+{"whole": "charger", "qid": "doing", "question": "What were you in the middle of?", "stem": "I was in the middle of ", "answer": "Paying for groceries with UPI.", "label": true, "class": "bare"}
+{"whole": "charger", "qid": "doing", "question": "What were you in the middle of?", "stem": "", "answer": "Paying for groceries with UPI.", "label": true, "class": "bare-nostem"}
+{"whole": "charger", "qid": "doing", "question": "What were you in the middle of?", "stem": "I was in the middle of ", "answer": "A video call with my aunt.", "label": true, "class": "bare"}
+{"whole": "charger", "qid": "doing", "question": "What were you in the middle of?", "stem": "", "answer": "A video call with my aunt.", "label": true, "class": "bare-nostem"}
+{"whole": "charger", "qid": "doing", "question": "What were you in the middle of?", "stem": "I was in the middle of ", "answer": "Hmm, not really sure.", "label": false, "class": "evasive"}
+{"whole": "charger", "qid": "doing", "question": "What were you in the middle of?", "stem": "", "answer": "No idea, honestly.", "label": false, "class": "evasive-nostem"}
+{"whole": "charger", "qid": "doing", "question": "What were you in the middle of?", "stem": "I was in the middle of ", "answer": "With a power bank a friend lent me.", "label": false, "class": "off-question"}
+{"whole": "charger", "qid": "charged", "question": "How did you charge it?", "stem": "I charged it ", "answer": "With a power bank a friend lent me.", "label": true, "class": "bare"}
+{"whole": "charger", "qid": "charged", "question": "How did you charge it?", "stem": "", "answer": "With a power bank a friend lent me.", "label": true, "class": "bare-nostem"}
+{"whole": "charger", "qid": "charged", "question": "How did you charge it?", "stem": "I charged it ", "answer": "At a charging point in the waiting hall.", "label": true, "class": "bare"}
+{"whole": "charger", "qid": "charged", "question": "How did you charge it?", "stem": "", "answer": "At a charging point in the waiting hall.", "label": true, "class": "bare-nostem"}
+{"whole": "charger", "qid": "charged", "question": "How did you charge it?", "stem": "I charged it ", "answer": "Don't remember.", "label": false, "class": "evasive"}
+{"whole": "charger", "qid": "charged", "question": "How did you charge it?", "stem": "", "answer": "Couldn't say.", "label": false, "class": "evasive-nostem"}
+{"whole": "charger", "qid": "charged", "question": "How did you charge it?", "stem": "I charged it ", "answer": "About ten minutes.", "label": false, "class": "off-question"}
+{"whole": "charger", "qid": "whose", "question": "Whose charger did you use?", "stem": "I used ", "answer": "The shopkeeper's charger.", "label": true, "class": "bare"}
+{"whole": "charger", "qid": "whose", "question": "Whose charger did you use?", "stem": "", "answer": "The shopkeeper's charger.", "label": true, "class": "bare-nostem"}
+{"whole": "charger", "qid": "whose", "question": "Whose charger did you use?", "stem": "I used ", "answer": "My own, from my bag.", "label": true, "class": "bare"}
+{"whole": "charger", "qid": "whose", "question": "Whose charger did you use?", "stem": "", "answer": "My own, from my bag.", "label": true, "class": "bare-nostem"}
+{"whole": "charger", "qid": "whose", "question": "Whose charger did you use?", "stem": "I used ", "answer": "All kinds of things.", "label": false, "class": "evasive"}
+{"whole": "charger", "qid": "whose", "question": "Whose charger did you use?", "stem": "", "answer": "Whatever it was.", "label": false, "class": "evasive-nostem"}
+{"whole": "charger", "qid": "whose", "question": "Whose charger did you use?", "stem": "I used ", "answer": "About ten minutes.", "label": false, "class": "off-question"}
+{"whole": "charger", "qid": "long", "question": "How long before you could use it again?", "stem": "It took ", "answer": "About ten minutes.", "label": true, "class": "bare"}
+{"whole": "charger", "qid": "long", "question": "How long before you could use it again?", "stem": "", "answer": "About ten minutes.", "label": true, "class": "bare-nostem"}
+{"whole": "charger", "qid": "long", "question": "How long before you could use it again?", "stem": "It took ", "answer": "Nearly half an hour.", "label": true, "class": "bare"}
+{"whole": "charger", "qid": "long", "question": "How long before you could use it again?", "stem": "", "answer": "Nearly half an hour.", "label": true, "class": "bare-nostem"}
+{"whole": "charger", "qid": "long", "question": "How long before you could use it again?", "stem": "It took ", "answer": "It's hard to explain.", "label": false, "class": "evasive"}
+{"whole": "charger", "qid": "long", "question": "How long before you could use it again?", "stem": "", "answer": "Can't remember now.", "label": false, "class": "evasive-nostem"}
+{"whole": "charger", "qid": "long", "question": "How long before you could use it again?", "stem": "It took ", "answer": "Two calls from my mother.", "label": false, "class": "off-question"}
+{"whole": "charger", "qid": "missed", "question": "What did you miss while it was off?", "stem": "While it was off I missed ", "answer": "Two calls from my mother.", "label": true, "class": "bare"}
+{"whole": "charger", "qid": "missed", "question": "What did you miss while it was off?", "stem": "", "answer": "Two calls from my mother.", "label": true, "class": "bare-nostem"}
+{"whole": "charger", "qid": "missed", "question": "What did you miss while it was off?", "stem": "While it was off I missed ", "answer": "The OTP for the payment.", "label": true, "class": "bare"}
+{"whole": "charger", "qid": "missed", "question": "What did you miss while it was off?", "stem": "", "answer": "The OTP for the payment.", "label": true, "class": "bare-nostem"}
+{"whole": "charger", "qid": "missed", "question": "What did you miss while it was off?", "stem": "While it was off I missed ", "answer": "Nothing much.", "label": false, "class": "evasive"}
+{"whole": "charger", "qid": "missed", "question": "What did you miss while it was off?", "stem": "", "answer": "Just the usual thing.", "label": false, "class": "evasive-nostem"}
+{"whole": "charger", "qid": "missed", "question": "What did you miss while it was off?", "stem": "While it was off I missed ", "answer": "At the hospital, waiting for a report.", "label": false, "class": "off-question"}
+{"whole": "rain", "qid": "where", "question": "Where were you when it started?", "stem": "I was ", "answer": "On the scooter, halfway to college.", "label": true, "class": "bare"}
+{"whole": "rain", "qid": "where", "question": "Where were you when it started?", "stem": "", "answer": "On the scooter, halfway to college.", "label": true, "class": "bare-nostem"}
+{"whole": "rain", "qid": "where", "question": "Where were you when it started?", "stem": "I was ", "answer": "At the bus stop near the stadium.", "label": true, "class": "bare"}
+{"whole": "rain", "qid": "where", "question": "Where were you when it started?", "stem": "", "answer": "At the bus stop near the stadium.", "label": true, "class": "bare-nostem"}
+{"whole": "rain", "qid": "where", "question": "Where were you when it started?", "stem": "I was ", "answer": "No idea, honestly.", "label": false, "class": "evasive"}
+{"whole": "rain", "qid": "where", "question": "Where were you when it started?", "stem": "", "answer": "Some stuff.", "label": false, "class": "evasive-nostem"}
+{"whole": "rain", "qid": "where", "question": "Where were you when it started?", "stem": "I was ", "answer": "My laptop bag and a packet of vegetables.", "label": false, "class": "off-question"}
+{"whole": "rain", "qid": "carrying", "question": "What were you carrying?", "stem": "I was carrying ", "answer": "My laptop bag and a packet of vegetables.", "label": true, "class": "bare"}
+{"whole": "rain", "qid": "carrying", "question": "What were you carrying?", "stem": "", "answer": "My laptop bag and a packet of vegetables.", "label": true, "class": "bare-nostem"}
+{"whole": "rain", "qid": "carrying", "question": "What were you carrying?", "stem": "I was carrying ", "answer": "Just my phone.", "label": true, "class": "bare"}
+{"whole": "rain", "qid": "carrying", "question": "What were you carrying?", "stem": "", "answer": "Just my phone.", "label": true, "class": "bare-nostem"}
+{"whole": "rain", "qid": "carrying", "question": "What were you carrying?", "stem": "I was carrying ", "answer": "Couldn't say.", "label": false, "class": "evasive"}
+{"whole": "rain", "qid": "carrying", "question": "What were you carrying?", "stem": "", "answer": "Kind of everywhere.", "label": false, "class": "evasive-nostem"}
+{"whole": "rain", "qid": "carrying", "question": "What were you carrying?", "stem": "I was carrying ", "answer": "Under the flyover.", "label": false, "class": "off-question"}
+{"whole": "rain", "qid": "shelter", "question": "Where did you take shelter?", "stem": "I took shelter ", "answer": "Under the flyover.", "label": true, "class": "bare"}
+{"whole": "rain", "qid": "shelter", "question": "Where did you take shelter?", "stem": "", "answer": "Under the flyover.", "label": true, "class": "bare-nostem"}
+{"whole": "rain", "qid": "shelter", "question": "Where did you take shelter?", "stem": "I took shelter ", "answer": "In the doorway of a hardware shop.", "label": true, "class": "bare"}
+{"whole": "rain", "qid": "shelter", "question": "Where did you take shelter?", "stem": "", "answer": "In the doorway of a hardware shop.", "label": true, "class": "bare-nostem"}
+{"whole": "rain", "qid": "shelter", "question": "Where did you take shelter?", "stem": "I took shelter ", "answer": "Whatever it was.", "label": false, "class": "evasive"}
+{"whole": "rain", "qid": "shelter", "question": "Where did you take shelter?", "stem": "", "answer": "Hmm, not really sure.", "label": false, "class": "evasive-nostem"}
+{"whole": "rain", "qid": "shelter", "question": "Where did you take shelter?", "stem": "I took shelter ", "answer": "About fifteen minutes.", "label": false, "class": "off-question"}
+{"whole": "rain", "qid": "stayed", "question": "How long did you stay there?", "stem": "I stayed there ", "answer": "About fifteen minutes.", "label": true, "class": "bare"}
+{"whole": "rain", "qid": "stayed", "question": "How long did you stay there?", "stem": "", "answer": "About fifteen minutes.", "label": true, "class": "bare-nostem"}
+{"whole": "rain", "qid": "stayed", "question": "How long did you stay there?", "stem": "I stayed there ", "answer": "Till the rain slowed, maybe half an hour.", "label": true, "class": "bare"}
+{"whole": "rain", "qid": "stayed", "question": "How long did you stay there?", "stem": "", "answer": "Till the rain slowed, maybe half an hour.", "label": true, "class": "bare-nostem"}
+{"whole": "rain", "qid": "stayed", "question": "How long did you stay there?", "stem": "I stayed there ", "answer": "Can't remember now.", "label": false, "class": "evasive"}
+{"whole": "rain", "qid": "stayed", "question": "How long did you stay there?", "stem": "", "answer": "Don't remember.", "label": false, "class": "evasive-nostem"}
+{"whole": "rain", "qid": "stayed", "question": "How long did you stay there?", "stem": "I stayed there ", "answer": "By auto, soaked.", "label": false, "class": "off-question"}
+{"whole": "rain", "qid": "home", "question": "How did you get home?", "stem": "I got home ", "answer": "By auto, soaked.", "label": true, "class": "bare"}
+{"whole": "rain", "qid": "home", "question": "How did you get home?", "stem": "", "answer": "By auto, soaked.", "label": true, "class": "bare-nostem"}
+{"whole": "rain", "qid": "home", "question": "How did you get home?", "stem": "I got home ", "answer": "I walked the last bit with a plastic bag over my head.", "label": true, "class": "bare"}
+{"whole": "rain", "qid": "home", "question": "How did you get home?", "stem": "", "answer": "I walked the last bit with a plastic bag over my head.", "label": true, "class": "bare-nostem"}
+{"whole": "rain", "qid": "home", "question": "How did you get home?", "stem": "I got home ", "answer": "Just the usual thing.", "label": false, "class": "evasive"}
+{"whole": "rain", "qid": "home", "question": "How did you get home?", "stem": "", "answer": "All kinds of things.", "label": false, "class": "evasive-nostem"}
+{"whole": "rain", "qid": "home", "question": "How did you get home?", "stem": "I got home ", "answer": "My shoes and the left side of my bag.", "label": false, "class": "off-question"}
+{"whole": "rain", "qid": "wet", "question": "What got wet?", "stem": "What got wet was ", "answer": "My shoes and the left side of my bag.", "label": true, "class": "bare"}
+{"whole": "rain", "qid": "wet", "question": "What got wet?", "stem": "", "answer": "My shoes and the left side of my bag.", "label": true, "class": "bare-nostem"}
+{"whole": "rain", "qid": "wet", "question": "What got wet?", "stem": "What got wet was ", "answer": "Everything except the phone, which was in a pouch.", "label": true, "class": "bare"}
+{"whole": "rain", "qid": "wet", "question": "What got wet?", "stem": "", "answer": "Everything except the phone, which was in a pouch.", "label": true, "class": "bare-nostem"}
+{"whole": "rain", "qid": "wet", "question": "What got wet?", "stem": "What got wet was ", "answer": "Some stuff.", "label": false, "class": "evasive"}
+{"whole": "rain", "qid": "wet", "question": "What got wet?", "stem": "", "answer": "It's hard to explain.", "label": false, "class": "evasive-nostem"}
+{"whole": "rain", "qid": "wet", "question": "What got wet?", "stem": "What got wet was ", "answer": "On the scooter, halfway to college.", "label": false, "class": "off-question"}
+{"whole": "search", "qid": "app", "question": "Which website or app was it?", "stem": "It was ", "answer": "IRCTC, on my phone.", "label": true, "class": "bare"}
+{"whole": "search", "qid": "app", "question": "Which website or app was it?", "stem": "", "answer": "IRCTC, on my phone.", "label": true, "class": "bare-nostem"}
+{"whole": "search", "qid": "app", "question": "Which website or app was it?", "stem": "It was ", "answer": "The electricity board's website.", "label": true, "class": "bare"}
+{"whole": "search", "qid": "app", "question": "Which website or app was it?", "stem": "", "answer": "The electricity board's website.", "label": true, "class": "bare-nostem"}
+{"whole": "search", "qid": "app", "question": "Which website or app was it?", "stem": "It was ", "answer": "Kind of everywhere.", "label": false, "class": "evasive"}
+{"whole": "search", "qid": "app", "question": "Which website or app was it?", "stem": "", "answer": "Nothing much.", "label": false, "class": "evasive-nostem"}
+{"whole": "search", "qid": "app", "question": "Which website or app was it?", "stem": "It was ", "answer": "The cancellation charge for a waitlisted ticket.", "label": false, "class": "off-question"}
+{"whole": "search", "qid": "find", "question": "What were you trying to find?", "stem": "I was trying to find ", "answer": "The cancellation charge for a waitlisted ticket.", "label": true, "class": "bare"}
+{"whole": "search", "qid": "find", "question": "What were you trying to find?", "stem": "", "answer": "The cancellation charge for a waitlisted ticket.", "label": true, "class": "bare-nostem"}
+{"whole": "search", "qid": "find", "question": "What were you trying to find?", "stem": "I was trying to find ", "answer": "The due date on my last bill.", "label": true, "class": "bare"}
+{"whole": "search", "qid": "find", "question": "What were you trying to find?", "stem": "", "answer": "The due date on my last bill.", "label": true, "class": "bare-nostem"}
+{"whole": "search", "qid": "find", "question": "What were you trying to find?", "stem": "I was trying to find ", "answer": "Hmm, not really sure.", "label": false, "class": "evasive"}
+{"whole": "search", "qid": "find", "question": "What were you trying to find?", "stem": "", "answer": "No idea, honestly.", "label": false, "class": "evasive-nostem"}
+{"whole": "search", "qid": "find", "question": "What were you trying to find?", "stem": "I was trying to find ", "answer": "The My Transactions menu.", "label": false, "class": "off-question"}
+{"whole": "search", "qid": "first", "question": "Where did you look first?", "stem": "I looked first in ", "answer": "The My Transactions menu.", "label": true, "class": "bare"}
+{"whole": "search", "qid": "first", "question": "Where did you look first?", "stem": "", "answer": "The My Transactions menu.", "label": true, "class": "bare-nostem"}
+{"whole": "search", "qid": "first", "question": "Where did you look first?", "stem": "I looked first in ", "answer": "The top menu, under Services.", "label": true, "class": "bare"}
+{"whole": "search", "qid": "first", "question": "Where did you look first?", "stem": "", "answer": "The top menu, under Services.", "label": true, "class": "bare-nostem"}
+{"whole": "search", "qid": "first", "question": "Where did you look first?", "stem": "I looked first in ", "answer": "Don't remember.", "label": false, "class": "evasive"}
+{"whole": "search", "qid": "first", "question": "Where did you look first?", "stem": "", "answer": "Couldn't say.", "label": false, "class": "evasive-nostem"}
+{"whole": "search", "qid": "first", "question": "Where did you look first?", "stem": "I looked first in ", "answer": "About twelve minutes.", "label": false, "class": "off-question"}
+{"whole": "search", "qid": "tapped", "question": "What did you tap or type?", "stem": "I tapped ", "answer": "Booked Ticket History, then Cancel Ticket.", "label": true, "class": "bare"}
+{"whole": "search", "qid": "tapped", "question": "What did you tap or type?", "stem": "", "answer": "Booked Ticket History, then Cancel Ticket.", "label": true, "class": "bare-nostem"}
+{"whole": "search", "qid": "tapped", "question": "What did you tap or type?", "stem": "I tapped ", "answer": "I typed my consumer number into the search box.", "label": true, "class": "bare"}
+{"whole": "search", "qid": "tapped", "question": "What did you tap or type?", "stem": "", "answer": "I typed my consumer number into the search box.", "label": true, "class": "bare-nostem"}
+{"whole": "search", "qid": "tapped", "question": "What did you tap or type?", "stem": "I tapped ", "answer": "All kinds of things.", "label": false, "class": "evasive"}
+{"whole": "search", "qid": "tapped", "question": "What did you tap or type?", "stem": "", "answer": "Whatever it was.", "label": false, "class": "evasive-nostem"}
+{"whole": "search", "qid": "tapped", "question": "What did you tap or type?", "stem": "I tapped ", "answer": "About twelve minutes.", "label": false, "class": "off-question"}
+{"whole": "search", "qid": "long", "question": "How long did the searching take?", "stem": "It took ", "answer": "About twelve minutes.", "label": true, "class": "bare"}
+{"whole": "search", "qid": "long", "question": "How long did the searching take?", "stem": "", "answer": "About twelve minutes.", "label": true, "class": "bare-nostem"}
+{"whole": "search", "qid": "long", "question": "How long did the searching take?", "stem": "It took ", "answer": "Twenty minutes, with the page reloading twice.", "label": true, "class": "bare"}
+{"whole": "search", "qid": "long", "question": "How long did the searching take?", "stem": "", "answer": "Twenty minutes, with the page reloading twice.", "label": true, "class": "bare-nostem"}
+{"whole": "search", "qid": "long", "question": "How long did the searching take?", "stem": "It took ", "answer": "It's hard to explain.", "label": false, "class": "evasive"}
+{"whole": "search", "qid": "long", "question": "How long did the searching take?", "stem": "", "answer": "Can't remember now.", "label": false, "class": "evasive-nostem"}
+{"whole": "search", "qid": "long", "question": "How long did the searching take?", "stem": "It took ", "answer": "I found the charges in a PDF linked at the bottom of the FAQ page.", "label": false, "class": "off-question"}
+{"whole": "search", "qid": "ended", "question": "How did it end?", "stem": "It ended when ", "answer": "I found the charges in a PDF linked at the bottom of the FAQ page.", "label": true, "class": "bare"}
+{"whole": "search", "qid": "ended", "question": "How did it end?", "stem": "", "answer": "I found the charges in a PDF linked at the bottom of the FAQ page.", "label": true, "class": "bare-nostem"}
+{"whole": "search", "qid": "ended", "question": "How did it end?", "stem": "It ended when ", "answer": "My neighbour told me the date.", "label": true, "class": "bare"}
+{"whole": "search", "qid": "ended", "question": "How did it end?", "stem": "", "answer": "My neighbour told me the date.", "label": true, "class": "bare-nostem"}
+{"whole": "search", "qid": "ended", "question": "How did it end?", "stem": "It ended when ", "answer": "Nothing much.", "label": false, "class": "evasive"}
+{"whole": "search", "qid": "ended", "question": "How did it end?", "stem": "", "answer": "Just the usual thing.", "label": false, "class": "evasive-nostem"}
+{"whole": "search", "qid": "ended", "question": "How did it end?", "stem": "It ended when ", "answer": "IRCTC, on my phone.", "label": false, "class": "off-question"}

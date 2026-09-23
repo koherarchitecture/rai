@@ -1,0 +1,36 @@
+# rai whole — a ride
+# One of the forms added in 0.3.5 so the reader meets more kinds of question: an auto or cab ride. Weights are never written here: each question's weight is its share of 1 by position.
+
+notion: a ride
+kind_rule: simple
+questions:
+  - id: ends
+    text: "From where to where did you ride?"
+    stem: "I rode from "
+    kind: fact
+    counts_when: "two named places"
+  - id: got
+    text: "How did you get the ride?"
+    stem: "I got it "
+    kind: fact
+    counts_when: "a named way"
+  - id: cost
+    text: "What did the ride cost?"
+    stem: "It cost "
+    kind: fact
+    counts_when: "an amount"
+  - id: time
+    text: "How long was the ride?"
+    stem: "The ride took "
+    kind: fact
+    counts_when: "a duration"
+  - id: route
+    text: "Which way did the driver go?"
+    stem: "The driver went "
+    kind: fact
+    counts_when: "a named route"
+  - id: happened
+    text: "What happened on the way?"
+    stem: "On the way "
+    kind: fact
+    counts_when: "a stated event"

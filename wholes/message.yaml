@@ -1,0 +1,36 @@
+# rai whole — a message you sent
+# One of the forms added in 0.3.5 so the reader meets more kinds of question: the last message you sent. Weights are never written here: each question's weight is its share of 1 by position.
+
+notion: a message you sent
+kind_rule: simple
+questions:
+  - id: to
+    text: "Who did you send it to?"
+    stem: "I sent it to "
+    kind: fact
+    counts_when: "a named person or group"
+  - id: app
+    text: "Which app did you send it on?"
+    stem: "I sent it on "
+    kind: fact
+    counts_when: "a named app"
+  - id: about
+    text: "What was the message about?"
+    stem: "It was about "
+    kind: fact
+    counts_when: "a named matter"
+  - id: length
+    text: "How long was the message?"
+    stem: "It was "
+    kind: fact
+    counts_when: "a length"
+  - id: reply
+    text: "When did they reply?"
+    stem: "They replied "
+    kind: fact
+    counts_when: "a time"
+  - id: after
+    text: "What did you do right after sending it?"
+    stem: "Right after sending it, I "
+    kind: fact
+    counts_when: "a stated action"

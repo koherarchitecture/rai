@@ -1,0 +1,36 @@
+# rai whole — a repair
+# One of the forms added in 0.3.5 so the reader meets more kinds of question: something you fixed or tried to fix. Weights are never written here: each question's weight is its share of 1 by position.
+
+notion: a repair
+kind_rule: simple
+questions:
+  - id: what
+    text: "What did you try to fix?"
+    stem: "I tried to fix "
+    kind: fact
+    counts_when: "a named thing"
+  - id: wrong
+    text: "What was wrong with it?"
+    stem: "The problem was "
+    kind: fact
+    counts_when: "a stated fault"
+  - id: used
+    text: "What did you use?"
+    stem: "I used "
+    kind: fact
+    counts_when: "a named tool or thing"
+  - id: first
+    text: "What did you do first?"
+    stem: "First I "
+    kind: fact
+    counts_when: "a stated action"
+  - id: long
+    text: "How long did the repair take?"
+    stem: "It took "
+    kind: fact
+    counts_when: "a duration"
+  - id: worked
+    text: "What happened when you tried it?"
+    stem: "When I tried it, "
+    kind: fact
+    counts_when: "a stated result"

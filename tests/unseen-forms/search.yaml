@@ -1,0 +1,30 @@
+# rai whole — a search that failed
+# Held out: the reader is NEVER trained on this form. It lives here, not in wholes/, so that a reader is measured on questions it has not seen; scripts/synth.py refuses a training question that repeats one of these. Written 23 September 2026 for 0.3.5. The last time you could not find something on a website.
+
+notion: a search that failed
+kind_rule: simple
+questions:
+  - id: app
+    text: "Which website or app was it?"
+    stem: "It was "
+    kind: fact
+  - id: find
+    text: "What were you trying to find?"
+    stem: "I was trying to find "
+    kind: fact
+  - id: first
+    text: "Where did you look first?"
+    stem: "I looked first in "
+    kind: fact
+  - id: tapped
+    text: "What did you tap or type?"
+    stem: "I tapped "
+    kind: fact
+  - id: long
+    text: "How long did the searching take?"
+    stem: "It took "
+    kind: fact
+  - id: ended
+    text: "How did it end?"
+    stem: "It ended when "
+    kind: fact

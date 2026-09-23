@@ -1,0 +1,30 @@
+# rai whole — caught in the rain
+# Held out: the reader is NEVER trained on this form. It lives here, not in wholes/, so that a reader is measured on questions it has not seen; scripts/synth.py refuses a training question that repeats one of these. Written 23 September 2026 for 0.3.5. The last time you were caught in the rain.
+
+notion: caught in the rain
+kind_rule: simple
+questions:
+  - id: where
+    text: "Where were you when it started?"
+    stem: "I was "
+    kind: fact
+  - id: carrying
+    text: "What were you carrying?"
+    stem: "I was carrying "
+    kind: fact
+  - id: shelter
+    text: "Where did you take shelter?"
+    stem: "I took shelter "
+    kind: fact
+  - id: stayed
+    text: "How long did you stay there?"
+    stem: "I stayed there "
+    kind: fact
+  - id: home
+    text: "How did you get home?"
+    stem: "I got home "
+    kind: fact
+  - id: wet
+    text: "What got wet?"
+    stem: "What got wet was "
+    kind: fact

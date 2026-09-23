@@ -8,17 +8,17 @@ Write the form once: the questions a complete description of one kind of thing o
 
 *Example.* Someone returning a camera kit to a studio store writes `wholes/equipment-return.md`: what is being returned, what condition it is in and where any damage is, whether anything is missing, when it was taken out and when it is being returned, where it is now. Before handing the kit back, they type their answers and run it. *Not complete* sends them back to their own answers, with no hint about which part.
 
-This is for your own use, on your own machine. rai's output is meant for the person who wrote the answers, and for nobody else. On a set it was not trained on, rai misses more real answers than on the ten shipped sets, so *not complete* there is more often rai's miss than a missing part.
+This is for your own use, on your own machine. rai's output is meant for the person who wrote the answers, and for nobody else. On a set it was not trained on, rai misses more real answers than on the sets it was trained on (59 of 96 on four unseen forms, against 155 of 180 on the first ten), so *not complete* there is more often rai's miss than a missing part.
 
 ## 2. Writing your own wholes
 
-A set is a short Markdown file (or YAML, like the ten shipped), so a set for one ordinary thing can be written in a few minutes; the format is in the README's [How to use](../README.md#how-to-use). The rules that keep a whole checkable are in [`wholes.md`](wholes.md): one thing per question, every question answerable with a particular, no leading questions, plain words. Comparisons make vague things checkable (*how big, against a coin?*).
+A set is a short Markdown file (or YAML, like the nineteen shipped), so a set for one ordinary thing can be written in a few minutes; the format is in the README's [How to use](../README.md#how-to-use). The rules that keep a whole checkable are in [`wholes.md`](wholes.md): one thing per question, every question answerable with a particular, no leading questions, plain words. Comparisons make vague things checkable (*how big, against a coin?*).
 
-Nothing in rai limits sets to ten. `rai/whole.py` loads any `.md` or `.yaml` file in the format. What limits them is the reader's training: it knows the ten sets well, sets like them partly, and other kinds of description poorly.
+Nothing in rai limits which sets it runs. `rai/whole.py` loads any `.md` or `.yaml` file in the format. What limits them is the reader's training: it knows the nineteen shipped sets well, sets like them partly, and other kinds of description poorly.
 
 ## 3. A small benchmark for extractive readers
 
-`tests/testset-v1.jsonl` (360 rows) and `data/train-synth.jsonl` (12,000 rows) are a public, labelled set of short typed answers. The test set has honest, evasive and off-question answers; the training data also has deferred, general, restating and empty ones. Any extractive question-answering model can be scored on them with `scripts/eval_reader.py`, which reports false presents, false absents and honest answers counted at the threshold that lets no non-answer through. The test set shares no phrase with the training data.
+`tests/testset-v1.jsonl` (360 rows), `tests/testset-artwork-v1.jsonl` (48), `tests/testset-unseen-v1.jsonl` (168, over four forms the reader never trains on) and `data/train-synth.jsonl` (23,200 rows) are a public, labelled set of short typed answers. The test set has honest, evasive and off-question answers; the training data also has deferred, general, restating and empty ones. Any extractive question-answering model can be scored on them with `scripts/eval_reader.py`, which reports false presents, false absents and honest answers counted at the threshold that lets no non-answer through. The test sets share no phrase with the training data.
 
 ## 4. A worked example of keeping a model out of a decision
 

@@ -1,6 +1,6 @@
 # The wholes, and how to write one
 
-A whole, or form, is the set of questions that make up a complete description of one thing or event. rai ships ten. They are the reader's training domain: descriptions of everyday objects and moments, each built on an older descriptive form.
+A whole, or form, is the set of questions that make up a complete description of one thing or event. rai ships nineteen. They are the reader's training domain: descriptions of everyday objects, moments and events, and the record of an artwork, each built on an older descriptive form.
 
 | file | the thing |
 |---|---|
@@ -32,11 +32,11 @@ A note line, ignored by rai.
    - stem: It is about as long as
 ```
 
-`# ` names the thing. Numbered lines (`1.` or `1)`) are the questions. An indented `- stem:` under a question is optional. Every other line is ignored. `wholes/key.md` is a full example. rai's reader was trained on the ten shipped sets only, so a new set works best when it is close to them: one thing or event, every question answered by a short particular.
+`# ` names the thing. Numbered lines (`1.` or `1)`) are the questions. An indented `- stem:` under a question is optional. Every other line is ignored. `wholes/key.md` is a full example. rai's reader was trained on the nineteen shipped sets only, so a new set works best when it is close to them: one thing or event, every question answered by a short particular.
 
 ## The YAML format
 
-The ten shipped sets are YAML, and carry two fields the Markdown format leaves out for the person writing the set.
+The nineteen shipped sets are YAML, and carry two fields the Markdown format leaves out for the person writing the set.
 
 ```yaml
 notion: a coin
