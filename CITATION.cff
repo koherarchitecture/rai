@@ -5,8 +5,8 @@ type: software
 authors:
   - name: "Koher"
     website: "https://koher.app"
-version: "0.3.5"
-date-released: "2026-09-23"
+version: "0.3.6"
+date-released: "2026-09-25"
 license: AGPL-3.0-only
 repository-code: "https://github.com/koherarchitecture/rai"
 url: "https://github.com/koherarchitecture/rai"
@@ -28,3 +28,9 @@ references:
       - name: "Microsoft"
     url: "https://huggingface.co/microsoft/MiniLM-L12-H384-uncased"
     license: MIT
+  - type: software
+    title: "Comma v0.1-2T"
+    authors:
+      - name: "EleutherAI and collaborators"
+    url: "https://huggingface.co/common-pile/comma-v0.1-2t"
+    license: Apache-2.0

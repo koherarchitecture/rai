@@ -7,7 +7,7 @@
 <p align="center"><strong>A model that checks if a set is complete.</strong></p>
 
 <p align="center">
-  <a href="https://github.com/koherarchitecture/rai/releases/tag/v0.3.5"><img src="https://img.shields.io/badge/release-v0.3.5-D59A3A" alt="release v0.3.5"></a>
+  <a href="https://github.com/koherarchitecture/rai/releases/tag/v0.3.6"><img src="https://img.shields.io/badge/release-v0.3.6-D59A3A" alt="release v0.3.6"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/code-AGPL--3.0-373E3C" alt="code licence AGPL-3.0"></a>
   <a href="LICENSE-WEIGHTS-AND-DATA.md"><img src="https://img.shields.io/badge/weights_%26_data-CC--BY--4.0-373E3C" alt="weights and data licence CC-BY-4.0"></a>
   <img src="https://img.shields.io/badge/python-3.10%2B-3776AB" alt="Python 3.10+">
@@ -56,8 +56,8 @@ python3 -m venv .venv
 .venv/bin/pip install -r requirements.txt
 
 # the trained reader, 122 MB, from this release
-curl -L -o rai-reader-0.3.5.tar.gz https://github.com/koherarchitecture/rai/releases/download/v0.3.5/rai-reader-0.3.5.tar.gz
-mkdir -p runs && tar -xzf rai-reader-0.3.5.tar.gz -C runs/    # creates runs/rai-0.3.5/
+curl -L -o rai-reader-0.3.6.tar.gz https://github.com/koherarchitecture/rai/releases/download/v0.3.6/rai-reader-0.3.6.tar.gz
+mkdir -p runs && tar -xzf rai-reader-0.3.6.tar.gz -C runs/    # creates runs/rai-0.3.6/
 
 .venv/bin/python -m rai ask wholes/stone.yaml
 ```
@@ -122,11 +122,11 @@ A form in scope that the reader was **not** trained on, and on which it does les
 
 The reader was trained on the 116 questions of the nineteen trained forms. From 0.3.5 it is also measured on four forms it never trains on, kept apart in `tests/unseen-forms/`: a water bottle, a phone that ran out of charge, being caught in the rain, and a search that failed. `scripts/synth.py` stops if a training question repeats one of theirs. Each of their 24 questions has two honest answers, read with the form's stem and again without it, an evasive answer each way, and an answer to another question of the same form: 168 rows in `tests/testset-unseen-v1.jsonl`.
 
-| unseen forms | 0.3.4, at 16.24 | 0.3.5, at 12.67 |
-|---|---|---|
-| honest answers, with the stem | 25 of 48 | 32 of 48 |
-| honest answers, without the stem | 14 of 48 | 27 of 48 |
-| non-answers counted | 0 of 72 | 0 of 72 |
+| unseen forms | 0.3.4, at 16.24 | 0.3.5, at 12.67 | 0.3.6, at 9.30 |
+|---|---|---|---|
+| honest answers, with the stem | 25 of 48 | 32 of 48 | 31 of 48 |
+| honest answers, without the stem | 14 of 48 | 27 of 48 | 30 of 48 |
+| non-answers counted | 0 of 72 | 0 of 72 | 0 of 72 |
 
 16.24 is the lowest threshold at which 0.3.4 counts no non-answer on all three test sets; at its shipped 14.89 it counted two off-question answers on these forms. On a new form rai still refuses non-answers but misses more real ones than on the trained forms, and so says *not complete* when the description is complete. The unseen answers were written for this set in the same plain style as the training templates; how rai does on answers people type in their own words is still not measured.
 
@@ -164,21 +164,21 @@ On Windows, use `.venv\Scripts\python` wherever this README says `.venv/bin/pyth
 **Get the trained reader.** Download it from the release and extract it into `runs/`. On macOS and Linux:
 
 ```bash
-curl -L -o rai-reader-0.3.5.tar.gz https://github.com/koherarchitecture/rai/releases/download/v0.3.5/rai-reader-0.3.5.tar.gz
-shasum -a 256 rai-reader-0.3.5.tar.gz    # Linux: sha256sum
-mkdir -p runs && tar -xzf rai-reader-0.3.5.tar.gz -C runs/
+curl -L -o rai-reader-0.3.6.tar.gz https://github.com/koherarchitecture/rai/releases/download/v0.3.6/rai-reader-0.3.6.tar.gz
+shasum -a 256 rai-reader-0.3.6.tar.gz    # Linux: sha256sum
+mkdir -p runs && tar -xzf rai-reader-0.3.6.tar.gz -C runs/
 ```
 
-The checksum should read `793926fc8ecd0a7c887ea964b6c7cb3fbb8e3a4c4a3f84cf64738d3e8737debf`. You should end up with `runs/rai-0.3.5/model.safetensors`. On Windows (PowerShell), where `curl` alone means something else, use `curl.exe`:
+The checksum should read `1ad8c577e4bc409072341dd5b0ab8187b85d99ced659990e693dc6ab832341df`. You should end up with `runs/rai-0.3.6/model.safetensors`. On Windows (PowerShell), where `curl` alone means something else, use `curl.exe`:
 
 ```powershell
-curl.exe -L -o rai-reader-0.3.5.tar.gz https://github.com/koherarchitecture/rai/releases/download/v0.3.5/rai-reader-0.3.5.tar.gz
-Get-FileHash rai-reader-0.3.5.tar.gz -Algorithm SHA256    # prints the same hash in capitals
+curl.exe -L -o rai-reader-0.3.6.tar.gz https://github.com/koherarchitecture/rai/releases/download/v0.3.6/rai-reader-0.3.6.tar.gz
+Get-FileHash rai-reader-0.3.6.tar.gz -Algorithm SHA256    # prints the same hash in capitals
 mkdir runs
-tar -xzf rai-reader-0.3.5.tar.gz -C runs
+tar -xzf rai-reader-0.3.6.tar.gz -C runs
 ```
 
-The file can also be downloaded from the [release page](https://github.com/koherarchitecture/rai/releases/tag/v0.3.5) in a browser.
+The file can also be downloaded from the [release page](https://github.com/koherarchitecture/rai/releases/tag/v0.3.6) in a browser.
 
 **Or load it from Hugging Face** instead of downloading by hand: pass `prayasabhinav/rai` wherever a model folder is asked for. It needs a connection the first time, then runs from the Hugging Face cache.
 
@@ -189,13 +189,13 @@ The file can also be downloaded from the [release page](https://github.com/koher
 .venv/bin/python tests/test_reader_v03.py     # the trained reader on the test set
 ```
 
-The second should end with `ok 0.3.0: does more than 0.2.0 by 139 honest answers; the shipped threshold 12.67 passes no non-counting answer`, meaning it finds 139 more real answers than the untrained reader and counts no evasive one.
+The second should end with `ok 0.3.0: does more than 0.2.0 by 145 honest answers; the shipped threshold 9.3 passes no non-counting answer`, meaning it finds 145 more real answers than the untrained reader and counts no evasive one.
 
 **If something goes wrong**
 
 | message | cause | fix |
 |---|---|---|
-| `no file named model.safetensors ... in directory runs/rai-0.3.5` | the reader is not extracted, or is in the wrong folder | extract the archive into `runs/` so that `runs/rai-0.3.5/model.safetensors` exists |
+| `no file named model.safetensors ... in directory runs/rai-0.3.6` | the reader is not extracted, or is in the wrong folder | extract the archive into `runs/` so that `runs/rai-0.3.6/model.safetensors` exists |
 | `ModuleNotFoundError: No module named 'rai'` | Python was started outside the repository folder | run commands from inside `rai/`, or add the folder to `PYTHONPATH` |
 | `ModuleNotFoundError: No module named 'torch'` | the virtual environment's Python was not used | use `.venv/bin/python`, not the system `python3` |
 | `ensurepip is not available` when making the virtual environment | on Debian and Ubuntu, venv support is a separate package | `sudo apt install python3-venv`, then make the environment again |
@@ -261,7 +261,7 @@ from rai.ask import read_answers, READER
 from rai.kind import counts
 from rai.tally import word
 
-reader = Reader(READER)                       # runs/rai-0.3.5; or "prayasabhinav/rai" from Hugging Face
+reader = Reader(READER)                       # runs/rai-0.3.6; or "prayasabhinav/rai" from Hugging Face
 whole = load_whole("wholes/stone.yaml")
 answers = {"colour": "Dark grey with a rusty patch.", "size": "About the size of my thumbnail.",
            "shape": "A wedge.", "feel": "Rough and cold.", "marks": "A white speck near one end.",
@@ -277,7 +277,7 @@ passed |= {"two_readers", "frame_roles", "conditions_closed", "no_dangling_names
 print(word(passed))                           # complete
 ```
 
-Change the last answer about marks to *A chip on one corner.* and the same code prints *not complete*: the reader's margin for that answer is 12.02, under the threshold of 12.67, so the part counts as absent. That is a false absent, the safe kind of error: whoever wrote the answers looks again.
+Change the answer about marks to *The path behind the post office.*, an answer to a different question, and the same code prints *not complete*: the reader finds no phrase in it that says what marks the stone has, so the part counts as absent. An answer the reader finds but is unsure of counts as absent the same way, when its margin is under the threshold of 9.30. That is a false absent, the safe kind of error: whoever wrote the answers looks again.
 
 `read_answers` applies the reader, the verbatim guard, the threshold and the kind rule together. `word` is the only thing that should reach a person.
 
@@ -322,7 +322,7 @@ flowchart LR
 The work is split the way [Split-Domain Cognition](https://splitdomaincognition.org) describes: the model does language work, and the judgement lives in code anyone can read.
 
 1. **A whole is a set of questions** about one thing, written before anyone answers. Each question has a short content-free stem (*It is …*, *It feels …*) that helps the reader and is never shown or counted. A question's weight is its share of 1 by position: six questions, one sixth each. See [`docs/wholes.md`](docs/wholes.md).
-2. **The reader points.** For each question, a 33-million-parameter extractive model finds the phrase in the typed answer that answers it and gives a margin: how far its best phrase beats the choice of *no answer*. The phrase must appear in what was typed, word for word, or it does not count. The margin must clear a fixed threshold, 12.67, set in `rai/ask.py` beside the reader it was measured for. See [`rai/reader.py`](rai/reader.py).
+2. **The reader points.** For each question, a 33-million-parameter extractive model finds the phrase in the typed answer that answers it and gives a margin: how far its best phrase beats the choice of *no answer*. The phrase must appear in what was typed, word for word, or it does not count. The margin must clear a fixed threshold, 9.30, set in `rai/ask.py` beside the reader it was measured for. See [`rai/reader.py`](rai/reader.py).
 3. **A kind rule in plain code** decides whether the answer is a checkable particular or something that does not count: deferred (*not sure*, *later*), general (*lots of things*, *the usual*) or empty. See [`rai/kind.py`](rai/kind.py).
 4. **The tally** checks the seven notions of completeness. A description is **complete when it passes all seven**, in any order. They are seven parts, not a sum: nothing is added up and no value is kept. Anything short of all seven is *not complete*, and which notions passed is never shown. See [`rai/tally.py`](rai/tally.py).
 
@@ -376,15 +376,15 @@ Every question can be answered with a particular: a colour, a count, a compariso
 
 ## How well the reader reads
 
-Measured on three test sets it never saw, at **one threshold, 12.67**, chosen as the smallest margin that lets no non-answer through in any of them:
+Measured on three test sets it never saw, at **one threshold, 9.30**, chosen as the smallest margin that lets no non-answer through in any of them:
 
 | test set | rows | honest answers counted | non-answers counted |
 |---|---|---|---|
-| **test set v1**, the first ten everyday forms | 360 (180 honest, 120 evasive, 60 off-question) | **155 of 180** | **0 of 180** |
-| **artwork records**, held out | 48 (24 honest, 16 evasive, 8 off-question) | **21 of 24** | **0 of 24** |
-| **unseen forms**, never trained on | 168 (96 honest, 48 evasive, 24 off-question) | **59 of 96** | **0 of 72** |
+| **test set v1**, the first ten everyday forms | 360 (180 honest, 120 evasive, 60 off-question) | **161 of 180** | **0 of 180** |
+| **artwork records**, held out | 48 (24 honest, 16 evasive, 8 off-question) | **20 of 24** | **0 of 24** |
+| **unseen forms**, never trained on | 168 (96 honest, 48 evasive, 24 off-question) | **61 of 96** | **0 of 72** |
 
-0.3.4 on the same three sets, at the 16.24 that holds it at zero on all of them: 138, 20 and 39. A threshold belongs to the reader it was measured for, so the two thresholds are not comparable as numbers. The untrained deepset reader, given the same stems, counts 16 of 180 on test set v1 at 10.60, its own zero-false-present threshold.
+0.3.5, whose training answers were not written by Comma, counted 155, 21 and 59 at 12.67; 0.3.4 counted 138, 20 and 39 at the 16.24 that holds it at zero on all three. A threshold belongs to the reader it was measured for, so thresholds are not comparable as numbers. The untrained deepset reader, given the same stems, counts 16 of 180 on test set v1 at 10.60, its own zero-false-present threshold.
 
 No phrase in any test set appears in the training data, no training question repeats a question from an unseen form, and `scripts/synth.py` stops if either happens. No evasive or off-question answer is counted in any set. Counting a non-answer is the error that matters: it can turn *not complete* into *complete*, while a missed real answer only sends the writer back to look again.
 
@@ -392,10 +392,10 @@ What these numbers do and do not say:
 
 - **The threshold is chosen on the same sets it is reported on.** A threshold chosen on one set and tested on another is for a later version.
 - **Test and training answers come from the same kind of template**, written in the same plain style, though they share no phrase. How the reader does on answers people type in their own words is still not measured.
-- **One training run, one seed.**
-- **The artwork and unseen sets are small**: 24 and 96 real answers. The artwork change, 20 to 21 of 24, is one answer and says nothing on its own.
+- **Three pointings, averaged.** The same recipe with seeds 7, 1 and 2 counted 223, 226 and 221 of 300; the average of their weights counts 242. One pointing alone moves the count by about thirty.
+- **The artwork and unseen sets are small**: 24 and 96 real answers. A change of one answer between versions (21 to 20 of 24, 59 to 61 of 96) says nothing on its own.
 
-Reproduce: `python scripts/eval_reader.py tests/testset-v1.jsonl tests/testset-artwork-v1.jsonl tests/testset-unseen-v1.jsonl runs/rai-0.3.5`, or run every check with `bash scripts/check.sh`.
+Reproduce: `python scripts/eval_reader.py tests/testset-v1.jsonl tests/testset-artwork-v1.jsonl tests/testset-unseen-v1.jsonl runs/rai-0.3.6`, or run every check with `bash scripts/check.sh`.
 
 ## What rai will never do
 
@@ -408,9 +408,11 @@ Reproduce: `python scripts/eval_reader.py tests/testset-v1.jsonl tests/testset-a
 
 ## Model, data and training
 
+**0.3.6 is trained on openly licensed data.** No text in its training rows was copied from anyone's copyrighted writing: the answers were written by Comma v0.1, a model trained only on openly licensed and public-domain text, and the questions were written for rai. The reader it is trained from, deepset's MiniLM fine-tuned on SQuAD 2.0, was not built from such sources, so the claim covers what rai adds, not the model underneath.
+
 - **The reader** is a question-answering model trained further from [deepset/minilm-uncased-squad2](https://huggingface.co/deepset/minilm-uncased-squad2), itself deepset's fine-tune of Microsoft's [MiniLM-L12-H384-uncased](https://huggingface.co/microsoft/MiniLM-L12-H384-uncased) on SQuAD 2.0. Same architecture, 33M parameters, nothing added. [`MODEL-CARD.md`](MODEL-CARD.md)
-- **The training data** is 23,200 synthetic question-and-answer pairs over nineteen forms, made from templates by [`scripts/synth.py`](scripts/synth.py), seeded, with labels known by construction. It contains nobody's words. [`DATA-CARD.md`](DATA-CARD.md)
-- **To train it again**, on a CPU: `PYTHON=.venv/bin/python bash scripts/train-full.sh`. It regenerates the data, trains for two epochs at batch 32, and runs the test. About fourteen minutes on 18 ARM cores; a laptop takes longer, not measured for this version.
+- **The training data** is 23,200 synthetic question-and-answer pairs over nineteen forms, made from templates by [`scripts/synth.py`](scripts/synth.py), seeded, with labels known by construction. From 0.3.6 the words in its answers were written by [Comma v0.1-2T](https://huggingface.co/common-pile/comma-v0.1-2t), a model trained on openly licensed text, and each was judged before it was kept. It contains no person's answers. [`DATA-CARD.md`](DATA-CARD.md)
+- **To train it again**, on a CPU: `PYTHON=.venv/bin/python bash scripts/train-full.sh`. It regenerates the data, trains three times for two epochs at batch 32 with seeds 7, 1 and 2, averages the three into `runs/rai-0.3.6`, and runs the test. About 28 minutes a seed on 4 ARM cores; a laptop takes longer, not measured for this version.
 
 ## Repository layout
 

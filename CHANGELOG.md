@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.3.6 — 25 September 2026
+
+**0.3.6 is trained on openly licensed data.** No text in its training rows was copied from anyone's copyrighted writing: the answers were written by Comma v0.1, a model trained only on openly licensed and public-domain text, and the questions were written for rai. The reader it is trained from, deepset's MiniLM fine-tuned on SQuAD 2.0, was not built from such sources, so the claim covers what rai adds, not the model underneath.
+
+- **The answers rai trains on are written by Comma v0.1.** The phrases that answer each question, and the evasive, deferred and general replies that do not, were written by [Comma v0.1-2T](https://huggingface.co/common-pile/comma-v0.1-2t), a 7B model from EleutherAI and collaborators trained on openly licensed text (the Common Pile v0.1), run locally. Each phrase was read and judged before it was kept, against the question it answers and the thing the form is about: a little over half the phrases were kept, and one reply in three. Comma was shown the question, its stem, the thing the form is about, and phrases of its own already kept, never phrases from another source; naming the thing (*a cup of tea*, *a handful of gravel*) raised the share it wrote well. They are in `data/fill-comma.jsonl` (908 phrases over the 116 questions) and `data/nonanswers-comma.jsonl` (51 replies). The forms, their questions and stems, the empty answers and the recipe are unchanged, so the rows differ from 0.3.5's only in their words. No phrase names an animal product.
+- **Measured on the same three test sets at one threshold, 9.30:** 161 of 180 honest answers on test set v1, 20 of 24 on the artwork set, and 61 of 96 on the unseen forms, with no non-answer counted in any. 0.3.5 counted 155, 21 and 59 at 12.67. A threshold belongs to the reader it was measured for, so the two are not comparable as numbers.
+- **The reader is three readers averaged.** The same recipe pointed with seeds 7, 1 and 2 counted 223, 226 and 221 of 300; the average of their weights (a uniform model soup, Wortsman et al. 2022) counts 242, against 0.3.5's 235. One pointing alone moves the count by about thirty, so a single seed is no longer reported as the reader. `rai/train.py` takes `--seed`, `scripts/soup.py` averages and scores, and `scripts/train-full.sh` runs all of it.
+- **`scripts/eval_reader.py --json`** writes each set's counts, the median margin of its honest answers, and the non-answer that sets the threshold.
+- The trained reader is `rai-reader-0.3.6.tar.gz` on the release, and on Hugging Face as `prayasabhinav/rai`.
+
 ## 0.3.5 — 23 September 2026
 
 - **rai counts more real answers on forms it was not trained on**: 59 of 96, where 0.3.4 counted 39. A probe on 23 September found 0.3.4 counting two of six real answers on a form it had never seen. 0.3.5 is trained on eight more forms, `call`, `repair`, `lost`, `ride`, `message`, `paperwork`, `door` and `screen`, and three training rows in ten reach the reader without their stem, honest answers and non-answers alike. The reader was retrained on 23,200 rows over nineteen forms.
