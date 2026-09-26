@@ -19,7 +19,7 @@ tags:
 
 **Trained from.** [deepset/minilm-uncased-squad2](https://huggingface.co/deepset/minilm-uncased-squad2) (CC-BY-4.0), deepset's fine-tune of Microsoft's [MiniLM-L12-H384-uncased](https://huggingface.co/microsoft/MiniLM-L12-H384-uncased) (MIT) on SQuAD 2.0. Same architecture, 33M parameters, nothing added. Credit to deepset and Microsoft.
 
-**The answers 0.3.6 trains on were written by Comma v0.1**, a model trained only on openly licensed and public-domain text. The questions and stems were written for rai, not by Comma, and the reader it is trained from, deepset's MiniLM fine-tuned on SQuAD 2.0, was not built from openly licensed text.
+**The answers 0.3.6 trains on were written by Comma v0.1**, a model trained only on openly licensed and public-domain text. The questions and stems were written in Claude Code sessions, not by Comma, with a frontier model trained on other people's words, and the reader it is trained from, deepset's MiniLM fine-tuned on SQuAD 2.0, was not built from openly licensed text.
 
 **Trained on.** 23,200 synthetic pairs over nineteen forms, labels known by construction, made from templates by `scripts/synth.py` (seed 7): honest answers given bare or after the question's stem, and evasive, deferred, general, empty and off-question answers labelled *no answer*. Three rows in ten reach the reader without their stem, honest answers and non-answers alike. The words in the answers were written by [Comma v0.1-2T](https://huggingface.co/common-pile/comma-v0.1-2t), a model trained on openly licensed text, and each was judged before it was kept; no person's answers are in it, and no animal product is named. Eighteen forms describe everyday objects, moments and events; one is the record of an artwork. Two epochs, batch 32, learning rate 2e-5, maximum length 384, on CPU, about 28 minutes a seed on 4 ARM cores. The recipe was run with seeds 7, 1 and 2 and the three readers' weights averaged into this one (a uniform model soup, Wortsman et al. 2022). See `DATA-CARD.md`.
 
@@ -33,7 +33,7 @@ tags:
 - The artwork set has 24 real answers and the unseen set 96. Changes of one answer between versions (21 to 20 of 24, 59 to 61 of 96) say nothing on their own.
 - Three pointings, averaged. One pointing alone moves the count by about thirty.
 - *Nothing special.* counts as an answer to *Does it have any mark?* (margin 14.2), read as *no marks worth naming*; 0.3.5 refused it. On the other questions tried it is refused as before.
-- English only. Answers mentioning Indian coins, places and brands appear throughout, because the templates were written in India.
+- English only. Answers mentioning Indian coins, places and brands appear throughout, because the templates were written in India, in Claude Code sessions.
 
 **How to use it.**
 

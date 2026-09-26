@@ -408,7 +408,7 @@ Reproduce: `python scripts/eval_reader.py tests/testset-v1.jsonl tests/testset-a
 
 ## Model, data and training
 
-**The answers 0.3.6 trains on were written by Comma v0.1**, a model trained only on openly licensed and public-domain text. The questions and stems were written for rai, not by Comma, and the reader it is trained from, deepset's MiniLM fine-tuned on SQuAD 2.0, was not built from openly licensed text.
+**The answers 0.3.6 trains on were written by Comma v0.1**, a model trained only on openly licensed and public-domain text. The questions and stems were written in Claude Code sessions, not by Comma, with a frontier model trained on other people's words, and the reader it is trained from, deepset's MiniLM fine-tuned on SQuAD 2.0, was not built from openly licensed text.
 
 - **The reader** is a question-answering model trained further from [deepset/minilm-uncased-squad2](https://huggingface.co/deepset/minilm-uncased-squad2), itself deepset's fine-tune of Microsoft's [MiniLM-L12-H384-uncased](https://huggingface.co/microsoft/MiniLM-L12-H384-uncased) on SQuAD 2.0. Same architecture, 33M parameters, nothing added. [`MODEL-CARD.md`](MODEL-CARD.md)
 - **The training data** is 23,200 synthetic question-and-answer pairs over nineteen forms, made from templates by [`scripts/synth.py`](scripts/synth.py), seeded, with labels known by construction. From 0.3.6 the words in its answers were written by [Comma v0.1-2T](https://huggingface.co/common-pile/comma-v0.1-2t), a model trained on openly licensed text, and each was judged before it was kept. It contains no person's answers. [`DATA-CARD.md`](DATA-CARD.md)
