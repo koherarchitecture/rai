@@ -1,12 +1,13 @@
 """The 0.3 contract: the calls, signatures and behaviour that programs built on rai rely on.
 A change to rai that fails this test does not land. Run: python tests/test_contract.py"""
-import inspect, os, sys
+import inspect, json, os, sys
 from fractions import Fraction
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from rai.whole import load_whole, load_notions, SEVEN
 from rai.reader import Reader
 from rai.ask import read_answers, READER, THRESHOLD
 from rai.kind import counts
+from rai.fit import fits
 from rai.tally import word
 
 HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -65,3 +66,23 @@ if __name__ == "__main__":
     for name, fn in list(globals().items()):
         if name.startswith("test_"):
             fn(); print("ok", name)
+
+
+def test_rai_ka_pahad_round():
+    # rai ka pahad's form (23 September 2026): a round's questions written live by a person, no stems, answers typed as people type them.
+    # It must load through load_whole, read through read_answers, and at rai's threshold count no answer that does not answer.
+    import tempfile
+    md = "# Does the corridor bulb flicker more at night?\n\n1. who changed it last\n2. When did it start?\n3. how many times did it go off\n"
+    with tempfile.NamedTemporaryFile("w", suffix=".md", delete=False) as f:
+        f.write(md)
+    whole = load_whole(f.name)
+    assert [q.get("stem", "") for q in whole["questions"]] == ["", "", ""]
+    reader = Reader(READER)
+    found = read_answers(whole, {q["id"]: "idk" for q in whole["questions"]}, reader, THRESHOLD)
+    assert not any(found.values())
+    for name in ("testset-kapahad-v1.jsonl", "testset-typing-v1.jsonl", "testset-typing-v2.jsonl"):
+        for r in map(json.loads, open(os.path.join(HERE, "tests", name))):
+            if r["label"]:
+                continue
+            span, margin = reader.read(r["question"], r["answer"], "")
+            assert not (span is not None and margin > THRESHOLD and counts(r["answer"]) and fits(r["question"], span)), (name, r["question"], r["answer"], margin)

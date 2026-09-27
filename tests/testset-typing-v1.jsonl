@@ -1,0 +1,42 @@
+{"whole": "typing", "qid": "h0", "question": "who switched off the geyser", "stem": "", "answer": "bhavna di", "label": true, "class": "typing"}
+{"whole": "typing", "qid": "h1", "question": "Who took the good scissors?", "stem": "", "answer": "nilesh, as usual", "label": true, "class": "typing"}
+{"whole": "typing", "qid": "h2", "question": "who's got the almirah key", "stem": "", "answer": "mehta sir has it", "label": true, "class": "typing"}
+{"whole": "typing", "qid": "h3", "question": "where do they keep the extra chalk", "stem": "", "answer": "top shelf in the staffroom cupboard", "label": true, "class": "typing"}
+{"whole": "typing", "qid": "h4", "question": "Where did the stapler go?", "stem": "", "answer": "its in rohit's drawer", "label": true, "class": "typing"}
+{"whole": "typing", "qid": "h5", "question": "when was the last fire drill", "stem": "", "answer": "feb 12", "label": true, "class": "typing"}
+{"whole": "typing", "qid": "h6", "question": "When does the canteen close?", "stem": "", "answer": "3:30", "label": true, "class": "typing"}
+{"whole": "typing", "qid": "h7", "question": "when did the new printer come", "stem": "", "answer": "last wednesday i guess no wait tuesday", "label": true, "class": "typing"}
+{"whole": "typing", "qid": "h8", "question": "how many chairs are broken in 7B", "stem": "", "answer": "6", "label": true, "class": "typing"}
+{"whole": "typing", "qid": "h9", "question": "How many forms did you sign today?", "stem": "", "answer": "like 14", "label": true, "class": "typing"}
+{"whole": "typing", "qid": "h10", "question": "what colour is the new visitor register", "stem": "", "answer": "dark green", "label": true, "class": "typing"}
+{"whole": "typing", "qid": "h11", "question": "What's the new notice about?", "stem": "", "answer": "sports day moved to 15th", "label": true, "class": "typing"}
+{"whole": "typing", "qid": "h12", "question": "what did you eat for lunch", "stem": "", "answer": "dal rice and bhindi", "label": true, "class": "typing"}
+{"whole": "typing", "qid": "h13", "question": "which road is blocked", "stem": "", "answer": "ashram road near income tax", "label": true, "class": "typing"}
+{"whole": "typing", "qid": "h14", "question": "why is the wifi slow on thursdays", "stem": "", "answer": "everyone streams the cricket match", "label": true, "class": "typing"}
+{"whole": "typing", "qid": "h15", "question": "Who is on gate duty today?", "stem": "", "answer": "Tiwari ji", "label": true, "class": "typing"}
+{"whole": "typing", "qid": "h16", "question": "who fixed the projector finally", "stem": "", "answer": "the IT guy, sameer", "label": true, "class": "typing"}
+{"whole": "typing", "qid": "h17", "question": "where is the attendance sheet", "stem": "", "answer": "with the class teacher", "label": true, "class": "typing"}
+{"whole": "typing", "qid": "h18", "question": "how long does the photocopy queue take", "stem": "", "answer": "20 mins minimum", "label": true, "class": "typing"}
+{"whole": "typing", "qid": "h19", "question": "what time is the meeting", "stem": "", "answer": "4 pm", "label": true, "class": "typing"}
+{"whole": "typing", "qid": "h20", "question": "who sent the whatsapp forward", "stem": "", "answer": "pinky ma'am", "label": true, "class": "typing"}
+{"whole": "typing", "qid": "h21", "question": "Where's the first aid box?", "stem": "", "answer": "behind reception", "label": true, "class": "typing"}
+{"whole": "typing", "qid": "h22", "question": "which bus do you take", "stem": "", "answer": "136", "label": true, "class": "typing"}
+{"whole": "typing", "qid": "h23", "question": "what brand is the new AC", "stem": "", "answer": "voltas", "label": true, "class": "typing"}
+{"whole": "typing", "qid": "v0", "question": "who switched off the geyser", "stem": "", "answer": "dont know", "label": false, "class": "typing-vague"}
+{"whole": "typing", "qid": "v1", "question": "where do they keep the extra chalk", "stem": "", "answer": "somewhere in the office", "label": false, "class": "typing-vague"}
+{"whole": "typing", "qid": "v2", "question": "when was the last fire drill", "stem": "", "answer": "long back", "label": false, "class": "typing-vague"}
+{"whole": "typing", "qid": "v3", "question": "how many chairs are broken in 7B", "stem": "", "answer": "many", "label": false, "class": "typing-vague"}
+{"whole": "typing", "qid": "v4", "question": "Who took the good scissors?", "stem": "", "answer": "someone from 8A probably", "label": false, "class": "typing-vague"}
+{"whole": "typing", "qid": "v5", "question": "what colour is the new visitor register", "stem": "", "answer": "idk", "label": false, "class": "typing-vague"}
+{"whole": "typing", "qid": "v6", "question": "Who is on gate duty today?", "stem": "", "answer": "whoever is free", "label": false, "class": "typing-vague"}
+{"whole": "typing", "qid": "v7", "question": "what time is the meeting", "stem": "", "answer": "will tell later", "label": false, "class": "typing-vague"}
+{"whole": "typing", "qid": "v8", "question": "which bus do you take", "stem": "", "answer": "depends", "label": false, "class": "typing-vague"}
+{"whole": "typing", "qid": "v9", "question": "why is the wifi slow on thursdays", "stem": "", "answer": "no idea yaar", "label": false, "class": "typing-vague"}
+{"whole": "typing", "qid": "v10", "question": "When does the canteen close?", "stem": "", "answer": "dal rice and bhindi", "label": false, "class": "typing-off"}
+{"whole": "typing", "qid": "v11", "question": "who's got the almirah key", "stem": "", "answer": "3:30", "label": false, "class": "typing-off"}
+{"whole": "typing", "qid": "v12", "question": "how many forms did you sign today", "stem": "", "answer": "mehta sir", "label": false, "class": "typing-off"}
+{"whole": "typing", "qid": "v13", "question": "where is the attendance sheet", "stem": "", "answer": "feb 12", "label": false, "class": "typing-off"}
+{"whole": "typing", "qid": "v14", "question": "what brand is the new AC", "stem": "", "answer": "last wednesday", "label": false, "class": "typing-off"}
+{"whole": "typing", "qid": "v15", "question": "Who fixed the projector finally", "stem": "", "answer": "dark green", "label": false, "class": "typing-off"}
+{"whole": "typing", "qid": "v16", "question": "where did the stapler go", "stem": "", "answer": "6", "label": false, "class": "typing-off"}
+{"whole": "typing", "qid": "v17", "question": "what did you eat for lunch", "stem": "", "answer": "ashram road", "label": false, "class": "typing-off"}

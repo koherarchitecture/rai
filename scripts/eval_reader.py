@@ -6,6 +6,7 @@ import json, math, os, sys, time
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from rai.reader import Reader, BASE
 from rai.kind import counts
+from rai.fit import fits
 
 paths = [a for a in sys.argv[1:] if a.endswith(".jsonl")] or ["tests/testset-v1.jsonl"]
 json_out = sys.argv[sys.argv.index("--json") + 1] if "--json" in sys.argv else None
@@ -25,9 +26,9 @@ secs = time.time() - t0
 
 # the threshold: above every non-counting answer the reader found, in any set, rounded UP so the printed value can be
 # pasted into rai/ask.py and still sit above them all
-found_bad = [r["margin"] for rows in sets.values() for r in rows if not r["label"] and r["span"] and counts(r["answer"])]
+found_bad = [r["margin"] for rows in sets.values() for r in rows if not r["label"] and r["span"] and counts(r["answer"]) and fits(r["question"], r["span"])]
 threshold = math.ceil(max(found_bad) * 100) / 100 if found_bad else 0.0
-hit = lambda r: r["span"] is not None and r["margin"] > threshold and counts(r["answer"])
+hit = lambda r: r["span"] is not None and r["margin"] > threshold and counts(r["answer"]) and fits(r["question"], r["span"])
 
 print(f"{model}  stem={'on' if use_stem else 'off'}  rows={n}  {secs / n * 1000:.0f} ms/row")
 summary = {"model": model, "threshold": threshold, "sets": {}}
@@ -38,7 +39,7 @@ for p, rows in sets.items():
     print(f"\n{p}")
     print(f"  false presents: {fp}/{len(neg)}   false absents: {fn}/{len(pos)}   honest answers counted: {len(pos) - fn}/{len(pos)}")
     margins = sorted(r["margin"] for r in pos)  # moves while the counts sit near zero
-    worst = max((r for r in neg if r["span"] and counts(r["answer"])), key=lambda r: r["margin"], default=None)  # the one that sets the threshold
+    worst = max((r for r in neg if r["span"] and counts(r["answer"]) and fits(r["question"], r["span"])), key=lambda r: r["margin"], default=None)  # the one that sets the threshold
     summary["sets"][p] = {"false_presents": fp, "counted": len(pos) - fn, "honest": len(pos), "median_honest_margin": round(margins[len(margins) // 2], 2),
                           "worst_non_answer": worst and {"question": worst["question"], "answer": worst["answer"], "span": worst["span"], "margin": round(worst["margin"], 2)}}
     for cls in sorted({r["class"] for r in rows}):

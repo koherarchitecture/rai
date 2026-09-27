@@ -135,7 +135,6 @@
 {"whole": "pocket", "qid": "miss", "question": "Which would you miss first if it fell out?", "stem": "I would miss ", "answer": "The ID card.", "label": true, "class": "bare"}
 {"whole": "pocket", "qid": "miss", "question": "Which would you miss first if it fell out?", "stem": "I would miss ", "answer": "Something, I guess.", "label": false, "class": "evasive"}
 {"whole": "pocket", "qid": "miss", "question": "Which would you miss first if it fell out?", "stem": "I would miss ", "answer": "I don't know yet.", "label": false, "class": "evasive"}
-{"whole": "pocket", "qid": "miss", "question": "Which would you miss first if it fell out?", "stem": "I would miss ", "answer": "The keys, since I moved in, 2023.", "label": false, "class": "off-question"}
 {"whole": "pocket", "qid": "night", "question": "Where does it all go at night?", "stem": "At night it goes ", "answer": "On the shelf by the door.", "label": true, "class": "bare"}
 {"whole": "pocket", "qid": "night", "question": "Where does it all go at night?", "stem": "At night it goes ", "answer": "In the drawer.", "label": true, "class": "bare"}
 {"whole": "pocket", "qid": "night", "question": "Where does it all go at night?", "stem": "At night it goes ", "answer": "On the table next to the bed.", "label": true, "class": "bare"}

@@ -1,0 +1,120 @@
+{"whole": "photocopier", "qid": "last", "question": "When did it last jam?", "stem": "", "answer": "Tuesday, 2:40 in the afternoon.", "label": true, "class": "bare-nostem"}
+{"whole": "photocopier", "qid": "last", "question": "When did it last jam?", "stem": "", "answer": "Yesterday, just before the four o'clock bell.", "label": true, "class": "longer-nostem"}
+{"whole": "photocopier", "qid": "last", "question": "When did it last jam?", "stem": "", "answer": "Sometime last week, I think.", "label": false, "class": "vague"}
+{"whole": "photocopier", "qid": "last", "question": "When did it last jam?", "stem": "", "answer": "Page 17.", "label": false, "class": "off-question"}
+{"whole": "photocopier", "qid": "what", "question": "What was being copied?", "stem": "", "answer": "The leave circular.", "label": true, "class": "bare-nostem"}
+{"whole": "photocopier", "qid": "what", "question": "What was being copied?", "stem": "", "answer": "Mr Joshi's 38-page circular on the new leave form.", "label": true, "class": "longer-nostem"}
+{"whole": "photocopier", "qid": "what", "question": "What was being copied?", "stem": "", "answer": "Some papers, not sure which.", "label": false, "class": "vague"}
+{"whole": "photocopier", "qid": "what", "question": "What was being copied?", "stem": "", "answer": "Rekha.", "label": false, "class": "off-question"}
+{"whole": "photocopier", "qid": "page", "question": "How many pages in did it stop?", "stem": "", "answer": "Page 17.", "label": true, "class": "bare-nostem"}
+{"whole": "photocopier", "qid": "page", "question": "How many pages in did it stop?", "stem": "", "answer": "At page 17, with the staple still in.", "label": true, "class": "longer-nostem"}
+{"whole": "photocopier", "qid": "page", "question": "How many pages in did it stop?", "stem": "", "answer": "Maybe halfway.", "label": false, "class": "vague"}
+{"whole": "photocopier", "qid": "page", "question": "How many pages in did it stop?", "stem": "", "answer": "The paper curls in the heat.", "label": false, "class": "off-question"}
+{"whole": "photocopier", "qid": "who", "question": "Who cleared it?", "stem": "", "answer": "Rekha.", "label": true, "class": "bare-nostem"}
+{"whole": "photocopier", "qid": "who", "question": "Who cleared it?", "stem": "", "answer": "Rekha from accounts, with a ruler.", "label": true, "class": "longer-nostem"}
+{"whole": "photocopier", "qid": "who", "question": "Who cleared it?", "stem": "", "answer": "Whoever was there.", "label": false, "class": "vague"}
+{"whole": "photocopier", "qid": "who", "question": "Who cleared it?", "stem": "", "answer": "Tuesday, 2:40 in the afternoon.", "label": false, "class": "off-question"}
+{"whole": "photocopier", "qid": "why", "question": "Why would lunch make a difference?", "stem": "", "answer": "The paper curls in the heat.", "label": true, "class": "bare-nostem"}
+{"whole": "photocopier", "qid": "why", "question": "Why would lunch make a difference?", "stem": "", "answer": "After lunch the room is hot and the paper curls.", "label": true, "class": "longer-nostem"}
+{"whole": "photocopier", "qid": "why", "question": "Why would lunch make a difference?", "stem": "", "answer": "Everyone is slow after lunch.", "label": false, "class": "vague"}
+{"whole": "photocopier", "qid": "why", "question": "Why would lunch make a difference?", "stem": "", "answer": "The leave circular.", "label": false, "class": "off-question"}
+{"whole": "tea", "qid": "who", "question": "Who makes the tea on Mondays?", "stem": "", "answer": "Ramesh bhai.", "label": true, "class": "bare-nostem"}
+{"whole": "tea", "qid": "who", "question": "Who makes the tea on Mondays?", "stem": "", "answer": "Ramesh bhai, the one with the blue cap.", "label": true, "class": "longer-nostem"}
+{"whole": "tea", "qid": "who", "question": "Who makes the tea on Mondays?", "stem": "", "answer": "Someone from the canteen.", "label": false, "class": "vague"}
+{"whole": "tea", "qid": "who", "question": "Who makes the tea on Mondays?", "stem": "", "answer": "Two.", "label": false, "class": "off-question"}
+{"whole": "tea", "qid": "in", "question": "What was in the tea?", "stem": "", "answer": "Ginger and too much sugar.", "label": true, "class": "bare-nostem"}
+{"whole": "tea", "qid": "in", "question": "What was in the tea?", "stem": "", "answer": "Ginger, cardamom and three spoons of sugar.", "label": true, "class": "longer-nostem"}
+{"whole": "tea", "qid": "in", "question": "What was in the tea?", "stem": "", "answer": "The usual stuff.", "label": false, "class": "vague"}
+{"whole": "tea", "qid": "in", "question": "What was in the tea?", "stem": "", "answer": "The big dented steel one.", "label": false, "class": "off-question"}
+{"whole": "tea", "qid": "cups", "question": "How many cups did you have?", "stem": "", "answer": "Two.", "label": true, "class": "bare-nostem"}
+{"whole": "tea", "qid": "cups", "question": "How many cups did you have?", "stem": "", "answer": "Two, one at eleven and one at three.", "label": true, "class": "longer-nostem"}
+{"whole": "tea", "qid": "cups", "question": "How many cups did you have?", "stem": "", "answer": "A lot of cups.", "label": false, "class": "vague"}
+{"whole": "tea", "qid": "cups", "question": "How many cups did you have?", "stem": "", "answer": "At 10:45.", "label": false, "class": "off-question"}
+{"whole": "tea", "qid": "vessel", "question": "Which vessel was it made in?", "stem": "", "answer": "The big dented steel one.", "label": true, "class": "bare-nostem"}
+{"whole": "tea", "qid": "vessel", "question": "Which vessel was it made in?", "stem": "", "answer": "The dented steel vessel with the black handle.", "label": true, "class": "longer-nostem"}
+{"whole": "tea", "qid": "vessel", "question": "Which vessel was it made in?", "stem": "", "answer": "Whatever they had.", "label": false, "class": "vague"}
+{"whole": "tea", "qid": "vessel", "question": "Which vessel was it made in?", "stem": "", "answer": "Ramesh bhai.", "label": false, "class": "off-question"}
+{"whole": "tea", "qid": "when", "question": "When is it made?", "stem": "", "answer": "At 10:45.", "label": true, "class": "bare-nostem"}
+{"whole": "tea", "qid": "when", "question": "When is it made?", "stem": "", "answer": "At quarter to eleven, before the break.", "label": true, "class": "longer-nostem"}
+{"whole": "tea", "qid": "when", "question": "When is it made?", "stem": "", "answer": "Probably in the morning.", "label": false, "class": "vague"}
+{"whole": "tea", "qid": "when", "question": "When is it made?", "stem": "", "answer": "Ginger and too much sugar.", "label": false, "class": "off-question"}
+{"whole": "lift", "qid": "floor", "question": "Which floor were you on?", "stem": "", "answer": "The third floor.", "label": true, "class": "bare-nostem"}
+{"whole": "lift", "qid": "floor", "question": "Which floor were you on?", "stem": "", "answer": "Third, outside the library.", "label": true, "class": "longer-nostem"}
+{"whole": "lift", "qid": "floor", "question": "Which floor were you on?", "stem": "", "answer": "Somewhere upstairs.", "label": false, "class": "vague"}
+{"whole": "lift", "qid": "floor", "question": "Which floor were you on?", "stem": "", "answer": "Me, both times.", "label": false, "class": "off-question"}
+{"whole": "lift", "qid": "long", "question": "How long did you wait?", "stem": "", "answer": "Four minutes.", "label": true, "class": "bare-nostem"}
+{"whole": "lift", "qid": "long", "question": "How long did you wait?", "stem": "", "answer": "Four minutes by the wall clock.", "label": true, "class": "longer-nostem"}
+{"whole": "lift", "qid": "long", "question": "How long did you wait?", "stem": "", "answer": "Ages, really.", "label": false, "class": "vague"}
+{"whole": "lift", "qid": "long", "question": "How long did you wait?", "stem": "", "answer": "On the second floor.", "label": false, "class": "off-question"}
+{"whole": "lift", "qid": "who", "question": "Who pressed the button twice?", "stem": "", "answer": "Me, both times.", "label": true, "class": "bare-nostem"}
+{"whole": "lift", "qid": "who", "question": "Who pressed the button twice?", "stem": "", "answer": "Kiran from the exam cell.", "label": true, "class": "longer-nostem"}
+{"whole": "lift", "qid": "who", "question": "Who pressed the button twice?", "stem": "", "answer": "Anyone who was waiting.", "label": false, "class": "vague"}
+{"whole": "lift", "qid": "who", "question": "Who pressed the button twice?", "stem": "", "answer": "Orange.", "label": false, "class": "off-question"}
+{"whole": "lift", "qid": "stop", "question": "Where did it stop on the way?", "stem": "", "answer": "On the second floor.", "label": true, "class": "bare-nostem"}
+{"whole": "lift", "qid": "stop", "question": "Where did it stop on the way?", "stem": "", "answer": "At the ground floor, then the second.", "label": true, "class": "longer-nostem"}
+{"whole": "lift", "qid": "stop", "question": "Where did it stop on the way?", "stem": "", "answer": "At various floors.", "label": false, "class": "vague"}
+{"whole": "lift", "qid": "stop", "question": "Where did it stop on the way?", "stem": "", "answer": "Orange.", "label": false, "class": "off-question"}
+{"whole": "lift", "qid": "light", "question": "What colour does the button light up?", "stem": "", "answer": "Orange.", "label": true, "class": "bare-nostem"}
+{"whole": "lift", "qid": "light", "question": "What colour does the button light up?", "stem": "", "answer": "A dull orange, only on the left side.", "label": true, "class": "longer-nostem"}
+{"whole": "lift", "qid": "light", "question": "What colour does the button light up?", "stem": "", "answer": "Not sure.", "label": false, "class": "vague"}
+{"whole": "lift", "qid": "light", "question": "What colour does the button light up?", "stem": "", "answer": "Four minutes.", "label": false, "class": "off-question"}
+{"whole": "fan", "qid": "speed", "question": "What speed was the fan on?", "stem": "", "answer": "Speed 3.", "label": true, "class": "bare-nostem"}
+{"whole": "fan", "qid": "speed", "question": "What speed was the fan on?", "stem": "", "answer": "On 3, with the regulator knob loose.", "label": true, "class": "longer-nostem"}
+{"whole": "fan", "qid": "speed", "question": "What speed was the fan on?", "stem": "", "answer": "Whatever it usually is.", "label": false, "class": "vague"}
+{"whole": "fan", "qid": "speed", "question": "What speed was the fan on?", "stem": "", "answer": "A clicking, every few seconds.", "label": false, "class": "off-question"}
+{"whole": "fan", "qid": "switch", "question": "Where is the fan switch?", "stem": "", "answer": "Behind the almirah, left of the door.", "label": true, "class": "bare-nostem"}
+{"whole": "fan", "qid": "switch", "question": "Where is the fan switch?", "stem": "", "answer": "On the board behind the almirah.", "label": true, "class": "longer-nostem"}
+{"whole": "fan", "qid": "switch", "question": "Where is the fan switch?", "stem": "", "answer": "Somewhere near the door.", "label": false, "class": "vague"}
+{"whole": "fan", "qid": "switch", "question": "Where is the fan switch?", "stem": "", "answer": "A clicking, every few seconds.", "label": false, "class": "off-question"}
+{"whole": "fan", "qid": "noise", "question": "What noise does it make on 4?", "stem": "", "answer": "A clicking, every few seconds.", "label": true, "class": "bare-nostem"}
+{"whole": "fan", "qid": "noise", "question": "What noise does it make on 4?", "stem": "", "answer": "It clicks and the blades wobble.", "label": true, "class": "longer-nostem"}
+{"whole": "fan", "qid": "noise", "question": "What noise does it make on 4?", "stem": "", "answer": "Hard to say.", "label": false, "class": "vague"}
+{"whole": "fan", "qid": "noise", "question": "What noise does it make on 4?", "stem": "", "answer": "The electrician, Mr Parmar.", "label": false, "class": "off-question"}
+{"whole": "fan", "qid": "seat", "question": "Which chair gets the most air?", "stem": "", "answer": "The one by the window.", "label": true, "class": "bare-nostem"}
+{"whole": "fan", "qid": "seat", "question": "Which chair gets the most air?", "stem": "", "answer": "The green chair nearest the window.", "label": true, "class": "longer-nostem"}
+{"whole": "fan", "qid": "seat", "question": "Which chair gets the most air?", "stem": "", "answer": "All of them, really.", "label": false, "class": "vague"}
+{"whole": "fan", "qid": "seat", "question": "Which chair gets the most air?", "stem": "", "answer": "Speed 3.", "label": false, "class": "off-question"}
+{"whole": "fan", "qid": "fix", "question": "Who last fixed it?", "stem": "", "answer": "The electrician, Mr Parmar.", "label": true, "class": "bare-nostem"}
+{"whole": "fan", "qid": "fix", "question": "Who last fixed it?", "stem": "", "answer": "Mr Parmar, in the summer vacation.", "label": true, "class": "longer-nostem"}
+{"whole": "fan", "qid": "fix", "question": "Who last fixed it?", "stem": "", "answer": "Somebody from maintenance.", "label": false, "class": "vague"}
+{"whole": "fan", "qid": "fix", "question": "Who last fixed it?", "stem": "", "answer": "Behind the almirah, left of the door.", "label": false, "class": "off-question"}
+{"whole": "file", "qid": "mark", "question": "Who marked the file urgent?", "stem": "", "answer": "The section officer, Mr Dave.", "label": true, "class": "bare-nostem"}
+{"whole": "file", "qid": "mark", "question": "Who marked the file urgent?", "stem": "", "answer": "Mr Dave.", "label": true, "class": "longer-nostem"}
+{"whole": "file", "qid": "mark", "question": "Who marked the file urgent?", "stem": "", "answer": "Someone senior.", "label": false, "class": "vague"}
+{"whole": "file", "qid": "mark", "question": "Who marked the file urgent?", "stem": "", "answer": "To the accounts section.", "label": false, "class": "off-question"}
+{"whole": "file", "qid": "back", "question": "When did the file come back?", "stem": "", "answer": "On the 14th.", "label": true, "class": "bare-nostem"}
+{"whole": "file", "qid": "back", "question": "When did the file come back?", "stem": "", "answer": "On the 14th, eleven days later.", "label": true, "class": "longer-nostem"}
+{"whole": "file", "qid": "back", "question": "When did the file come back?", "stem": "", "answer": "Probably next week.", "label": false, "class": "vague"}
+{"whole": "file", "qid": "back", "question": "When did the file come back?", "stem": "", "answer": "Bright red.", "label": false, "class": "off-question"}
+{"whole": "file", "qid": "first", "question": "Where did the file go first?", "stem": "", "answer": "To the accounts section.", "label": true, "class": "bare-nostem"}
+{"whole": "file", "qid": "first", "question": "Where did the file go first?", "stem": "", "answer": "To the accounts section on the second floor.", "label": true, "class": "longer-nostem"}
+{"whole": "file", "qid": "first", "question": "Where did the file go first?", "stem": "", "answer": "All over the place.", "label": false, "class": "vague"}
+{"whole": "file", "qid": "first", "question": "Where did the file go first?", "stem": "", "answer": "Five.", "label": false, "class": "off-question"}
+{"whole": "file", "qid": "colour", "question": "What colour was the flag on it?", "stem": "", "answer": "Bright red.", "label": true, "class": "bare-nostem"}
+{"whole": "file", "qid": "colour", "question": "What colour was the flag on it?", "stem": "", "answer": "A red slip clipped to the top corner.", "label": true, "class": "longer-nostem"}
+{"whole": "file", "qid": "colour", "question": "What colour was the flag on it?", "stem": "", "answer": "The usual colour.", "label": false, "class": "vague"}
+{"whole": "file", "qid": "colour", "question": "What colour was the flag on it?", "stem": "", "answer": "The section officer, Mr Dave.", "label": false, "class": "off-question"}
+{"whole": "file", "qid": "pages", "question": "How many signatures did it need?", "stem": "", "answer": "Five.", "label": true, "class": "bare-nostem"}
+{"whole": "file", "qid": "pages", "question": "How many signatures did it need?", "stem": "", "answer": "Five, the last one from the registrar.", "label": true, "class": "longer-nostem"}
+{"whole": "file", "qid": "pages", "question": "How many signatures did it need?", "stem": "", "answer": "Lots of them.", "label": false, "class": "vague"}
+{"whole": "file", "qid": "pages", "question": "How many signatures did it need?", "stem": "", "answer": "On the 14th.", "label": false, "class": "off-question"}
+{"whole": "clock", "qid": "behind", "question": "How far behind is it?", "stem": "", "answer": "Seven minutes.", "label": true, "class": "bare-nostem"}
+{"whole": "clock", "qid": "behind", "question": "How far behind is it?", "stem": "", "answer": "About seven minutes behind my phone.", "label": true, "class": "longer-nostem"}
+{"whole": "clock", "qid": "behind", "question": "How far behind is it?", "stem": "", "answer": "A bit.", "label": false, "class": "vague"}
+{"whole": "clock", "qid": "behind", "question": "How far behind is it?", "stem": "", "answer": "Suresh, the peon.", "label": false, "class": "off-question"}
+{"whole": "clock", "qid": "where", "question": "Where is the clock?", "stem": "", "answer": "Above the notice board by the stairs.", "label": true, "class": "bare-nostem"}
+{"whole": "clock", "qid": "where", "question": "Where is the clock?", "stem": "", "answer": "Over the stairs on the first floor.", "label": true, "class": "longer-nostem"}
+{"whole": "clock", "qid": "where", "question": "Where is the clock?", "stem": "", "answer": "In the corridor somewhere.", "label": false, "class": "vague"}
+{"whole": "clock", "qid": "where", "question": "Where is the clock?", "stem": "", "answer": "Since the power cut in August.", "label": false, "class": "off-question"}
+{"whole": "clock", "qid": "who", "question": "Who winds it or changes the battery?", "stem": "", "answer": "Suresh, the peon.", "label": true, "class": "bare-nostem"}
+{"whole": "clock", "qid": "who", "question": "Who winds it or changes the battery?", "stem": "", "answer": "Suresh does, standing on a chair.", "label": true, "class": "longer-nostem"}
+{"whole": "clock", "qid": "who", "question": "Who winds it or changes the battery?", "stem": "", "answer": "No idea.", "label": false, "class": "vague"}
+{"whole": "clock", "qid": "who", "question": "Who winds it or changes the battery?", "stem": "", "answer": "Seven minutes.", "label": false, "class": "off-question"}
+{"whole": "clock", "qid": "since", "question": "Since when has it been slow?", "stem": "", "answer": "Since the power cut in August.", "label": true, "class": "bare-nostem"}
+{"whole": "clock", "qid": "since", "question": "Since when has it been slow?", "stem": "", "answer": "Since August.", "label": true, "class": "longer-nostem"}
+{"whole": "clock", "qid": "since", "question": "Since when has it been slow?", "stem": "", "answer": "For a while now.", "label": false, "class": "vague"}
+{"whole": "clock", "qid": "since", "question": "Since when has it been slow?", "stem": "", "answer": "Ajanta.", "label": false, "class": "off-question"}
+{"whole": "clock", "qid": "brand", "question": "What does it say on the face?", "stem": "", "answer": "Ajanta.", "label": true, "class": "bare-nostem"}
+{"whole": "clock", "qid": "brand", "question": "What does it say on the face?", "stem": "", "answer": "Ajanta, in small red letters.", "label": true, "class": "longer-nostem"}
+{"whole": "clock", "qid": "brand", "question": "What does it say on the face?", "stem": "", "answer": "Some brand name.", "label": false, "class": "vague"}
+{"whole": "clock", "qid": "brand", "question": "What does it say on the face?", "stem": "", "answer": "Above the notice board by the stairs.", "label": false, "class": "off-question"}

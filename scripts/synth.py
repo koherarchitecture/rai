@@ -1,4 +1,4 @@
-"""100% synthetic training pairs, labels by construction. Writes data/train-synth.jsonl.
+"""100% synthetic training pairs, labels by construction. Writes data/train-synth-0.3.6.jsonl, 0.3.6's rows.
 Row: question, stem, answer, span (the phrase that answers, or null), class. Templates only, seeded; every particular is a plain real thing.
 Rewritten 22 September 2026: fillers are written PER QUESTION and phrased to follow that question's stem, after ten sampled rows showed
 a keyword map handing "The wallet." to "What did you do while you waited?" as a counting answer. A filler that does not answer its question
@@ -91,7 +91,7 @@ if leak:
     raise SystemExit(f"{len(leak)} training rows repeat the test set, e.g. {leak[0]!r}")
 random.shuffle(rows)
 os.makedirs(os.path.join(HERE, "data"), exist_ok=True)
-out = os.path.join(HERE, "data", "train-synth.jsonl")
+out = os.path.join(HERE, "data", "train-synth-0.3.6.jsonl")   # 0.3.6's rows; 0.3.7 trains on these and data/train-live.jsonl together (scripts/train-full.sh)
 with open(out, "w") as fh:
     for r in rows:
         fh.write(json.dumps(r, ensure_ascii=False) + "\n")

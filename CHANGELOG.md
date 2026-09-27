@@ -1,5 +1,19 @@
 # Changelog
 
+## 0.3.7 — 27 September 2026
+
+**rai now reads questions without a stem, casually typed answers, and Indian names.** It was built for rai ka pahad, a pastime in which two people write questions for each other, so every question is new to the reader and none has a stem.
+
+- **Measured on six test sets at one threshold, 8.92,** with no non-answer counted in any: 157 of 180 on test set v1, 20 of 24 on the artwork set, 66 of 96 on the unseen forms, 52 of 60 on rai ka pahad rounds, and 21 of 24 and 44 of 46 on two sets of people's typing (lowercase, no full stops, digits, *ji* and *di* on names). 0.3.6, scored the same way, counted 161, 20, 62, 42, 4 and 1 honest answers.
+- **5,800 new training rows**, made by `scripts/synth_live.py` and written in Claude Code, beside 0.3.6's 23,200: questions built from a template and an ordinary thing, answered with the kind of thing each asks for, half typed the way people type, with a generator of Indian names from many languages and communities. Nothing in them was written by Comma.
+- **`rai/fit.py`**, a second rule in plain code: a bare number or ordinal answers only a question that asks for a number, a position or a time, and a label such as *Page 17* never answers a who, a when or a why. The threshold had been set high to keep out non-answers of this shape. With code refusing them, the threshold can be lower, so correct answers that scored just under the old one now count.
+- **`rai/kind.py`** no longer counts *idk*, *dunno*, *pata nahi*, *probably*, *I think*, *someone*, *sometime*, *somewhere*, *whoever* and their like, and no longer refuses *eleven days later*.
+- **`rai/serve.py`**, `read_answers` over HTTP behind a key, storing and logging nothing, and `deploy/` for a CPU server. rai cannot run in Ollama, which serves generation and embeddings; `python -m rai.serve` on your own machine is the equivalent.
+- **Three new test sets** (`tests/testset-kapahad-v1.jsonl`, `tests/testset-typing-v1.jsonl`, `tests/testset-typing-v2.jsonl`), written in Claude Code as stand-ins until rounds written by people exist, and three probes in `tests/probes/`. On them: 20 of 20 in a last batch of people's typing, 120 of 123 Indian names no training row contains, 17 of 20 free-worded meanings, and one non-answer counted, *the peon* for what was being photocopied.
+- **Test set v1 loses one row**, 360 to 359: an off-question answer that `scripts/synth.py` itself says can swap with the question's own answers.
+- **The vegan check runs in `scripts/check.sh`**, as it did in development: the release fails if any form, script, training row or test answer names an animal product.
+- The contract test now runs a rai ka pahad round. The trained reader is `rai-reader-0.3.7.tar.gz` on the release, and on Hugging Face as `prayasabhinav/rai`.
+
 ## 0.3.6 — 25 September 2026
 
 **The answers 0.3.6 trains on were written by Comma v0.1**, a model trained only on openly licensed and public-domain text. The questions and stems were written in Claude Code sessions, not by Comma, with a frontier model trained on other people's words, and the reader it is trained from, deepset's MiniLM fine-tuned on SQuAD 2.0, was not built from openly licensed text.

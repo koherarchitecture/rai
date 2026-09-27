@@ -1,6 +1,6 @@
 # rai training data — data card
 
-**File.** `data/train-synth.jsonl`, 23,200 rows over nineteen forms, one JSON object per line.
+**Files.** `data/train-synth.jsonl`, the 29,000 rows 0.3.7 trains on: 0.3.6's 23,200 (`data/train-synth-0.3.6.jsonl`, described first below) and 5,800 new ones (`data/train-live.jsonl`, described under *0.3.7's rows*), shuffled together with seed 37. One JSON object per line.
 
 **Row.** `question`, `stem`, `answer`, `span` (the phrase in `answer` that answers `question`, or `null`) and `cls` (the class below).
 
@@ -30,6 +30,14 @@
 
 **What it is not.** Not a sample of how people answer. It teaches the reader where an answer is in a sentence and when there is none; it says nothing about people.
 
-**Regenerate.** `python scripts/synth.py 200` writes the same 23,200 rows.
+## 0.3.7's rows
+
+**How they were made.** By `scripts/synth_live.py 5800`, seed 37: a question built from a template and an ordinary thing (2,385 distinct questions, none of them rai's own, none about a thing in any test set), answered with the kind of thing the question asks for. The kinds: a person or a group or a role for *who*; a place, or an errand for where a person is; a time; a number or an ordinal; a colour; a material; a brand; a food; what a notice was about; what a verb takes (*what was being printed*); what makes a noise, a smell or a leak; a short reason; and Indian names, from a generator of about 230 first names and 50 family names across many languages and communities, alone, with a family name, an initial, or the honorific or kinship word people add (*bhai*, *di*, *garu*, *chettan*, *paaji*, *aapa*, *sir*, *ma'am*), drawn twice as often as any other kind. Half the honest answers are typed the way people type: lowercase, no question mark or full stop, sometimes wrapped in their own words (*like 20*, *X has it*). Non-answers are evasive, deferred, general or empty, or a real answer of a kind that does not answer (a page number for a *when*).
+
+**Who wrote the words.** Every question, answer and name in these rows was written in Claude Code, on 26 and 27 September 2026, with a frontier model trained on other people's words. Nothing in them is Comma's.
+
+**Held out.** Every answer in every test set, every question and thing in rai ka pahad's test set and the unseen forms, and the names and answers of the probes in `tests/probes/`. The vegan check passed before any reader was trained on them.
+
+**Regenerate.** `python scripts/synth.py 200` writes 0.3.6's 23,200 rows to `data/train-synth-0.3.6.jsonl`; `python scripts/synth_live.py 5800` writes the new rows; `bash scripts/train-full.sh` shuffles them together and trains. Each step reproduces the shipped files byte for byte.
 
 **Licence.** CC-BY-4.0. Attribute Koher's rai.

@@ -6,3 +6,4 @@ runs/
 *.egg-info/
 ._*
 .DS_Store
+deploy/rai-server.tar

@@ -17,6 +17,7 @@ run () {   # run <name> <script> [args]
 run "the contract programs built on rai rely on" tests/test_contract.py
 run "the tally" tests/test_tally.py
 run "the trained reader on test set v1" tests/test_reader_v03.py
+run "no animal product in any form, script, training row or test answer" tests/test_vegan.py
 printf '\n— no training row repeats a test set\n'
 "$P" - <<'PY' || fail=1
 import json, glob, os
