@@ -1,7 +1,6 @@
 """A whole is a thing's questions; a notions set is the seven ways a description can be complete."""
 import re
 from fractions import Fraction
-import yaml
 
 # The seven notions of set 01. A description is complete when it passes all seven: seven parts, not a sum.
 SEVEN = frozenset({"declared_parts", "answer_kind", "two_readers", "frame_roles", "conditions_closed", "no_dangling_names", "nothing_left_to_ask"})
@@ -25,7 +24,7 @@ def parse_md(text):
 
 def load_whole(path):
     text = open(path).read()
-    w = parse_md(text) if path.endswith(".md") else yaml.safe_load(text)
+    w = parse_md(text) if path.endswith(".md") else __import__("yaml").safe_load(text)   # yaml only for YAML forms, so a Markdown round needs no package (rai ka pahad calling the keyed server)
     if not w or not w.get("questions"):
         raise SystemExit("no whole")
     n = len(w["questions"])
@@ -35,7 +34,7 @@ def load_whole(path):
 
 
 def load_notions(path):
-    s = yaml.safe_load(open(path))
+    s = __import__("yaml").safe_load(open(path))
     notions = s.get("notions") or []
     if len(notions) != 7:
         raise SystemExit(f"a notions set is exactly seven; this one has {len(notions)}")
