@@ -9,7 +9,7 @@ usage: python tests/test_vegan.py             the forms, scripts, data and tests
 import glob, hashlib, json, os, re, sys
 
 HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-WORDS = r"milk|milky|dairy|curd|dahi|ghee|paneer|butter|buttermilk|chaas|lassi|cream|cheese|yogh?urt|eggs?|omelettes?|meat|chicken|mutton|beef|pork|bacon|ham|fish|prawns?|shrimps?|crabs?|honey|leather|wool|woollen|silk|suede|fur|feathers?|gelatine?|lard|malai|kheer|khoya|mawa|rabdi|pearls?|ivory|beeswax|lanolin|shellac|mayonnaise|mayo"
+WORDS = r"milk|milky|dairy|curd|dahi|ghee|paneer|butter|buttermilk|chaas|lassi|cream|cheese|yogh?urt|eggs?|omelettes?|meat|chicken|mutton|beef|pork|bacon|ham|fish|prawns?|shrimps?|crabs?|honey|leather|wool|woollen|silk|suede|fur|feathers?|gelatine?|lard|malai|kheer|khoya|mawa|rabdi|pearls?|ivory|beeswax|lanolin|shellac|mayonnaise|mayo|doodh|dudh|makhan|makkhan|anda|ande|andey|machli|machhli|machi|gosht|murga|murgi|keema|kheema|shahad|shehad|chamda|chamde|resham|reshmi|nonveg|non-veg"  # Hindi and Hinglish from 28 Sep 2026, for the Hinglish rows
 ANIMAL = re.compile(rf"\b({WORDS})\b", re.I)
 ALLOWED = re.compile(r"\b(soy|oat|almond|coconut|rice|plant) milk\b|\bpeanut butter\b", re.I)
 FILES = ["wholes/*.yaml", "wholes/*.md", "tests/unseen-forms/*.yaml", "notions/*.yaml", "scripts/*.py", "data/*.jsonl", "tests/testset*.jsonl"]

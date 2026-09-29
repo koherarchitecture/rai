@@ -7,3 +7,5 @@ runs/
 ._*
 .DS_Store
 deploy/rai-server.tar
+data/squad2-train.jsonl
+data/train-0.3.8.jsonl

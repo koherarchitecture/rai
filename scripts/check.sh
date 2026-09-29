@@ -23,7 +23,7 @@ printf '\n— no training row repeats a test set\n'
 import json, glob, os
 norm = lambda s: s.strip().lower().rstrip(".")
 held = {norm(json.loads(l)["answer"]) for t in glob.glob("tests/testset*.jsonl") for l in open(t)}
-rows = [json.loads(l) for l in open("data/train-synth.jsonl")]
+rows = [json.loads(l) for f in ("data/train-synth.jsonl", "data/train-hinglish.jsonl") for l in open(f)]   # every file 0.3.8 trains on
 leaks = [r for r in rows if norm(r["answer"]) in held or (r["span"] and norm(r["span"]) in held)]
 print(f"  {len(rows)} training rows, {len(held)} held-out answers, {len(leaks)} repeats")
 assert not leaks, f"{len(leaks)} training rows repeat a test set, e.g. {leaks[0]['answer']!r}"

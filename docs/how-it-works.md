@@ -46,6 +46,8 @@ It returns the phrase and a **margin**: the score of its best phrase minus the s
 
 An answer with a number in it is never called general.
 
+From 0.3.8 the same rule knows Hindi and Hinglish: deferred answers such as *pata nahi*, *yaad nahi* and *shayad*, general ones such as *koi*, *kisi ke paas hogi*, *sab kuch* and *kabhi bhi*, and answers that judge a thing without naming anything, such as *sasta tha* or *badhiya*, the way *nice* and *great* do in English. An answer that opens with *normal* is general.
+
 From 0.3.7 a second rule, `rai/fit.py`, checks the phrase the reader found against the question, where plain patterns can tell. A bare number or ordinal (*7th*, *200*) answers only a question asking for a number, a position or a time; a label (*Page 17*, *Room 204*) never answers a *who*, a *when* or a *why*. An answer must pass both rules to count.
 
 ## 4. The tally

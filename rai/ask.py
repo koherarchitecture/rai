@@ -7,8 +7,8 @@ import os
 
 # The current reader and the threshold measured for it. They move together, at every release, and nowhere else:
 # a program built on rai uses these two and gets the latest reader that passed the contract (tests/test_contract.py).
-READER = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "runs", "rai-0.3.7")
-THRESHOLD = 8.92  # margin the reader must clear; set at zero false presents over test set v1, the artwork set, the unseen set, rai ka pahad's rounds and both people's typing sets together, with fit.py applied, for runs/rai-0.3.7 (scripts/eval_reader.py)
+READER = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "runs", "rai-0.3.8")
+THRESHOLD = 11.53  # margin the reader must clear; set at zero false presents over test set v1, the artwork set, the unseen set, rai ka pahad's rounds, both people's typing sets and the Hinglish set together, with fit.py applied, for runs/rai-0.3.8 (scripts/eval_reader.py)
 
 
 def read_answers(whole, answers, reader, threshold=THRESHOLD):

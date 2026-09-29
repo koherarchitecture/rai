@@ -1,6 +1,9 @@
 # rai training data — data card
 
-**Files.** `data/train-synth.jsonl`, the 29,000 rows 0.3.7 trains on: 0.3.6's 23,200 (`data/train-synth-0.3.6.jsonl`, described first below) and 5,800 new ones (`data/train-live.jsonl`, described under *0.3.7's rows*), shuffled together with seed 37. One JSON object per line.
+**Files.** From 0.3.8 there are two:
+
+- `data/train-hinglish.jsonl`: 5,800 Hinglish rows, described under *0.3.8's rows*.
+- `data/train-synth.jsonl`: the 29,000 rows 0.3.7 trains on: 0.3.6's 23,200 (`data/train-synth-0.3.6.jsonl`, described first below) and 5,800 new ones (`data/train-live.jsonl`, described under *0.3.7's rows*), shuffled together with seed 37. One JSON object per line.
 
 **Row.** `question`, `stem`, `answer`, `span` (the phrase in `answer` that answers `question`, or `null`) and `cls` (the class below).
 
@@ -41,3 +44,13 @@
 **Regenerate.** `python scripts/synth.py 200` writes 0.3.6's 23,200 rows to `data/train-synth-0.3.6.jsonl`; `python scripts/synth_live.py 5800` writes the new rows; `bash scripts/train-full.sh` shuffles them together and trains. Each step reproduces the shipped files byte for byte.
 
 **Licence.** CC-BY-4.0. Attribute Koher's rai.
+
+## 0.3.8's rows
+
+`data/train-hinglish.jsonl`, 5,800 rows made by `scripts/synth_hinglish.py` (seed 38), written in Claude Code on 28 September 2026. Each asks about an ordinary thing (a cooler, a geyser, a register, a scooter, a tiffin, a gamla) in English or in Hinglish (*Who fixed the cooler?*, *Geyser kab kharab hua?*) and answers in Hinglish, typed the way people type, half without capitals or full stops.
+
+- **2,956 honest answers** name the kind of thing the question asks for, with the words people put around an answer: a person (*Ramesh ne kiya*, *Neelam didi ke paas hai*), a place (*store room mein rakha hai*), a time (*kal raat*, *somvaar ko*), a count, a length of time, how long something has been had, a colour, a material, a price, an object or a sound. Only the phrase itself (*Ramesh*, *store room*) is marked as the answer; the words around it are not.
+- **833 off-question answers**, a real answer of another kind (a price for a *where*), labelled *no answer*; kinds that can swap (who and who-has, how long and since when) are never paired.
+- **561 deferred** (*pata nahi*, *yaad nahi*, *shayad*), **681 general** (*koi bhi*, *sab log*, *bahut saare*) and **769 evasive** (*theek hai*, *chalta hai*, *normal hai*) answers, labelled *no answer*.
+
+No answer or question in any test set appears in these rows, and none names an animal product; `tests/test_vegan.py` knows Hindi and Hinglish words for them from 0.3.8. The Hinglish test set's five things (a water filter, an electricity meter, an almirah, a stamp pad, a doorbell) and rai ka pahad's six are kept out of the rows. The rows are built from templates and are narrow: they teach the forms Hinglish answers take, and cannot teach the language itself. Trained on these rows without the teacher, a reader counted 22 of 58 Hinglish test answers; with the teacher, HingBERT, which L3Cube trained on 52.9 million real Hinglish sentences, it counted 34. 0.3.7, with no Hinglish rows, counts 16.

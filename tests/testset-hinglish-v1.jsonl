@@ -1,0 +1,112 @@
+{"whole": "water filter", "qid": "who", "question": "Who came to service the water filter?", "stem": "", "answer": "Aquaguard wala bhaiya aaya tha", "label": true, "class": "sentence"}
+{"whole": "water filter", "qid": "who", "question": "Who came to service the water filter?", "stem": "", "answer": "ramesh bhai ne kiya", "label": true, "class": "sentence"}
+{"whole": "water filter", "qid": "who", "question": "Who came to service the water filter?", "stem": "", "answer": "pata nahi kaun aaya tha", "label": false, "class": "deferred"}
+{"whole": "water filter", "qid": "who", "question": "Who came to service the water filter?", "stem": "", "answer": "koi service wala", "label": false, "class": "general"}
+{"whole": "water filter", "qid": "where", "question": "Where is the water filter fitted?", "stem": "", "answer": "Kitchen mein sink ke upar", "label": true, "class": "bare"}
+{"whole": "water filter", "qid": "where", "question": "Where is the water filter fitted?", "stem": "", "answer": "staff room ke bahar wali deewar pe", "label": true, "class": "bare"}
+{"whole": "water filter", "qid": "where", "question": "Where is the water filter fitted?", "stem": "", "answer": "wahi jahan hamesha hota hai", "label": false, "class": "evasive"}
+{"whole": "water filter", "qid": "where", "question": "Where is the water filter fitted?", "stem": "", "answer": "Aquaguard wala bhaiya", "label": false, "class": "off-question"}
+{"whole": "water filter", "qid": "when", "question": "When was it last serviced?", "stem": "", "answer": "Pichhle mahine, 12 tareekh ko", "label": true, "class": "bare"}
+{"whole": "water filter", "qid": "when", "question": "When was it last serviced?", "stem": "", "answer": "do hafte pehle", "label": true, "class": "bare"}
+{"whole": "water filter", "qid": "when", "question": "When was it last serviced?", "stem": "", "answer": "bahut time ho gaya", "label": false, "class": "general"}
+{"whole": "water filter", "qid": "when", "question": "When was it last serviced?", "stem": "", "answer": "kabhi kabhi hota hai", "label": false, "class": "general"}
+{"whole": "water filter", "qid": "count", "question": "How many people drink from it?", "stem": "", "answer": "lagbhag 30 log", "label": true, "class": "bare"}
+{"whole": "water filter", "qid": "count", "question": "How many people drink from it?", "stem": "", "answer": "Hum 6 log", "label": true, "class": "bare"}
+{"whole": "water filter", "qid": "count", "question": "How many people drink from it?", "stem": "", "answer": "bahut saare", "label": false, "class": "general"}
+{"whole": "water filter", "qid": "count", "question": "How many people drink from it?", "stem": "", "answer": "sab log", "label": false, "class": "general"}
+{"whole": "water filter", "qid": "long", "question": "How long did the service take?", "stem": "", "answer": "aadha ghanta", "label": true, "class": "bare"}
+{"whole": "water filter", "qid": "long", "question": "How long did the service take?", "stem": "", "answer": "20 minute lage", "label": true, "class": "sentence"}
+{"whole": "water filter", "qid": "long", "question": "How long did the service take?", "stem": "", "answer": "thoda time laga", "label": false, "class": "general"}
+{"whole": "water filter", "qid": "long", "question": "How long did the service take?", "stem": "", "answer": "zyada nahi", "label": false, "class": "evasive"}
+{"whole": "water filter", "qid": "object", "question": "What did they replace?", "stem": "", "answer": "Andar ka filter, woh safed wala", "label": true, "class": "bare"}
+{"whole": "water filter", "qid": "object", "question": "What did they replace?", "stem": "", "answer": "bas ek pipe badla", "label": true, "class": "sentence"}
+{"whole": "water filter", "qid": "object", "question": "What did they replace?", "stem": "", "answer": "kuch cheezein badli", "label": false, "class": "general"}
+{"whole": "water filter", "qid": "object", "question": "What did they replace?", "stem": "", "answer": "sab kuch", "label": false, "class": "general"}
+{"whole": "electricity meter", "qid": "who", "question": "Who comes to read the meter?", "stem": "", "answer": "MGVCL ka aadmi", "label": true, "class": "bare"}
+{"whole": "electricity meter", "qid": "who", "question": "Who comes to read the meter?", "stem": "", "answer": "torrent power wale uncle", "label": true, "class": "bare"}
+{"whole": "electricity meter", "qid": "who", "question": "Who comes to read the meter?", "stem": "", "answer": "koi bhi aa jata hai", "label": false, "class": "general"}
+{"whole": "electricity meter", "qid": "who", "question": "Who comes to read the meter?", "stem": "", "answer": "neeche parking mein", "label": false, "class": "off-question"}
+{"whole": "electricity meter", "qid": "where", "question": "Where is the meter?", "stem": "", "answer": "Neeche parking mein, lift ke paas", "label": true, "class": "bare"}
+{"whole": "electricity meter", "qid": "where", "question": "Where is the meter?", "stem": "", "answer": "gate ke andar left side pe", "label": true, "class": "bare"}
+{"whole": "electricity meter", "qid": "where", "question": "Where is the meter?", "stem": "", "answer": "pata nahi, dekha nahi", "label": false, "class": "deferred"}
+{"whole": "electricity meter", "qid": "where", "question": "Where is the meter?", "stem": "", "answer": "har mahine", "label": false, "class": "off-question"}
+{"whole": "electricity meter", "qid": "when", "question": "When did the bill come?", "stem": "", "answer": "parso", "label": true, "class": "bare"}
+{"whole": "electricity meter", "qid": "when", "question": "When did the bill come?", "stem": "", "answer": "Somvaar ko aaya", "label": true, "class": "sentence"}
+{"whole": "electricity meter", "qid": "when", "question": "When did the bill come?", "stem": "", "answer": "yaad nahi", "label": false, "class": "deferred"}
+{"whole": "electricity meter", "qid": "when", "question": "When did the bill come?", "stem": "", "answer": "jab bhi aata hai", "label": false, "class": "general"}
+{"whole": "electricity meter", "qid": "units", "question": "How many units did it show?", "stem": "", "answer": "342 units", "label": true, "class": "bare"}
+{"whole": "electricity meter", "qid": "units", "question": "How many units did it show?", "stem": "", "answer": "teen sau ke upar", "label": true, "class": "bare"}
+{"whole": "electricity meter", "qid": "units", "question": "How many units did it show?", "stem": "", "answer": "kaafi zyada", "label": false, "class": "general"}
+{"whole": "electricity meter", "qid": "units", "question": "How many units did it show?", "stem": "", "answer": "pata nai", "label": false, "class": "deferred"}
+{"whole": "electricity meter", "qid": "colour", "question": "What colour is the meter box?", "stem": "", "answer": "Grey, upar se kaala", "label": true, "class": "bare"}
+{"whole": "electricity meter", "qid": "colour", "question": "What colour is the meter box?", "stem": "", "answer": "safed plastic ka", "label": true, "class": "bare"}
+{"whole": "electricity meter", "qid": "colour", "question": "What colour is the meter box?", "stem": "", "answer": "normal colour", "label": false, "class": "evasive"}
+{"whole": "electricity meter", "qid": "colour", "question": "What colour is the meter box?", "stem": "", "answer": "MGVCL ka aadmi", "label": false, "class": "off-question"}
+{"whole": "electricity meter", "qid": "amount", "question": "How much was the bill?", "stem": "", "answer": "1,860 rupaye", "label": true, "class": "bare"}
+{"whole": "electricity meter", "qid": "amount", "question": "How much was the bill?", "stem": "", "answer": "do hazaar se thoda kam", "label": true, "class": "bare"}
+{"whole": "electricity meter", "qid": "amount", "question": "How much was the bill?", "stem": "", "answer": "bahut aaya is baar", "label": false, "class": "general"}
+{"whole": "electricity meter", "qid": "amount", "question": "How much was the bill?", "stem": "", "answer": "wahi jitna hamesha aata hai", "label": false, "class": "evasive"}
+{"whole": "almirah", "qid": "made", "question": "What is the almirah made of?", "stem": "", "answer": "Godrej ka steel", "label": true, "class": "bare"}
+{"whole": "almirah", "qid": "made", "question": "What is the almirah made of?", "stem": "", "answer": "purani sheesham ki lakdi", "label": true, "class": "bare"}
+{"whole": "almirah", "qid": "made", "question": "What is the almirah made of?", "stem": "", "answer": "achha material hai", "label": false, "class": "evasive"}
+{"whole": "almirah", "qid": "made", "question": "What is the almirah made of?", "stem": "", "answer": "mummy ke paas", "label": false, "class": "off-question"}
+{"whole": "almirah", "qid": "where", "question": "Where is the almirah?", "stem": "", "answer": "Bedroom mein, darwaze ke peeche", "label": true, "class": "bare"}
+{"whole": "almirah", "qid": "where", "question": "Where is the almirah?", "stem": "", "answer": "upar wale kamre mein", "label": true, "class": "bare"}
+{"whole": "almirah", "qid": "where", "question": "Where is the almirah?", "stem": "", "answer": "ghar mein hi hai", "label": true, "class": "bare"}
+{"whole": "almirah", "qid": "where", "question": "Where is the almirah?", "stem": "", "answer": "kahin rakhi hai", "label": false, "class": "general"}
+{"whole": "almirah", "qid": "key", "question": "Who has the key?", "stem": "", "answer": "mummy ke paas", "label": true, "class": "sentence"}
+{"whole": "almirah", "qid": "key", "question": "Who has the key?", "stem": "", "answer": "Neha didi ke paas hai", "label": true, "class": "sentence"}
+{"whole": "almirah", "qid": "key", "question": "Who has the key?", "stem": "", "answer": "kisi ke paas hogi", "label": false, "class": "general"}
+{"whole": "almirah", "qid": "key", "question": "Who has the key?", "stem": "", "answer": "bedroom mein", "label": false, "class": "off-question"}
+{"whole": "almirah", "qid": "top", "question": "What is kept on the top shelf?", "stem": "", "answer": "Shaadi wale kapde aur ek dabba", "label": true, "class": "bare"}
+{"whole": "almirah", "qid": "top", "question": "What is kept on the top shelf?", "stem": "", "answer": "purane certificates ki file", "label": true, "class": "bare"}
+{"whole": "almirah", "qid": "top", "question": "What is kept on the top shelf?", "stem": "", "answer": "saaman hai bas", "label": false, "class": "evasive"}
+{"whole": "almirah", "qid": "top", "question": "What is kept on the top shelf?", "stem": "", "answer": "sab kuch", "label": false, "class": "general"}
+{"whole": "almirah", "qid": "since", "question": "How long have you had it?", "stem": "", "answer": "15 saal se", "label": true, "class": "bare"}
+{"whole": "almirah", "qid": "since", "question": "How long have you had it?", "stem": "", "answer": "2009 se hai", "label": true, "class": "sentence"}
+{"whole": "almirah", "qid": "since", "question": "How long have you had it?", "stem": "", "answer": "bahut purani hai", "label": false, "class": "general"}
+{"whole": "almirah", "qid": "since", "question": "How long have you had it?", "stem": "", "answer": "yaad nahi kab li", "label": false, "class": "deferred"}
+{"whole": "almirah", "qid": "sound", "question": "What sound does the door make?", "stem": "", "answer": "cheee cheee karta hai", "label": true, "class": "sentence"}
+{"whole": "almirah", "qid": "sound", "question": "What sound does the door make?", "stem": "", "answer": "Dhadaak se band hota hai", "label": true, "class": "sentence"}
+{"whole": "almirah", "qid": "sound", "question": "What sound does the door make?", "stem": "", "answer": "ajeeb si awaaz", "label": false, "class": "evasive"}
+{"whole": "almirah", "qid": "sound", "question": "What sound does the door make?", "stem": "", "answer": "pata nahi", "label": false, "class": "deferred"}
+{"whole": "stamp pad", "qid": "who", "question": "Stamp pad kiske paas hai?", "stem": "", "answer": "Joshi sir ke paas", "label": true, "class": "sentence"}
+{"whole": "stamp pad", "qid": "who", "question": "Stamp pad kiske paas hai?", "stem": "", "answer": "office boy Raju ke paas hai", "label": true, "class": "sentence"}
+{"whole": "stamp pad", "qid": "who", "question": "Stamp pad kiske paas hai?", "stem": "", "answer": "kisi ke paas to hoga", "label": false, "class": "general"}
+{"whole": "stamp pad", "qid": "who", "question": "Stamp pad kiske paas hai?", "stem": "", "answer": "table ki drawer mein", "label": false, "class": "off-question"}
+{"whole": "stamp pad", "qid": "where", "question": "Stamp pad kahan rakha hai?", "stem": "", "answer": "Reception ki drawer mein", "label": true, "class": "bare"}
+{"whole": "stamp pad", "qid": "where", "question": "Stamp pad kahan rakha hai?", "stem": "", "answer": "principal ke table pe", "label": true, "class": "bare"}
+{"whole": "stamp pad", "qid": "where", "question": "Stamp pad kahan rakha hai?", "stem": "", "answer": "yahin kahin", "label": false, "class": "general"}
+{"whole": "stamp pad", "qid": "where", "question": "Stamp pad kahan rakha hai?", "stem": "", "answer": "kal se", "label": false, "class": "off-question"}
+{"whole": "stamp pad", "qid": "when", "question": "Ink kab khatam hui?", "stem": "", "answer": "kal subah", "label": true, "class": "bare"}
+{"whole": "stamp pad", "qid": "when", "question": "Ink kab khatam hui?", "stem": "", "answer": "Pichhle hafte budhwar ko", "label": true, "class": "bare"}
+{"whole": "stamp pad", "qid": "when", "question": "Ink kab khatam hui?", "stem": "", "answer": "kabhi bhi ho jati hai", "label": false, "class": "general"}
+{"whole": "stamp pad", "qid": "when", "question": "Ink kab khatam hui?", "stem": "", "answer": "neeli wali", "label": false, "class": "off-question"}
+{"whole": "stamp pad", "qid": "colour", "question": "Kaunse rang ki ink hai?", "stem": "", "answer": "neeli", "label": true, "class": "bare"}
+{"whole": "stamp pad", "qid": "colour", "question": "Kaunse rang ki ink hai?", "stem": "", "answer": "Kaali, thodi faded", "label": true, "class": "bare"}
+{"whole": "stamp pad", "qid": "colour", "question": "Kaunse rang ki ink hai?", "stem": "", "answer": "normal wali", "label": false, "class": "evasive"}
+{"whole": "stamp pad", "qid": "colour", "question": "Kaunse rang ki ink hai?", "stem": "", "answer": "kal subah", "label": false, "class": "off-question"}
+{"whole": "stamp pad", "qid": "cost", "question": "Kitne rupaye ka aaya?", "stem": "", "answer": "45 rupaye", "label": true, "class": "bare"}
+{"whole": "stamp pad", "qid": "cost", "question": "Kitne rupaye ka aaya?", "stem": "", "answer": "pachaas ka", "label": true, "class": "bare"}
+{"whole": "stamp pad", "qid": "cost", "question": "Kitne rupaye ka aaya?", "stem": "", "answer": "sasta tha", "label": false, "class": "evasive"}
+{"whole": "stamp pad", "qid": "cost", "question": "Kitne rupaye ka aaya?", "stem": "", "answer": "yaad nahi", "label": false, "class": "deferred"}
+{"whole": "doorbell", "qid": "who", "question": "Ghanti kisne bajayi?", "stem": "", "answer": "courier wala", "label": true, "class": "bare"}
+{"whole": "doorbell", "qid": "who", "question": "Ghanti kisne bajayi?", "stem": "", "answer": "Padosi aunty ne", "label": true, "class": "sentence"}
+{"whole": "doorbell", "qid": "who", "question": "Ghanti kisne bajayi?", "stem": "", "answer": "koi tha shayad", "label": false, "class": "deferred"}
+{"whole": "doorbell", "qid": "who", "question": "Ghanti kisne bajayi?", "stem": "", "answer": "do baar", "label": false, "class": "off-question"}
+{"whole": "doorbell", "qid": "count", "question": "Kitni baar bajayi?", "stem": "", "answer": "teen baar", "label": true, "class": "bare"}
+{"whole": "doorbell", "qid": "count", "question": "Kitni baar bajayi?", "stem": "", "answer": "Do baar, jaldi jaldi", "label": true, "class": "bare"}
+{"whole": "doorbell", "qid": "count", "question": "Kitni baar bajayi?", "stem": "", "answer": "bahut baar", "label": false, "class": "general"}
+{"whole": "doorbell", "qid": "count", "question": "Kitni baar bajayi?", "stem": "", "answer": "courier wala", "label": false, "class": "off-question"}
+{"whole": "doorbell", "qid": "when", "question": "Kab bajayi?", "stem": "", "answer": "raat 11 baje", "label": true, "class": "bare"}
+{"whole": "doorbell", "qid": "when", "question": "Kab bajayi?", "stem": "", "answer": "Dopahar ko, khaane ke time", "label": true, "class": "bare"}
+{"whole": "doorbell", "qid": "when", "question": "Kab bajayi?", "stem": "", "answer": "kabhi kabhi bajti hai", "label": false, "class": "general"}
+{"whole": "doorbell", "qid": "when", "question": "Kab bajayi?", "stem": "", "answer": "pata nahi", "label": false, "class": "deferred"}
+{"whole": "doorbell", "qid": "sound", "question": "Ghanti ki awaaz kaisi hai?", "stem": "", "answer": "ding dong, thodi dheemi", "label": true, "class": "bare"}
+{"whole": "doorbell", "qid": "sound", "question": "Ghanti ki awaaz kaisi hai?", "stem": "", "answer": "Chidiya jaisi", "label": true, "class": "bare"}
+{"whole": "doorbell", "qid": "sound", "question": "Ghanti ki awaaz kaisi hai?", "stem": "", "answer": "normal", "label": false, "class": "evasive"}
+{"whole": "doorbell", "qid": "sound", "question": "Ghanti ki awaaz kaisi hai?", "stem": "", "answer": "teen baar", "label": false, "class": "off-question"}
+{"whole": "doorbell", "qid": "switch", "question": "Switch kahan hai?", "stem": "", "answer": "Darwaze ke right side, upar", "label": true, "class": "bare"}
+{"whole": "doorbell", "qid": "switch", "question": "Switch kahan hai?", "stem": "", "answer": "gate ke khambe pe", "label": true, "class": "bare"}
+{"whole": "doorbell", "qid": "switch", "question": "Switch kahan hai?", "stem": "", "answer": "bahar hi hai", "label": true, "class": "bare"}
+{"whole": "doorbell", "qid": "switch", "question": "Switch kahan hai?", "stem": "", "answer": "raat 11 baje", "label": false, "class": "off-question"}
